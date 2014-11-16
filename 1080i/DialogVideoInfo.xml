@@ -455,7 +455,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
                         </control>

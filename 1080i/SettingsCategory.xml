@@ -224,7 +224,7 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>colorText3</textcolor>
+            <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
             <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>
@@ -238,7 +238,7 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>colorText3</textcolor>
+            <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
             <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>
@@ -252,7 +252,7 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>colorText3</textcolor>
+            <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
             <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>

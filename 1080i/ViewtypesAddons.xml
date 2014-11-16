@@ -73,7 +73,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Icon)</visible>
                     </control>
@@ -86,7 +86,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$VAR[AddonLabel2]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="image">

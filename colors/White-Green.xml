@@ -2,8 +2,8 @@
 <colors>
 <!-- General -->
 		<color name="colorTheme">FF22a725</color>
-		<color name="colorBackground">FFFFFFFF</color>		
-		<color name="colorText1">FF22a725</color>
+		<color name="colorBackground">FFFFFFFF</color>	
+		<color name="colorText1">80FFFFFF</color>		
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF505050</color>
 		<color name="colorTextDisabled">88505050</color>

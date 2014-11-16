@@ -71,7 +71,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
@@ -84,7 +84,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Label2, ,]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
@@ -116,7 +116,7 @@
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
                         <selectedcolor>colorTextSelected</selectedcolor>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Studio) | !IsEmpty(ListItem.Genre)</visible>
                     </control>
@@ -130,7 +130,7 @@
                         <align>left</align>
                         <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, / ,]</label>
                         <selectedcolor>colorTextSelected</selectedcolor>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -142,7 +142,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Studio) + IsEmpty(ListItem.Genre)</visible>
@@ -156,7 +156,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Year, ,]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
@@ -562,7 +562,7 @@
                             <width>670</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -572,7 +572,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Year]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -885,7 +885,7 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -895,7 +895,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Year]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>

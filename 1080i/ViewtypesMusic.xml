@@ -95,7 +95,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListLabel]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
@@ -109,7 +109,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListLabel]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist) | ListItem.IsFolder</visible>
@@ -123,7 +123,7 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
@@ -137,7 +137,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Label2, ,]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
@@ -168,7 +168,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
                     </control>
@@ -181,7 +181,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Property(Artist_Genre))</visible>
                     </control>
@@ -194,7 +194,7 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
@@ -226,7 +226,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -239,7 +239,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -252,7 +252,7 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
@@ -265,7 +265,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Year, ,]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Year)</visible>
@@ -286,7 +286,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Album)</visible>
@@ -328,7 +328,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListSongLabel]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
@@ -342,7 +342,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListSongLabel]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist)</visible>
@@ -356,7 +356,7 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
@@ -369,7 +369,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$VAR[MusicListSongLabel2]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
@@ -389,7 +389,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
-                        <textcolor>colorText3</textcolor>
+                        <textcolor>colorText1</textcolor>
                         <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Title)</visible>
@@ -1073,7 +1073,7 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -1093,7 +1093,7 @@
                             <width>510</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -1104,7 +1104,7 @@
                             <font>Font-Condensed-S31</font>
                             <label fallback="• • • •">$INFO[ListItem.Year]</label>
                             <align>center</align>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Album)</visible>
@@ -1115,7 +1115,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Label2, ,]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -1147,7 +1147,7 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$VAR[MusicInfoListSongLabel]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
@@ -1160,7 +1160,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$VAR[MusicInfoListSongLabel2]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>

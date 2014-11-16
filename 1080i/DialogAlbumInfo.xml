@@ -233,7 +233,7 @@
                             <height>81</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
                         </control>
@@ -680,8 +680,8 @@
                             <height>60</height>
                             <label>$VAR[ArtistInfoDiscography]</label>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>AAwhite</textcolor>
-                            <selectedcolor>EEwhite</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <align>left</align>
                             <aligny>center</aligny>
                             <scroll>no</scroll>
@@ -696,8 +696,8 @@
                             <height>60</height>
                             <label>$VAR[AlbumInfoTracks]</label>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>AAwhite</textcolor>
-                            <selectedcolor>EEwhite</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <align>left</align>
                             <aligny>center</aligny>
                             <scroll>no</scroll>
@@ -710,8 +710,8 @@
                             <width>980</width>
                             <height>60</height>
                             <label>$VAR[ArtistInfoDiscography]</label>
-                            <textcolor>EEwhite</textcolor>
-                            <selectedcolor>EEwhite</selectedcolor>
+                            <textcolor>colorTextSelected2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <font>Font-Condensed-S40</font>
                             <align>left</align>
                             <aligny>center</aligny>
@@ -727,8 +727,8 @@
                             <width>980</width>
                             <height>60</height>
                             <label>$VAR[AlbumInfoTracks]</label>
-                            <textcolor>EEwhite</textcolor>
-                            <selectedcolor>EEwhite</selectedcolor>
+                            <textcolor>colorTextSelected2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <font>Font-Condensed-S40</font>
                             <align>left</align>
                             <aligny>center</aligny>

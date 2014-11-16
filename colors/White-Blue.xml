@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
 <!-- General -->
-		<color name="colorTheme">30FFFFFF</color>
-		<color name="colorBackground">FF000000</color>
+		<color name="colorTheme">FF1884d7</color>
+		<color name="colorBackground">FFFFFFFF</color>		
 		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
-		<color name="colorText3">FFFFFFFF</color>
-		<color name="colorTextDisabled">88FFFFFF</color>
-		<color name="colorTextSelected">FFb4ff00</color>
-		<color name="colorTextSelected2">FF22a725</color>		
-
+		<color name="colorText3">FF505050</color>
+		<color name="colorTextDisabled">88505050</color>
+		<color name="colorTextSelected">FF10d1e8</color>
+		<color name="colorTextSelected2">FF1884d7</color>
+		
 <!-- All others -->
         <color name="black">FF000000</color>
         <color name="white">FFFFFFFF</color>
@@ -22,11 +22,11 @@
         <color name="darkgrey">FF2C2C2C</color>
         <color name="darkgrey2">FF666769</color>
 <!-- Home Labels -->
-        <color name="homelabelbig">FFFFFFFF</color>
+        <color name="homelabelbig">FF000000</color>
         <color name="homelabelsmall">FF62BEFE</color>
 <!-- List, Guide view -->
         <color name="greyblue">FF677173</color>
-        <color name="listwhite">FFFFFFFF</color>
+        <color name="listwhite">FF000000</color>
         <color name="guideblue">FF7ACAFE</color>
 <!-- List view -->
         <color name="greyblue">FF677173</color>

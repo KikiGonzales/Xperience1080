@@ -104,7 +104,7 @@
                     <posy>47</posy>
                     <width>100</width>
                     <height>100</height>
-                    <colordiffuse>colorText2</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture>$INFO[Weather.FanartCode,weather/small/,.png]</texture>
                 </control>
                 <control type="label">
@@ -115,7 +115,7 @@
                     <height>34</height>
                     <label>$INFO[Weather.Temperature]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>colorText2</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                     <visible>Weather.IsFetched</visible>
@@ -168,7 +168,7 @@
                 <height>34</height>
                 <label>$INFO[System.Time(hh)]:$INFO[System.Time(mm)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>colorText2</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>right</align>
                 <scroll>false</scroll>
             </control>
@@ -191,7 +191,7 @@
                     <height>34</height>
                     <label>$INFO[Player.FinishTime(hh:mm)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>colorText2</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                 </control>

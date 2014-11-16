@@ -338,7 +338,7 @@
         <font>Font-Condensed-S40</font>
         <textoffsetx>110</textoffsetx>
         <textwidth>318</textwidth>
-		<textcolor>colorText3</textcolor>
+		<textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
 		<focusedcolor>blue</focusedcolor>
         <align>left</align>

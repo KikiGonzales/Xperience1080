@@ -65,7 +65,7 @@
                         <width>360</width>
                         <height>25</height>
                         <label>$INFO[Player.Time(hh:mm:ss)]$INFO[Player.Duration(hh:mm:ss), / ,]</label>
-                        <textcolor>colorText2</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <font>Font-Condensed-S34</font>
                         <align>left</align>
                     </control>
@@ -77,7 +77,7 @@
                         <height>25</height>
                         <label>$INFO[Player.SeekOffset,$LOCALIZE[773] ,]</label>
                         <scroll>false</scroll>
-                        <textcolor>colorText2</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <font>Font-Condensed-S34</font>
                         <align>right</align>
                         <visible>Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding</visible>
@@ -100,7 +100,7 @@
                             <posy>885</posy>
                             <width>140</width>
                             <height>100</height>
-                            <colordiffuse>colorText2</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <texture fallback="flags/audioosd/na.png">$INFO[MusicPlayer.Codec,flags/audioosd/,.png]</texture>
                         </control>
                         <control type="label">
@@ -109,7 +109,7 @@
                             <width>1360</width>
                             <height>56</height>
                             <label>[UPPERCASE]$LOCALIZE[13350][/UPPERCASE]</label>
-                            <textcolor>colorText2</textcolor>
+                            <textcolor>96white</textcolor>
                             <font>Font-Condensed-S50</font>
                             <align>left</align>
                             <aligny>center</aligny>
@@ -122,7 +122,7 @@
                             <width>1360</width>
                             <height>56</height>
                             <label>[UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
-                            <textcolor>colorText2</textcolor>
+                            <textcolor>96white</textcolor>
                             <font>Font-Condensed-S50</font>
                             <align>left</align>
                             <aligny>center</aligny>
@@ -144,7 +144,7 @@
                                 <width min="0" max="400">auto</width>
                                 <height>100</height>
                                 <label>[B]$INFO[MusicPlayer.ChannelNumber][/B]</label>
-                                <textcolor>colorText2</textcolor>
+                                <textcolor>96white</textcolor>
                                 <font>Font-Condensed-S100</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -156,7 +156,7 @@
                                 <width>900</width>
                                 <height>100</height>
                                 <label>[UPPERCASE]$INFO[MusicPlayer.ChannelName, ,][/UPPERCASE]</label>
-                                <textcolor>colorText2</textcolor>
+                                <textcolor>96white</textcolor>
                                 <font>Font-Condensed-S50</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -201,7 +201,7 @@
                                 <height>56</height>
                                 <label>$INFO[MusicPlayer.PlaylistPosition,,. ]$INFO[MusicPlayer.Title]</label>
                                 <label2>$INFO[MusicPlayer.Rating,★ ,.0]</label2>
-                                <disabledcolor>colorText2</disabledcolor>
+                                <disabledcolor>BBwhite</disabledcolor>
                                 <font>Font-Condensed-S50-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -213,7 +213,7 @@
                                 <width>1460</width>
                                 <height>44</height>
                                 <label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, • ,]$INFO[MusicPlayer.Year, • ,]</label>
-                                <textcolor>colorText2</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <font>Font-Condensed-S36-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -225,7 +225,7 @@
                                 <width>1460</width>
                                 <height>44</height>
                                 <label>$INFO[MusicPlayer.Genre]</label>
-                                <textcolor>colorText2</textcolor>
+                                <textcolor>80white</textcolor>
                                 <font>Font-Condensed-S36</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -237,7 +237,7 @@
                                 <width>1460</width>
                                 <height>44</height>
                                 <label>$INFO[MusicPlayer.Offset(1).Artist,$LOCALIZE[19031]: ,]$INFO[MusicPlayer.Offset(1).Title, - ,]</label>
-                                <textcolor>colorText2</textcolor>
+                                <textcolor>80white</textcolor>
                                 <font>Font-Condensed-S36</font>
                                 <align>left</align>
                                 <aligny>center</aligny>

@@ -79,7 +79,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <font>Font-Condensed-S30-B</font>
                             <textoffsetx>35</textoffsetx>
                         </control>
@@ -333,7 +333,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <label>$LOCALIZE[20304]</label>
                             <label2>$INFO[Skin.String(rss.setting)]</label2>
                             <visible>!ControlGroup(1007).HasFocus</visible>
@@ -518,7 +518,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>colorText3</textcolor>
+                            <textcolor>colorText1</textcolor>
                             <label>$LOCALIZE[41152]</label>
                             <label2>$INFO[Skin.String(music.name)]</label2>
                             <visible>!ControlGroup(2007).HasFocus</visible>

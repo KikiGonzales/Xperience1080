@@ -22,7 +22,8 @@
             <posy>0</posy>
             <width>256</width>
             <height>293</height>
-            <texture border="7">windows/home/tile.png</texture>
+            <texture border="7">windows/home/tile-white.png</texture>
+			<colordiffuse>colorTheme</colordiffuse>
         </control>
         <control type="image">
             <posx>19</posx>
@@ -40,7 +41,7 @@
         <width>246</width>
         <height>66</height>
         <font>Font-Condensed-S33</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText2</textcolor>
         <align>left</align>
         <aligny>center</aligny>
         <textoffsetx>20</textoffsetx>
@@ -68,7 +69,7 @@
         <height>45</height>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText2</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <selectedcolor>colorTextSelected</selectedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
@@ -81,7 +82,7 @@
         <width>338</width>
         <align>right</align>
         <aligny>center</aligny>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <font>Font-Condensed-S30-B</font>
@@ -96,7 +97,7 @@
         <aligny>center</aligny>
         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <selectedcolor>colorTextSelected</selectedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
@@ -111,7 +112,7 @@
         <aligny>center</aligny>
         <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <font>Font-Condensed-S30-B</font>
@@ -140,7 +141,7 @@
         <textoffsetx>20</textoffsetx>
         <radioposx>534</radioposx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <shadowcolor>20white</shadowcolor>
@@ -171,7 +172,7 @@
         <align>left</align>
         <textoffsetx>20</textoffsetx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <shadowcolor>20white</shadowcolor>
@@ -186,7 +187,7 @@
         <textoffsetx>20</textoffsetx>
         <radioposx>422</radioposx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <shadowcolor>20white</shadowcolor>
@@ -209,7 +210,7 @@
         <label>$LOCALIZE[573]</label>
         <textoffsetx>20</textoffsetx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <shadowcolor>20white</shadowcolor>
@@ -221,7 +222,7 @@
         <height>60</height>
         <align>left</align>
         <font>Font-Condensed-S30</font>
-        <textcolor>colorText3</textcolor>
+        <textcolor>colorText1</textcolor>
         <focusedcolor>colorText2</focusedcolor>
         <disabledcolor>colorTextDisabled</disabledcolor>
         <shadowcolor>20white</shadowcolor>
