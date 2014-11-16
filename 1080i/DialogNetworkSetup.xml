@@ -32,7 +32,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>1007</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
                 <control type="group" id="9001">
@@ -99,9 +99,9 @@
                         <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <textoffsetx>20</textoffsetx>
                         <spinposx>16</spinposx>
                         <onup>9002</onup>
@@ -119,9 +119,9 @@
                             <align>left</align>
                             <textoffsetx>20</textoffsetx>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>77585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <font>Font-Condensed-S32</font>
                             <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                             <onup>10</onup>
@@ -138,9 +138,9 @@
                             <align>left</align>
                             <textoffsetx>60</textoffsetx>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <font>Font-Condensed-S32</font>
                             <texturefocus border="54,2,2,2">dialogs/mediasource/browse-fo.png</texturefocus>
                             <texturenofocus>dialogs/mediasource/browse-nf.png</texturenofocus>
@@ -161,9 +161,9 @@
                         <align>left</align>
                         <textoffsetx>20</textoffsetx>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S32</font>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <onup>9003</onup>
@@ -180,9 +180,9 @@
                         <align>left</align>
                         <textoffsetx>20</textoffsetx>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S32</font>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <label>1013</label>
@@ -200,9 +200,9 @@
                         <align>left</align>
                         <textoffsetx>20</textoffsetx>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S32</font>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <label>1014</label>
@@ -220,9 +220,9 @@
                         <align>left</align>
                         <textoffsetx>20</textoffsetx>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>80585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S32</font>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <label>15052</label>

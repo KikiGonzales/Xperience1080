@@ -17,7 +17,7 @@
                     <height>194</height>
                     <texture>osd/fullscreen/osd-back-slider.png</texture>
                     <aspectratio>stretch</aspectratio>
-                    <colordiffuse>FFFFFFFF</colordiffuse>
+                    <colordiffuse>white</colordiffuse>
                 </control>
                 <control type="label" id="10">
                     <description>Option Name</description>
@@ -28,7 +28,7 @@
                     <label>-</label>
                     <align>left</align>
                     <font>Font-Condensed-S37</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <scroll>false</scroll>
                 </control>
                 <control type="label" id="12">
@@ -40,7 +40,7 @@
                     <height>40</height>
                     <align>right</align>
                     <font>Font-Condensed-S37</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <scroll>false</scroll>
                 </control>
                 <control type="slider" id="11">

@@ -28,7 +28,7 @@
 	                <textoffsetx>30</textoffsetx>
 	                <label>$LOCALIZE[19222]$INFO[VideoPlayer.ChannelName, • ,]$INFO[Container(11).ListItem.StartDate, • ,]</label>
 	                <font>Font-Condensed-S34-B</font>
-	                <textcolor>bbwhite</textcolor>
+	                <textcolor>BBwhite</textcolor>
 	                <shadowcolor>66000000</shadowcolor>
 	            </control>
 	            <control type="list" id="11">
@@ -60,8 +60,8 @@
 	                        <font>Font-Condensed-S33-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                    </control>
@@ -74,8 +74,8 @@
 	                        <font>Font-Condensed-S33-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)</visible>
 	                    </control>
@@ -88,8 +88,8 @@
 	                        <font>Font-Condensed-S34</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasTimer + !ListItem.IsRecording + !substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                    </control>
@@ -102,8 +102,8 @@
 	                        <font>Font-Condensed-S34</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>[ListItem.HasTimer | ListItem.IsRecording] + !substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                    </control>
@@ -116,8 +116,8 @@
 	                        <font>Font-Condensed-S34</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasTimer + !ListItem.IsRecording + [substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)]</visible>
 	                    </control>
@@ -130,8 +130,8 @@
 	                        <font>Font-Condensed-S34</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>99FFFFFF</selectedcolor>
+	                        <textcolor>96white</textcolor>
+	                        <selectedcolor>96white</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>[ListItem.HasTimer | ListItem.IsRecording] + [substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)]</visible>
 	                    </control>
@@ -198,8 +198,8 @@
 	                            <font>Font-Condensed-S33-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                        </control>
@@ -212,8 +212,8 @@
 	                            <font>Font-Condensed-S33-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)</visible>
 	                        </control>
@@ -226,8 +226,8 @@
 	                            <font>Font-Condensed-S34</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasTimer + !ListItem.IsRecording + !substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                        </control>
@@ -240,8 +240,8 @@
 	                            <font>Font-Condensed-S34</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>[ListItem.HasTimer | ListItem.IsRecording] + !substring(ListItem.StartTime,AM) + !substring(ListItem.StartTime,PM)</visible>
 	                        </control>
@@ -254,8 +254,8 @@
 	                            <font>Font-Condensed-S34</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasTimer + !ListItem.IsRecording + [substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)]</visible>
 	                        </control>
@@ -268,8 +268,8 @@
 	                            <font>Font-Condensed-S34</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>eewhite</selectedcolor>
+	                            <textcolor>EEwhite</textcolor>
+	                            <selectedcolor>EEwhite</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>[ListItem.HasTimer | ListItem.IsRecording] + [substring(ListItem.StartTime,AM) | substring(ListItem.StartTime,PM)]</visible>
 	                        </control>
@@ -359,7 +359,7 @@
 	                    <height>208</height>
 	                    <info>Container(11).ListItem.Plot</info>
 	                    <align>justify</align>
-	                    <textcolor>bbwhite</textcolor>
+	                    <textcolor>BBwhite</textcolor>
 	                    <autoscroll>false</autoscroll>
 	                    <pagecontrol>63</pagecontrol>
 	                    <font>Font-Condensed-S36</font>

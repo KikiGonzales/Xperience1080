@@ -58,7 +58,7 @@
                         <width min="0" max="1360">auto</width>
                         <label>$INFO[ListItem.Title]</label>
                         <font>Font-Condensed-S75</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <align>left</align>
                         <scroll>false</scroll>
                     </control>
@@ -73,7 +73,7 @@
                     <height>100</height>
                     <label>$INFO[ListItem.Title]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>!Container.Content(episodes) + ![Container.Content(tvshows) + !IsEmpty(listitem.mpaa)]</visible>
@@ -88,7 +88,7 @@
                     <height>100</height>
                     <label>$INFO[ListItem.TVShowTitle]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>Container.Content(episodes)</visible>
@@ -122,7 +122,7 @@
                         <width min="0" max="702">auto</width>
                         <label>$INFO[ListItem.Title]</label>
                         <font>Font-Condensed-S75</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <align>left</align>
                         <scroll>false</scroll>
                     </control>
@@ -137,7 +137,7 @@
                     <height>100</height>
                     <label>$INFO[ListItem.Title]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>!Container.Content(episodes) + ![Container.Content(tvshows) + !IsEmpty(listitem.mpaa)]</visible>
@@ -152,7 +152,7 @@
                     <height>100</height>
                     <label>$INFO[ListItem.TVShowTitle]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>Container.Content(episodes)</visible>
@@ -173,7 +173,7 @@
                     <aspectratio align="right" aligny="center">center</aspectratio>
                     <height>120</height>
                     <texture background="true" fallback=".">$INFO[ListItem.Studio,special://skin/extras/studioflags/,.png]</texture>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>colorText3</colordiffuse>
                     <visible>!IsEmpty(ListItem.Studio)</visible>
                 </control>
                 <control type="label">
@@ -184,7 +184,7 @@
                     <height>100</height>
                     <label>$INFO[ListItem.Rating,, ★]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                     <visible>stringcompare(Control.GetLabel(9340),.)</visible>
@@ -216,7 +216,7 @@
                     <height>60</height>
                     <label>←</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -230,7 +230,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[41319]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Control.HasFocus(9334) | Control.HasFocus(50) | Control.HasFocus(1110) | Window.IsActive(script-Actors-DialogInfo.xml) | Window.IsActive(3004) | [!IsEmpty(Window(3004).Property(ChooseArt)) + [Window.IsActive(filebrowser) | Window.IsActive(selectdialog) | Window.IsActive(DialogSelect.xml)]]">Conditional</animation>
@@ -243,7 +243,7 @@
                     <height>60</height>
                     <label>$VAR[CastLabel]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Control.HasFocus(9333) | Control.HasFocus(9335) | Control.HasFocus(1101) | Control.HasFocus(1104) | Control.HasFocus(1105) | Control.HasFocus(1110) | Control.HasFocus(70) | Control.HasFocus(71) | Window.IsActive(script-Actors-DialogInfo.xml) | [!IsEmpty(Window(3004).Property(ChooseArt)) + [Window.IsActive(filebrowser) | Window.IsActive(selectdialog) | Window.IsActive(DialogSelect.xml)]]">Conditional</animation>
@@ -257,7 +257,7 @@
                     <height>60</height>
                     <label>→</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -302,7 +302,8 @@
                     <posy>573</posy>
                     <width>638</width>
                     <height>335</height>
-                    <texture border="3">views/list/panel/panel.png</texture>
+                    <texture border="3">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
 
                 <!-- Fanart / Thumb / Overlay -->
@@ -454,7 +455,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
                         </control>
@@ -485,7 +486,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="50" end="100" time="300" tween="sine" easing="inout" reversible="false" condition="Container(9333).OnNext | Container(9333).OnPrevious">Focus</animation>
                             <animation effect="fade" start="100" end="50" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(9333)">Conditional</animation>
@@ -611,7 +612,7 @@
                             <font>Font-Condensed-S45</font>
                             <align>left</align>
                             <label>$VAR[VideoInfoTitleLabel]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <visible>!Container.Content(episodes)</visible>
                         </control>
@@ -621,7 +622,7 @@
                             <font>Font-Condensed-S45</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <visible>Container.Content(episodes)</visible>
                         </control>
@@ -639,7 +640,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, $LOCALIZE[12391]]$INFO[ListItem.RatingAndVotes, • ★ ,]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -656,7 +657,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Premiered,$LOCALIZE[41314],]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -673,7 +674,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Artist]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -690,7 +691,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Album]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -714,7 +715,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Genre]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -731,7 +732,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Genre]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -748,7 +749,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Window(Home).Property(NextAired.Status)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -765,7 +766,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Window(Home).Property(NextAired.NextNumber),→ ,]$INFO[Window(Home).Property(NextAired.NextTitle), ,]$INFO[Window(Home).Property(NextAired.NextDate), (,)]</label>
-                            <textcolor>ddwhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -789,8 +790,8 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Director]</label>
-                            <textcolor>eewhite</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <focusedcolor>colorText3</focusedcolor>
                             <onup>70</onup>
                             <ondown>70</ondown>
                             <onleft>9333</onleft>
@@ -822,7 +823,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Writer]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -842,7 +843,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(TotalSeasons),$LOCALIZE[33054]: , • ]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -853,7 +854,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(TotalEpisodes),$LOCALIZE[41813]: ,]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -864,7 +865,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(TotalEpisodes), • $LOCALIZE[41311],]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <visible>IntegerGreaterThan(ListItem.Property(unWatchedepisodes),0)</visible>
                         </control>
@@ -902,7 +903,7 @@
                         <width>1045</width>
                         <height>270</height>
                         <label>$INFO[ListItem.Plot]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <align>justify</align>
                         <font>Font-Condensed-S40</font>
                         <autoscroll time="2000" delay="10000" repeat="10000">Window.IsActive(movieinformation) + !Control.HasFocus(70) + [Control.HasFocus(9333) | Control.HasFocus(71) | ControlGroup(9336).HasFocus] + !Window.IsActive(3004)</autoscroll>
@@ -985,8 +986,8 @@
                                 <height>60</height>
                                 <label>$INFO[ListItem.label]</label>
                                 <font>Font-Condensed-S40</font>
-                                <textcolor>aawhite</textcolor>
-                                <selectedcolor>white</selectedcolor>
+                                <textcolor>colorText3</textcolor>
+                                <selectedcolor>colorTextSelected2</selectedcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <scroll>false</scroll>
@@ -999,7 +1000,7 @@
                                 <width>1190</width>
                                 <height>60</height>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorTextSelected2</textcolor>
                                 <font>Font-Condensed-S40</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -1071,7 +1072,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[21371]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                 </control>

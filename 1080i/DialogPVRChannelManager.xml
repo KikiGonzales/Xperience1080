@@ -28,7 +28,7 @@
     	        <width>1214</width>
     	        <label>$LOCALIZE[19199] • $LOCALIZE[19023]</label>
     	        <font>Font-Condensed-S34</font>
-    	        <textcolor>ddwhite</textcolor>
+    	        <textcolor>DDwhite</textcolor>
     	        <align>center</align>
     	    </control>
     	    <control type="group" id="8000">
@@ -45,7 +45,7 @@
                         <textoffsetx>20</textoffsetx>
                         <label>$VAR[PVRChannelManagerItemsPageLabel]</label>
                         <textcolor>FF585858</textcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S30</font>
                     </control>
         	    	<control type="image">
@@ -208,8 +208,8 @@
         	    		                    <width>480</width>
         	    		                    <height>56</height>
         	    		                    <label>$INFO[ListItem.Property(Number),(,) ]$INFO[ListItem.Property(Name)]</label>
-        	    		                    <textcolor>eewhite</textcolor>
-        	    		                    <selectedcolor>eewhite</selectedcolor>
+        	    		                    <textcolor>EEwhite</textcolor>
+        	    		                    <selectedcolor>EEwhite</selectedcolor>
         	    		                    <scroll>false</scroll>
         	    		                </control>
         	    		                <control type="label">
@@ -219,8 +219,8 @@
         	    		                    <height>56</height>
         	    		                    <label>$INFO[ListItem.Property(ClientName),$LOCALIZE[19210]: ,]</label>
         	    		                    <font>Font-Condensed-S28</font>
-        	    		                    <textcolor>bbwhite</textcolor>
-        	    		                    <selectedcolor>bbwhite</selectedcolor>
+        	    		                    <textcolor>BBwhite</textcolor>
+        	    		                    <selectedcolor>BBwhite</selectedcolor>
         	    		                    <scroll>false</scroll>
         	    		                </control>
         	    		            </control>
@@ -232,8 +232,8 @@
         	    		                    <width>430</width>
         	    		                    <height>56</height>
         	    		                    <label>$INFO[ListItem.Property(Number),(,) ]$INFO[ListItem.Property(Name)]</label>
-        	    		                    <textcolor>eewhite</textcolor>
-        	    		                    <selectedcolor>eewhite</selectedcolor>
+        	    		                    <textcolor>EEwhite</textcolor>
+        	    		                    <selectedcolor>EEwhite</selectedcolor>
         	    		                    <scroll>false</scroll>
         	    		                </control>
         	    		                <control type="label">
@@ -243,8 +243,8 @@
         	    		                    <height>56</height>
         	    		                    <label>$INFO[ListItem.Property(ClientName),$LOCALIZE[19210]: ,]</label>
         	    		                    <font>Font-Condensed-S28</font>
-        	    		                    <textcolor>bbwhite</textcolor>
-        	    		                    <selectedcolor>bbwhite</selectedcolor>
+        	    		                    <textcolor>BBwhite</textcolor>
+        	    		                    <selectedcolor>BBwhite</selectedcolor>
         	    		                    <scroll>false</scroll>
         	    		                </control>
         	    		            </control>
@@ -315,7 +315,7 @@
             	    	    <textoffsetx>20</textoffsetx>
             	    	    <label>$LOCALIZE[42184]</label>
             	    	    <textcolor>FF585858</textcolor>
-            	    	    <shadowcolor>20FFFFFF</shadowcolor>
+            	    	    <shadowcolor>20white</shadowcolor>
             	    	    <font>Font-Condensed-S30</font>
             	    	</control>
             	    	<control type="image">
@@ -336,9 +336,9 @@
             	    		<textwidth>484</textwidth>
             	    		<radioposx>492</radioposx>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
             	    		<textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -360,9 +360,9 @@
             	    		<aligny>center</aligny>
             	    		<textoffsetx>20</textoffsetx>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>FF585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<font>Font-Condensed-S32</font>
             	    		<pulseonselect>false</pulseonselect>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -384,9 +384,9 @@
             	    		<textwidth>540</textwidth>
             	    		<font>Font-Condensed-S32</font>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<texturenofocus>dialogs/default/separator.png</texturenofocus>
             	    		<label>19202</label>
@@ -416,9 +416,9 @@
             	    		<textwidth>484</textwidth>
             	    		<radioposx>492</radioposx>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
             	    		<textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -442,9 +442,9 @@
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<texturenofocus>dialogs/default/separator.png</texturenofocus>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<textoffsetx>20</textoffsetx>
             	    		<spinposx>16</spinposx>
             	    		<label>19200</label>
@@ -464,9 +464,9 @@
             	    		<textwidth>484</textwidth>
             	    		<radioposx>492</radioposx>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
             	    		<textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -490,7 +490,7 @@
             	    	    <textoffsetx>20</textoffsetx>
             	    	    <label>$LOCALIZE[42185]</label>
             	    	    <textcolor>FF585858</textcolor>
-            	    	    <shadowcolor>20FFFFFF</shadowcolor>
+            	    	    <shadowcolor>20white</shadowcolor>
             	    	    <font>Font-Condensed-S30</font>
             	    	</control>
             	    	<control type="image">
@@ -524,9 +524,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<label>19205</label>
             	    		<onleft>20</onleft>
@@ -544,9 +544,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<label>19024</label>
             	    		<onleft>30</onleft>
@@ -565,9 +565,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<label>19023</label>
             	    		<onleft>30</onleft>
@@ -586,9 +586,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<texturenofocus>dialogs/default/separator.png</texturenofocus>
             	    		<label>19203</label>
@@ -607,9 +607,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<texturenofocus>dialogs/default/separator.png</texturenofocus>
             	    		<label>19211</label>
@@ -628,9 +628,9 @@
             	    		<textoffsetx>20</textoffsetx>
             	    		<textwidth>540</textwidth>
             	    		<textcolor>FF585858</textcolor>
-            	    		<focusedcolor>eewhite</focusedcolor>
+            	    		<focusedcolor>EEwhite</focusedcolor>
             	    		<disabledcolor>77585858</disabledcolor>
-            	    		<shadowcolor>20FFFFFF</shadowcolor>
+            	    		<shadowcolor>20white</shadowcolor>
             	    		<texturefocus border="2">dialogs/default/highlight.png</texturefocus>
             	    		<label>19204</label>
             	    		<onleft>20</onleft>

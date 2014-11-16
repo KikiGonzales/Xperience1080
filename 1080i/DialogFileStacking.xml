@@ -24,7 +24,7 @@
             <width>338</width>
             <font>Font-Condensed-S34</font>
             <label>$INFO[ListItem.Label]</label>
-            <textcolor>ddwhite</textcolor>
+            <textcolor>DDwhite</textcolor>
             <align>center</align>
         </control>
         <control type="group">
@@ -130,7 +130,7 @@
                             <posy>0</posy>
                             <width>226</width>
                             <height>60</height>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <info>ListItem.Label</info>
                             <font>Font-Condensed-S32</font>
                             <align>left</align>

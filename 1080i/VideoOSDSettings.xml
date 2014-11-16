@@ -27,7 +27,7 @@
                 <align>center</align>
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
             <control type="group">
@@ -67,9 +67,9 @@
                     <aligny>center</aligny>
                     <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
-                    <textcolor>96FFFFFF</textcolor>
+                    <textcolor>96white</textcolor>
                     <focusedcolor>white</focusedcolor>
-                    <disabledcolor>40FFFFFF</disabledcolor>
+                    <disabledcolor>44white</disabledcolor>
                     <font>Font-Condensed-S30-B</font>
                     <textoffsetx>35</textoffsetx>
                 </control>
@@ -81,9 +81,9 @@
                     <aligny>center</aligny>
                     <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
-                    <textcolor>96FFFFFF</textcolor>
+                    <textcolor>96white</textcolor>
                     <focusedcolor>white</focusedcolor>
-                    <disabledcolor>40FFFFFF</disabledcolor>
+                    <disabledcolor>44white</disabledcolor>
                     <font>Font-Condensed-S30-B</font>
                     <textoffsetx>35</textoffsetx>
                 </control>
@@ -95,9 +95,9 @@
                     <aligny>center</aligny>
                     <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
-                    <textcolor>96FFFFFF</textcolor>
+                    <textcolor>96white</textcolor>
                     <focusedcolor>white</focusedcolor>
-                    <disabledcolor>40FFFFFF</disabledcolor>
+                    <disabledcolor>44white</disabledcolor>
                     <font>Font-Condensed-S30-B</font>
                     <textoffsetx>35</textoffsetx>
                 </control>
@@ -108,9 +108,9 @@
                     <aligny>center</aligny>
                     <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
-                    <textcolor>96FFFFFF</textcolor>
+                    <textcolor>96white</textcolor>
                     <focusedcolor>white</focusedcolor>
-                    <disabledcolor>40FFFFFF</disabledcolor>
+                    <disabledcolor>44white</disabledcolor>
                     <font>Font-Condensed-S30-B</font>
                     <textoffsetx>35</textoffsetx>
                     <sliderwidth>300</sliderwidth>

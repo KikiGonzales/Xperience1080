@@ -29,7 +29,7 @@
         <height>60</height>
         <align>center</align>
         <font>Font-Condensed-S32</font>
-        <focusedcolor>eewhite</focusedcolor>
+        <focusedcolor>EEwhite</focusedcolor>
         <textoffsetx>20</textoffsetx>
     </include>
 
@@ -89,7 +89,7 @@
                     <font>Font-Condensed-S34</font>
                     <align>left</align>
                     <textcolor>FF484848</textcolor>
-                    <focusedcolor>DDFFFFFF</focusedcolor>
+                    <focusedcolor>DDwhite</focusedcolor>
                     <disabledcolor>FF484848</disabledcolor>
                     <textoffsetx>25</textoffsetx>
                     <label>$VAR[LibraryEditorLabel]</label>
@@ -113,7 +113,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>
@@ -125,7 +125,7 @@
             <font>Font-Condensed-S34</font>
             <align>left</align>
             <textcolor>FF484848</textcolor>
-            <focusedcolor>DDFFFFFF</focusedcolor>
+            <focusedcolor>DDwhite</focusedcolor>
             <disabledcolor>FF484848</disabledcolor>
             <textoffsetx>25</textoffsetx>
             <texturefocus>dialogs/options/buttons/default-fo.png</texturefocus>
@@ -148,7 +148,7 @@
         <control type="button" id="1000">
             <description>button template</description>
             <width>380</width>
-            <textcolor>aawhite</textcolor>
+            <textcolor>AAwhite</textcolor>
             <texturefocus border="45,2,45,2">dialogs/context/selection.png</texturefocus>
             <include>ContextMenuButtonVars</include>
         </control>
@@ -222,9 +222,9 @@
             <textoffsetx>20</textoffsetx>
             <align>left</align>
             <font>Font-Condensed-S30</font>
-            <textcolor>99FFFFFF</textcolor>
-            <focusedcolor>eewhite</focusedcolor>
-            <disabledcolor>44FFFFFF</disabledcolor>
+            <textcolor>96white</textcolor>
+            <focusedcolor>EEwhite</focusedcolor>
+            <disabledcolor>44white</disabledcolor>
             <shadowcolor>33000000</shadowcolor>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>

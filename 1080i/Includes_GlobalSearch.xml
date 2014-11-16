@@ -85,7 +85,7 @@
                         <width min="0" max="1360">auto</width>
                         <label>$INFO[Container(100).ListItem.Label]</label>
                         <font>Font-Condensed-S75</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <align>left</align>
                         <scroll>false</scroll>
                     </control>
@@ -99,7 +99,7 @@
                     <height>100</height>
                     <label>$INFO[Container(100).ListItem.Label]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>!Control.IsVisible(140) + ![Control.IsVisible(120) + !IsEmpty(Container(100).ListItem.Property(MPAA))]</visible>
@@ -113,7 +113,7 @@
                     <height>100</height>
                     <label>$INFO[Container(100).ListItem.Property(TvShowTitle)]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>Control.IsVisible(140)</visible>
@@ -149,7 +149,7 @@
                         <width min="0" max="702">auto</width>
                         <label>$INFO[Container(100).ListItem.Label]</label>
                         <font>Font-Condensed-S75</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <align>left</align>
                         <scroll>false</scroll>
                     </control>
@@ -163,7 +163,7 @@
                     <height>100</height>
                     <label>$INFO[Container(100).ListItem.Label]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>!Control.IsVisible(140) + ![Control.IsVisible(120) + !IsEmpty(Container(100).ListItem.Property(MPAA))]</visible>
@@ -177,7 +177,7 @@
                     <height>100</height>
                     <label>$INFO[Container(100).ListItem.Property(TvShowTitle)]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <visible>Control.IsVisible(140)</visible>
@@ -198,7 +198,7 @@
                     <aspectratio align="right" aligny="center">center</aspectratio>
                     <height>120</height>
                     <texture background="true" fallback=".">$INFO[Container(100).ListItem.Property(Studio),special://skin/extras/studioflags/,.png]</texture>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <visible>!IsEmpty(Container(100).ListItem.Property(Studio))</visible>
                 </control>
                 <control type="label">
@@ -208,7 +208,7 @@
                     <height>100</height>
                     <label>$INFO[Container(100).ListItem.Property(Rating),, ★]</label>
                     <font>Font-Condensed-S75</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                     <visible>stringcompare(Control.GetLabel(9340),.)</visible>
@@ -236,7 +236,7 @@
                     <height>60</height>
                     <label>←</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -250,7 +250,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[42131]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Control.HasFocus(1110)">Conditional</animation>
@@ -336,8 +336,8 @@
                         <font>Font-Condensed-S40</font>
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
-                        <textcolor>eewhite</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <textcolor>EEwhite</textcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
@@ -359,8 +359,8 @@
                         <font>Font-Condensed-S40</font>
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
-                        <textcolor>eewhite</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>>
+                        <textcolor>EEwhite</textcolor>
+                        <focusedcolor>EEwhite</focusedcolor>>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
@@ -384,8 +384,8 @@
                         <font>Font-Condensed-S40</font>
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
-                        <textcolor>eewhite</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <textcolor>EEwhite</textcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
@@ -425,7 +425,7 @@
                             <font>Font-Condensed-S45</font>
                             <align>left</align>
                             <label>$VAR[GlobalSearchInfoTitleLabel]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -441,7 +441,7 @@
                             <font>Font-Condensed-S45</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Season),,x]$INFO[Container(100).ListItem.Property(Episode),,. ]$INFO[Container(100).ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -457,7 +457,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Year),, • ]$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]$INFO[Container(100).ListItem.Property(Rating), • ★ ,]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -473,7 +473,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -489,7 +489,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Premiered),$LOCALIZE[41314],]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -505,7 +505,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Studio)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -528,7 +528,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Genre)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -552,7 +552,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Director)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -576,7 +576,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[Container(100).ListItem.Property(Writer)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -664,7 +664,7 @@
                         <width>1045</width>
                         <height>270</height>
                         <label>$INFO[Container(100).ListItem.Property(Plot)]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <align>justify</align>
                         <font>Font-Condensed-S40</font>
                         <autoscroll time="2000" delay="10000" repeat="10000">!Control.HasFocus(70) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -717,7 +717,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[21371]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                 </control>
@@ -767,7 +767,7 @@
                 <height>100</height>
                 <label>$INFO[Container(100).ListItem.Label]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>Control.IsVisible(160) + !Player.HasMedia + !Window.IsActive(infodialog) + !Window.IsActive(extendedprogressdialog)</visible>
@@ -781,7 +781,7 @@
                 <height>100</height>
                 <label>$INFO[Container(100).ListItem.Label]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>Control.IsVisible(160) + [Player.HasMedia | Window.IsActive(infodialog) | Window.IsActive(extendedprogressdialog)]</visible>
@@ -797,7 +797,7 @@
                 <height>100</height>
                 <label>$INFO[Container(100).ListItem.Label]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>[Control.IsVisible(170) | Control.IsVisible(180)] + !Player.HasMedia + !Window.IsActive(infodialog) + !Window.IsActive(extendedprogressdialog)</visible>
@@ -811,7 +811,7 @@
                 <height>100</height>
                 <label>$INFO[Container(100).ListItem.Label]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>[Control.IsVisible(170) | Control.IsVisible(180)] + [Player.HasMedia | Window.IsActive(infodialog) | Window.IsActive(extendedprogressdialog)]</visible>
@@ -860,7 +860,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[42131]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                 </control>
@@ -931,7 +931,7 @@
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
                         <textcolor>77white</textcolor>
-                        <selectedcolor>eewhite</selectedcolor>
+                        <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
@@ -953,7 +953,7 @@
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
                         <textcolor>77white</textcolor>
-                        <selectedcolor>eewhite</selectedcolor>
+                        <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
@@ -977,7 +977,7 @@
                         <align>left</align>
                         <textoffsetx>30</textoffsetx>
                         <textcolor>77white</textcolor>
-                        <selectedcolor>eewhite</selectedcolor>
+                        <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
@@ -1015,7 +1015,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[557]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1023,7 +1023,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Label]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1041,7 +1041,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[21893]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1051,7 +1051,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist_Born)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1069,7 +1069,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[21894]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1079,7 +1079,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist_Formed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1094,7 +1094,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[515]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1102,7 +1102,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist_Genre)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>no</scroll>
                             </control>
                         </control>
@@ -1117,7 +1117,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[176]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1125,7 +1125,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist_Style)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1141,7 +1141,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[21887][/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="textbox">
@@ -1152,7 +1152,7 @@
                                 <height>330</height>
                                 <font>Font-Condensed-S40</font>
                                 <align>justify</align>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <label>$INFO[Container(100).ListItem.Property(Artist_Description)]</label>
                                 <autoscroll time="2000" delay="10000" repeat="10000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <visible>!IsEmpty(Container(100).ListItem.Property(Artist_Description))</visible>
@@ -1164,7 +1164,7 @@
                                 <font>Font-Condensed-S40</font>
                                 <align>left</align>
                                 <label>$LOCALIZE[547]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <scroll>false</scroll>
                                 <visible>IsEmpty(Container(100).ListItem.Property(Artist_Description))</visible>
                             </control>
@@ -1182,7 +1182,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[558]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1190,7 +1190,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Label]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1207,7 +1207,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[557]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1217,7 +1217,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1232,7 +1232,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[562]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1240,7 +1240,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Year)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1255,7 +1255,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[515]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1263,7 +1263,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Genre)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>no</scroll>
                             </control>
                         </control>
@@ -1279,7 +1279,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[183][/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="textbox">
@@ -1290,7 +1290,7 @@
                                 <height>330</height>
                                 <font>Font-Condensed-S40</font>
                                 <align>justify</align>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <label>$INFO[Container(100).ListItem.Property(Album_Description)]</label>
                                 <autoscroll time="2000" delay="10000" repeat="10000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <visible>!IsEmpty(Container(100).ListItem.Property(Album_Description))</visible>
@@ -1302,7 +1302,7 @@
                                 <font>Font-Condensed-S40</font>
                                 <align>left</align>
                                 <label>$LOCALIZE[414]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <scroll>false</scroll>
                                 <visible>IsEmpty(Container(100).ListItem.Property(Album_Description))</visible>
                             </control>
@@ -1320,7 +1320,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[556]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1328,7 +1328,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Track),,. ]$INFO[Container(100).ListItem.Label]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1345,7 +1345,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[557]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1355,7 +1355,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Artist)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1370,7 +1370,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[558]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1378,7 +1378,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Album)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1393,7 +1393,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[562]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1401,7 +1401,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Year)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -1416,7 +1416,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[515]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1424,7 +1424,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Genre)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>no</scroll>
                             </control>
                         </control>
@@ -1439,7 +1439,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[180]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1447,7 +1447,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>no</scroll>
                             </control>
                         </control>
@@ -1462,7 +1462,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label>[B]$LOCALIZE[567]:[/B]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -1470,7 +1470,7 @@
                                 <font>Font-Condensed-S34</font>
                                 <align>left</align>
                                 <label fallback="416">$INFO[Container(100).ListItem.Property(Playcount)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <scroll>no</scroll>
                             </control>
                         </control>

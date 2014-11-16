@@ -75,7 +75,7 @@
                         <height>120</height>
                         <label>$LOCALIZE[1036]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -89,7 +89,7 @@
                         <height>120</height>
                         <label>$INFO[Container(450).NumItems] $LOCALIZE[41822]</label>
                         <font>Font-Condensed-S28</font>
-                        <textcolor>80FFFFFF</textcolor>
+                        <textcolor>80white</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>IntegerGreaterThan(Container(450).NumItems,0) + !IntegerGreaterThan(Container(450).NumItems,1)</visible>
@@ -99,7 +99,7 @@
                         <height>120</height>
                         <label>$INFO[Container(450).NumItems] $LOCALIZE[41817]</label>
                         <font>Font-Condensed-S28</font>
-                        <textcolor>80FFFFFF</textcolor>
+                        <textcolor>80white</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>!IntegerGreaterThan(Container(450).NumItems,0) | IntegerGreaterThan(Container(450).NumItems,1)</visible>
@@ -162,7 +162,7 @@
                                 <height>40</height>
                                 <font>Font-Condensed-S29</font>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <aligny>center</aligny>
                                 <scroll>no</scroll>
@@ -221,7 +221,7 @@
                                     <height>40</height>
                                     <font>Font-Condensed-S29</font>
                                     <label>$INFO[ListItem.Label]</label>
-                                    <textcolor>aawhite</textcolor>
+                                    <textcolor>AAwhite</textcolor>
                                     <shadowcolor>22000000</shadowcolor>
                                     <aligny>center</aligny>
                                     <visible>!Window.IsActive(contextmenu)</visible>

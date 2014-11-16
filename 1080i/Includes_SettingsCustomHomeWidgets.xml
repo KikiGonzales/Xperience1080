@@ -123,7 +123,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41162]</label>
                     <label2>$INFO[Skin.String(HomeWidget.1.TypeName)]</label2>
                     <visible>ControlGroup(2141).HasFocus</visible>
@@ -218,7 +218,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41141]</label>
                     <label2>$INFO[Skin.String(HomeWidget.1.SubTypeName)]</label2>
                     <visible>ControlGroup(2142).HasFocus</visible>
@@ -384,7 +384,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41162]</label>
                     <label2>$INFO[Skin.String(HomeWidget.2.TypeName)]</label2>
                     <visible>ControlGroup(2141).HasFocus</visible>
@@ -475,7 +475,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41141]</label>
                     <label2>$INFO[Skin.String(HomeWidget.2.SubTypeName)]</label2>
                     <visible>ControlGroup(2142).HasFocus</visible>
@@ -637,7 +637,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41162]</label>
                     <label2>$INFO[Skin.String(HomeWidget.3.TypeName)]</label2>
                     <visible>ControlGroup(2141).HasFocus</visible>
@@ -831,7 +831,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41162]</label>
                     <label2>$INFO[Skin.String(HomeWidget.4.TypeName)]</label2>
                     <visible>ControlGroup(2141).HasFocus</visible>
@@ -1025,7 +1025,7 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <font>Font-Condensed-S30</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <label>$LOCALIZE[41162]</label>
                     <label2>$INFO[Skin.String(HomeWidget.5.TypeName)]</label2>
                     <visible>ControlGroup(2141).HasFocus</visible>
@@ -1138,7 +1138,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window(skinsettings).property(Dialog)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -1197,7 +1197,7 @@
                             <align>left</align>
                             <font>Font-Condensed-S30</font>
                             <textcolor>FF585858</textcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <label>$INFO[ListItem.Label]</label>
                         </control>
                     </itemlayout>
@@ -1213,7 +1213,7 @@
                             <width>258</width>
                             <height>60</height>
                             <texture>windows/common/black.png</texture>
-                            <colordiffuse>15FFFFFF</colordiffuse>
+                            <colordiffuse>20white</colordiffuse>
                             <visible>!Control.HasFocus(3)</visible>
                         </control>
                         <control type="image">
@@ -1228,8 +1228,8 @@
                             <height>60</height>
                             <align>left</align>
                             <font>Font-Condensed-S30</font>
-                            <textcolor>eewhite</textcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <textcolor>EEwhite</textcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <label>$INFO[ListItem.Label]</label>
                         </control>
                     </focusedlayout>

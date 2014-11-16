@@ -59,7 +59,7 @@
         		<autoscroll time="2000" delay="10000" repeat="10000">!Control.HasFocus(101) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
         		<pagecontrol>102</pagecontrol>
         		<font>Font-Condensed-S50</font>
-        		<textcolor>aawhite</textcolor>
+        		<textcolor>AAwhite</textcolor>
         		<align>center</align>
         	</control>
         	<control type="image">
@@ -112,7 +112,7 @@
         				<label fallback="•••">$INFO[ListItem.Label]</label>
         				<font>Font-Condensed-S60</font>
         				<align>center</align>
-        				<textcolor>aawhite</textcolor>
+        				<textcolor>AAwhite</textcolor>
         		    </control>
         		</itemlayout>
         		<focusedlayout width="1720" height="68">
@@ -124,7 +124,7 @@
         		    	<label fallback="•••">$INFO[ListItem.Label,[B],[/B]]</label>
         		    	<font>Font-Condensed-S60</font>
         		    	<align>center</align>
-        		    	<textcolor>eewhite</textcolor>
+        		    	<textcolor>EEwhite</textcolor>
         		    </control>
         		</focusedlayout>
         	</control>
@@ -168,7 +168,7 @@
         				<label fallback="•••">$INFO[ListItem.Label]</label>
         				<font>Font-Condensed-S50</font>
         				<align>center</align>
-        				<textcolor>aawhite</textcolor>
+        				<textcolor>AAwhite</textcolor>
         		    </control>
         		</itemlayout>
         		<focusedlayout height="50">
@@ -180,7 +180,7 @@
         		    	<label fallback="•••">$INFO[ListItem.Label]</label>
         		    	<font>Font-Condensed-S50-B</font>
         		    	<align>center</align>
-        		    	<textcolor>eewhite</textcolor>
+        		    	<textcolor>EEwhite</textcolor>
         		    </control>
         		</focusedlayout>
         	</control>

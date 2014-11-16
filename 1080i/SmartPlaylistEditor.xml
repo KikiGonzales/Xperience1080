@@ -28,7 +28,7 @@
                 <width>974</width>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[21432]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
             <control type="group">
@@ -53,9 +53,9 @@
                     <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                     <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                     <textcolor>FF585858</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <disabledcolor>77585858</disabledcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <textoffsetx>20</textoffsetx>
                     <spinposx>16</spinposx>
                     <onup>8000</onup>
@@ -75,7 +75,7 @@
                         <textoffsetx>20</textoffsetx>
                         <label>$LOCALIZE[21433]</label>
                         <textcolor>FF585858</textcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S30</font>
                     </control>
                     <control type="image">
@@ -95,9 +95,9 @@
                         <aligny>center</aligny>
                         <textoffsetx>20</textoffsetx>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S32</font>
                         <pulseonselect>false</pulseonselect>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -135,7 +135,7 @@
                         <textoffsetx>20</textoffsetx>
                         <label>$LOCALIZE[21434]</label>
                         <textcolor>FF585858</textcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S30</font>
                     </control>
                     <control type="image">
@@ -219,8 +219,8 @@
                                     <width>596</width>
                                     <height>60</height>
                                     <info>ListItem.Label</info>
-                                    <textcolor>eewhite</textcolor>
-                                    <selectedcolor>eewhite</selectedcolor>
+                                    <textcolor>EEwhite</textcolor>
+                                    <selectedcolor>EEwhite</selectedcolor>
                                     <scroll>false</scroll>
                                 </control>
                                 <control type="image">
@@ -284,9 +284,9 @@
                             <texturefocus border="54,2,2,2">dialogs/mediasource/add-fo.png</texturefocus>
                             <texturenofocus>dialogs/mediasource/add-nf.png</texturenofocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <align>left</align>
                             <font>Font-Condensed-S32</font>
                             <textoffsetx>60</textoffsetx>
@@ -305,9 +305,9 @@
                             <texturefocus border="54,2,2,2">dialogs/mediasource/remove-fo.png</texturefocus>
                             <texturenofocus>dialogs/mediasource/remove-nf.png</texturenofocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <align>left</align>
                             <font>Font-Condensed-S32</font>
                             <textoffsetx>60</textoffsetx>
@@ -326,9 +326,9 @@
                             <texturefocus border="54,2,2,2">dialogs/mediasource/edit-fo.png</texturefocus>
                             <texturenofocus>dialogs/mediasource/edit-nf.png</texturenofocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <align>left</align>
                             <font>Font-Condensed-S32</font>
                             <textoffsetx>60</textoffsetx>
@@ -354,7 +354,7 @@
                         <textoffsetx>20</textoffsetx>
                         <label>$LOCALIZE[41716]</label>
                         <textcolor>FF585858</textcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <font>Font-Condensed-S30</font>
                     </control>
                     <control type="image">
@@ -382,9 +382,9 @@
                         <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <textoffsetx>20</textoffsetx>
                         <spinposx>16</spinposx>
                         <onup>8001</onup>
@@ -404,9 +404,9 @@
                         <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <textoffsetx>20</textoffsetx>
                         <spinposx>16</spinposx>
                         <onup>16</onup>
@@ -435,9 +435,9 @@
                             <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                             <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <textoffsetx>20</textoffsetx>
                             <spinposx>16</spinposx>
                             <onup>17</onup>
@@ -463,9 +463,9 @@
                             <alttexturefocus border="54,2,2,2">dialogs/mediasource/asc-fo.png</alttexturefocus>
                             <alttexturenofocus>dialogs/mediasource/asc-nf.png</alttexturenofocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <align>left</align>
                             <font>Font-Condensed-S32</font>
                             <textoffsetx>60</textoffsetx>
@@ -500,9 +500,9 @@
                             <texturedownfocus>buttons/spinctrl/arrow-light-down-fo.png</texturedownfocus>
                             <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <textoffsetx>20</textoffsetx>
                             <spinposx>16</spinposx>
                             <onup>18</onup>
@@ -528,9 +528,9 @@
                             <textureradiooff>buttons/radio/options-radio-button-nf.png</textureradiooff>
                             <radioposx>-29</radioposx>
                             <textcolor>FF585858</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>FF585858</disabledcolor>
-                            <shadowcolor>20FFFFFF</shadowcolor>
+                            <shadowcolor>20white</shadowcolor>
                             <align>left</align>
                             <font>Font-Condensed-S32</font>
                             <textoffsetx>60</textoffsetx>

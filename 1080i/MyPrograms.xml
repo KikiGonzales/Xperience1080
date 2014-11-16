@@ -102,7 +102,7 @@
                     <align>left</align>
                     <aligny>top</aligny>
                     <textcolor>FF484848</textcolor>
-                    <focusedcolor>DDFFFFFF</focusedcolor>
+                    <focusedcolor>DDwhite</focusedcolor>
                     <textoffsety>3</textoffsety>
                     <textoffsetx>75</textoffsetx>
                     <scroll>false</scroll>
@@ -511,7 +511,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>
@@ -532,7 +532,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[42010]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>
@@ -553,7 +553,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[42021]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>

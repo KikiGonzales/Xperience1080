@@ -47,7 +47,7 @@
                         <width min="0" max="680">auto</width>
                         <height>120</height>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <label>$INFO[Control.GetLabel(30)]</label>
                         <scroll>false</scroll>
                         <align>left</align>
@@ -59,7 +59,7 @@
                         <width min="0" max="120">auto</width>
                         <height>120</height>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <label>$INFO[Control.GetLabel(32),: ,%]</label>
                         <scroll>false</scroll>
                         <align>left</align>
@@ -76,7 +76,7 @@
                     <width>750</width>
                     <height>120</height>
                     <font>Font-Condensed-S28</font>
-                    <textcolor>80FFFFFF</textcolor>
+                    <textcolor>80white</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>

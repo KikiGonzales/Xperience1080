@@ -27,7 +27,7 @@
     	        <posy>128</posy>
     	        <width>600</width>
     	        <font>Font-Condensed-S34</font>
-    	        <textcolor>ddwhite</textcolor>
+    	        <textcolor>DDwhite</textcolor>
     	        <align>center</align>
     	    </control>
 
@@ -58,9 +58,9 @@
                 <textoffsetx>20</textoffsetx>
                 <align>left</align>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
             </control>
@@ -72,9 +72,9 @@
                 <textwidth>484</textwidth>
                 <radioposx>492</radioposx>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
                 <textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -89,9 +89,9 @@
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textoffsetx>20</textoffsetx>
                 <spinposx>16</spinposx>
             </control>
@@ -108,9 +108,9 @@
                 <textureslidernib>dialogs/mediasource/slider-nib-nf.png</textureslidernib>
                 <textureslidernibfocus>dialogs/mediasource/slider-nib-fo.png</textureslidernibfocus>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textoffsetx>20</textoffsetx>
                 <pulseonselect>false</pulseonselect>
             </control>
@@ -123,7 +123,7 @@
                 <textoffsetx>20</textoffsetx>
                 <textoffsety>14</textoffsety>
                 <textcolor>AA585858</textcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
             </control>
 
             <control type="image" id="11">
@@ -138,9 +138,9 @@
                 <aligny>center</aligny>
                 <textoffsetx>20</textoffsetx>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>FF585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <font>Font-Condensed-S32</font>
                 <pulseonselect>false</pulseonselect>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>

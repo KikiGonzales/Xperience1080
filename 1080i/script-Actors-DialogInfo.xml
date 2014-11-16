@@ -59,7 +59,7 @@
 			        <height>100</height>
 			        <label>$INFO[ListItem.Title]</label>
 			        <font>Font-Condensed-S75</font>
-			        <textcolor>aawhite</textcolor>
+			        <textcolor>AAwhite</textcolor>
 			        <align>left</align>
 			        <scroll>false</scroll>
 			        <include>visiblehidefadeinfo</include>
@@ -72,7 +72,7 @@
 			        <height>100</height>
 			        <label>$INFO[ListItem.Title]</label>
 			        <font>Font-Condensed-S75</font>
-			        <textcolor>aawhite</textcolor>
+			        <textcolor>AAwhite</textcolor>
 			        <align>left</align>
 			        <scroll>false</scroll>
 			        <include>visiblehidefadeinfo</include>
@@ -94,7 +94,7 @@
 	                    <height>60</height>
 	                    <label>←</label>
 	                    <font>Font-Condensed-S45</font>
-	                    <textcolor>eewhite</textcolor>
+	                    <textcolor>EEwhite</textcolor>
 	                    <align>left</align>
 	                    <scroll>false</scroll>
 	                    <include>visiblehidefadeinfo</include>
@@ -108,7 +108,7 @@
 	                    <height>60</height>
 	                    <label>$LOCALIZE[21887]</label>
 	                    <font>Font-Condensed-S45</font>
-	                    <textcolor>eewhite</textcolor>
+	                    <textcolor>EEwhite</textcolor>
 	                    <align>left</align>
 	                    <scroll>false</scroll>
 	                    <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="ControlGroup(9301).HasFocus">Conditional</animation>
@@ -121,7 +121,7 @@
 	                    <height>60</height>
 	                    <label>$LOCALIZE[41328]</label>
 	                    <font>Font-Condensed-S45</font>
-	                    <textcolor>eewhite</textcolor>
+	                    <textcolor>EEwhite</textcolor>
 	                    <align>left</align>
 	                    <scroll>false</scroll>
 	                    <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="!ControlGroup(9301).HasFocus">Conditional</animation>
@@ -135,7 +135,7 @@
 	                    <height>60</height>
 	                    <label>→</label>
 	                    <font>Font-Condensed-S45</font>
-	                    <textcolor>eewhite</textcolor>
+	                    <textcolor>EEwhite</textcolor>
 	                    <align>left</align>
 	                    <scroll>false</scroll>
 	                    <include>visiblehidefadeinfo</include>
@@ -222,7 +222,7 @@
 			                <height>81</height>
 			                <font>Font-Condensed-S40</font>
 			                <label>$INFO[ListItem.Label]</label>
-			                <textcolor>eewhite</textcolor>
+			                <textcolor>EEwhite</textcolor>
 			                <shadowcolor>33000000</shadowcolor>
 			                <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
 			            </control>
@@ -253,7 +253,7 @@
 			                <height>81</height>
 			                <font>Font-Condensed-S40</font>
 			                <label>$INFO[ListItem.Label]</label>
-			                <textcolor>eewhite</textcolor>
+			                <textcolor>EEwhite</textcolor>
 			                <shadowcolor>33000000</shadowcolor>
 			                <animation effect="fade" start="50" end="100" time="300" tween="sine" easing="inout" reversible="false" condition="Container(9000).OnNext | Container(9000).OnPrevious">Focus</animation>
 			                <animation effect="fade" start="100" end="50" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(9000)">Conditional</animation>
@@ -292,7 +292,7 @@
 				            <font>Font-Condensed-S45</font>
 				            <align>left</align>
 				            <label>$INFO[ListItem.Title]</label>
-				            <textcolor>eewhite</textcolor>
+				            <textcolor>EEwhite</textcolor>
 				            <scroll>false</scroll>
 				        </control>
 				        <control type="group">
@@ -307,7 +307,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>[B]$ADDON[script.metadata.actors 32012]:[/B]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				            <control type="label">
@@ -318,7 +318,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>$INFO[ListItem.Property(Birthday)]$INFO[ListItem.Property(AgeLong), (,)]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				        </control>
@@ -334,7 +334,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>[B]$ADDON[script.metadata.actors 32013]:[/B]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				            <control type="label">
@@ -345,7 +345,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>$INFO[ListItem.Property(Deathday)]$INFO[ListItem.Property(DeathageLong), (,)]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				        </control>
@@ -361,7 +361,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>[B]$ADDON[script.metadata.actors 32014]:[/B]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				            <control type="label">
@@ -372,7 +372,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>$INFO[ListItem.Property(PlaceOfBirth)]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				        </control>
@@ -388,7 +388,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>[B]$ADDON[script.metadata.actors 32016]:[/B]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				            <control type="label">
@@ -399,7 +399,7 @@
 				                <font>Font-Condensed-S34</font>
 				                <align>left</align>
 				                <label>$INFO[ListItem.Property(AlsoKnownAs)]</label>
-				                <textcolor>aawhite</textcolor>
+				                <textcolor>AAwhite</textcolor>
 				                <scroll>false</scroll>
 				            </control>
 				        </control>
@@ -416,7 +416,7 @@
 				            <font>Font-Condensed-S34</font>
 				            <align>left</align>
 				            <label>[B]$LOCALIZE[21887][/B]</label>
-				            <textcolor>aawhite</textcolor>
+				            <textcolor>AAwhite</textcolor>
 				            <scroll>false</scroll>
 				        </control>
 				        <control type="textbox">
@@ -427,7 +427,7 @@
 				            <height>270</height>
 				            <font>Font-Condensed-S40</font>
 				            <align>justify</align>
-				            <textcolor>bbwhite</textcolor>
+				            <textcolor>BBwhite</textcolor>
 				            <pagecontrol>70</pagecontrol>
 				            <autoscroll time="2000" delay="10000" repeat="10000">!Control.HasFocus(70) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
 				            <label>$INFO[ListItem.Property(Biography)]</label>
@@ -440,7 +440,7 @@
 				            <font>Font-Condensed-S40</font>
 				            <align>left</align>
 				            <label>$LOCALIZE[41329]</label>
-				            <textcolor>bbwhite</textcolor>
+				            <textcolor>BBwhite</textcolor>
 				            <scroll>false</scroll>
 				            <visible>IsEmpty(ListItem.Property(Biography))</visible>
 				        </control>
@@ -541,7 +541,7 @@
 				            <width>23</width>
 				            <height>28</height>
 				            <texture>views/other/isInLibrary.png</texture>
-				            <colordiffuse>aawhite</colordiffuse>
+				            <colordiffuse>AAwhite</colordiffuse>
 				            <visible>!IsEmpty(ListItem.Property(LibraryHasMovie))</visible>
 				        </control>
 				        <control type="label">
@@ -549,10 +549,10 @@
 				            <posy>0</posy>
 				            <width>1180</width>
 				            <height>60</height>
-				            <label>$INFO[ListItem.Year,, ]$INFO[ListItem.Label][COLOR=77FFFFFF]$INFO[ListItem.Property(role), ... ,][/COLOR]</label>
+				            <label>$INFO[ListItem.Year,, ]$INFO[ListItem.Label][COLOR=77white]$INFO[ListItem.Property(role), ... ,][/COLOR]</label>
 				            <font>Font-Condensed-S40</font>
-				            <textcolor>aawhite</textcolor>
-				            <selectedcolor>eewhite</selectedcolor>
+				            <textcolor>AAwhite</textcolor>
+				            <selectedcolor>EEwhite</selectedcolor>
 				            <align>left</align>
 				            <aligny>center</aligny>
 				            <scroll>false</scroll>
@@ -565,7 +565,7 @@
 				            <width>23</width>
 				            <height>28</height>
 				            <texture>views/other/isInLibrary.png</texture>
-				            <colordiffuse>eewhite</colordiffuse>
+				            <colordiffuse>EEwhite</colordiffuse>
 				            <visible>!IsEmpty(ListItem.Property(LibraryHasMovie))</visible>
 				        </control>
 				        <control type="label">
@@ -573,9 +573,9 @@
 				            <posy>0</posy>
 				            <width>1180</width>
 				            <height>60</height>
-				            <label>$INFO[ListItem.Year,, ]$INFO[ListItem.Label][COLOR=AAFFFFFF]$INFO[ListItem.Property(role), ... ,][/COLOR]</label>
-				            <textcolor>eewhite</textcolor>
-				            <selectedcolor>eewhite</selectedcolor>
+				            <label>$INFO[ListItem.Year,, ]$INFO[ListItem.Label][COLOR=AAwhite]$INFO[ListItem.Property(role), ... ,][/COLOR]</label>
+				            <textcolor>EEwhite</textcolor>
+				            <selectedcolor>EEwhite</selectedcolor>
 				            <font>Font-Condensed-S40</font>
 				            <align>left</align>
 				            <aligny>center</aligny>

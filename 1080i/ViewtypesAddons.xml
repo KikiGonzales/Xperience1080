@@ -17,7 +17,7 @@
             	<width>560</width>
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
-            	<textcolor>77white</textcolor>
+            	<textcolor>colorText3</textcolor>
             	<shadowcolor>22000000</shadowcolor>
             	<label>$INFO[Control.GetLabel(3)]</label>
             </control>
@@ -27,7 +27,8 @@
                 <posy>187</posy>
                 <height>704</height>
                 <width>1424</width>
-                <texture border="3">views/list/panel/panel.png</texture>
+                <texture border="3">texture.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
                 <include>visiblehidefadeinfo</include>
             </control>
             <control type="image">
@@ -72,7 +73,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Icon)</visible>
                     </control>
@@ -85,7 +86,7 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$VAR[AddonLabel2]</label>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="image">
@@ -135,7 +136,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <animation type="Focus" condition="Container(50).OnNext | Container(50).OnPrevious" reversible="false">
                                 <effect type="fade" start="71.5" end="100" time="500" tween="sine" easing="inout" />
                             </animation>
@@ -149,7 +150,7 @@
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
                             <label>$VAR[AddonLabel2]</label>
-                            <textcolor>D4FFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <animation type="Focus" condition="[Container(50).OnNext | Container(50).OnPrevious] + !stringcompare(ListItem.Label2,$LOCALIZE[24098]) + !stringcompare(ListItem.Label2,$LOCALIZE[24068]) + !stringcompare(ListItem.Label2,$LOCALIZE[305])" reversible="false">
                                 <effect type="fade" start="71.5" end="100" time="500" tween="sine" easing="inout" />
@@ -250,7 +251,7 @@
                             <width>232</width>
                             <height>232</height>
                             <texture background="true">views/fallbacks/DefaultFolderBack.png/square-small.png</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                             <visible>stringcompare(ListItem.Label,..)</visible>
                         </control>
@@ -262,7 +263,7 @@
                             <height>232</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultAddon.png/square-small.png">$INFO[ListItem.Thumb]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                             <visible>!stringcompare(ListItem.Label,..)</visible>
                         </control>
@@ -371,7 +372,7 @@
                     <width>476</width>
                     <height>476</height>
                     <texture>views/list/other/fanart-overlay.png</texture>
-                    <colordiffuse>eewhite</colordiffuse>
+                    <colordiffuse>EEwhite</colordiffuse>
                 </control>
                 <control type="image">
                     <posx>1708</posx>
@@ -385,7 +386,8 @@
                     <posy>669</posy>
                     <width>486</width>
                     <height>242</height>
-                    <texture border="7">windows/home/tile.png</texture>
+                    <texture border="7">windows/home/tile-white.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <posx>1332</posx>
@@ -404,7 +406,7 @@
                         <height>74</height>
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -415,7 +417,7 @@
                         <height>74</height>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Property(Addon.Summary)]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -428,7 +430,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$LOCALIZE[146]</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Type)][/B]</label2>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                     </control>
                     <control type="button">
@@ -440,7 +442,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$LOCALIZE[21863]:</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Creator)][/B]</label2>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                     </control>
                     <control type="button">
@@ -452,7 +454,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$LOCALIZE[24051]</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Version)][/B]</label2>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                     </control>
                 </control>

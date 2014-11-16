@@ -18,7 +18,8 @@
                 <posy>187</posy>
                 <height>704</height>
                 <width>1214</width>
-                <texture border="4">views/list/panel/panel.png</texture>
+                <texture border="4">texture.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
 
             <control type="image">
@@ -42,9 +43,9 @@
                 <label>$LOCALIZE[20096]</label>
                 <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <textcolor>colorText3</textcolor>
+                <focusedcolor>colorText2</focusedcolor>
+                <disabledcolor>colorTextDisabled</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
                 <onup>2</onup>
@@ -66,9 +67,9 @@
                 <label2>$INFO[System.ProfileAutoLogin]</label2>
                 <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <textcolor>colorText3</textcolor>
+                <focusedcolor>colorText2</focusedcolor>
+                <disabledcolor>colorTextDisabled</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
                 <onup>4</onup>
@@ -86,7 +87,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>Profiles</label>
-                <textcolor>66FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <font>Font-Condensed-S36</font>
                 <textoffsetx>35</textoffsetx>
             </control>
@@ -128,7 +129,7 @@
                         <align>left</align>
                         <aligny>center</aligny>
                         <info>ListItem.Label</info>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <font>Font-Condensed-S30-B</font>
                         <animation effect="slide" start="0" end="80" time="0" condition="!IsEmpty(ListItem.Icon)">Conditional</animation>
                     </control>
@@ -140,7 +141,7 @@
                         <align>right</align>
                         <aligny>center</aligny>
                         <info>ListItem.Label2</info>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <font>Font-Condensed-S30-B</font>
                     </control>
                 </itemlayout>
@@ -168,7 +169,7 @@
                             <align>left</align>
                             <aligny>center</aligny>
                             <info>ListItem.Label</info>
-                            <textcolor>white</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <font>Font-Condensed-S30-B</font>
                             <animation effect="slide" start="0" end="80" time="0" condition="!IsEmpty(ListItem.Icon)">Conditional</animation>
                         </control>
@@ -180,7 +181,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <info>ListItem.Label2</info>
-                            <textcolor>white</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <font>Font-Condensed-S30-B</font>
                         </control>
                     </control>
@@ -210,7 +211,7 @@
                             <align>left</align>
                             <aligny>center</aligny>
                             <info>ListItem.Label</info>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <font>Font-Condensed-S30-B</font>
                             <animation effect="slide" start="0" end="80" time="0" condition="!IsEmpty(ListItem.Icon)">Conditional</animation>
                         </control>
@@ -222,7 +223,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <info>ListItem.Label2</info>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <font>Font-Condensed-S30-B</font>
                         </control>
                     </control>

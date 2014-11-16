@@ -36,7 +36,8 @@
                 <posy>160</posy>
                 <width>462</width>
                 <height>320</height>
-                <texture border="7">windows/home/tile-grey.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="multiimage">
                 <posx>-27</posx>
@@ -75,7 +76,7 @@
                 <height>76</height>
                 <font>Font-Condensed-S38</font>
                 <label>$INFO[Window.Property(Current.Temperature)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Current.Condition), • ,]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current feels like label</description>
@@ -85,7 +86,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[402]</label>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current feels like value</description>
@@ -95,7 +96,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current dew label</description>
@@ -105,7 +106,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[405]</label>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current dew value</description>
@@ -115,7 +116,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current humidity label</description>
@@ -125,7 +126,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[406]</label>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current humidity value</description>
@@ -135,7 +136,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$INFO[Window.Property(Current.Humidity)]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current uv label</description>
@@ -145,7 +146,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[403]</label>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current uv value</description>
@@ -155,7 +156,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$INFO[Window.Property(Current.UVIndex)]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current wind label</description>
@@ -165,7 +166,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[404]</label>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>current wind value</description>
@@ -175,7 +176,7 @@
                 <height>34</height>
                 <font>Font-Condensed-S34</font>
                 <label>$INFO[Window.Property(Current.Wind)]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
         </control>
         <control type="group">
@@ -206,7 +207,8 @@
                 <posy>48</posy>
                 <width>255</width>
                 <height>285</height>
-                <texture border="7">windows/home/tile.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="group">
                 <visible>!IsEmpty(Skin.String(WeatherFanartDir)) + Skin.HasSetting(ShowDailyWeatherFanart)</visible>
@@ -239,7 +241,7 @@
                     <height>56</height>
                     <label>$INFO[Window(Weather).Property(Day0.Title)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
             </control>
             <control type="label">
@@ -250,7 +252,7 @@
                 <height>30</height>
                 <label>$INFO[Window(Weather).Property(Day0.Title)]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <visible>!Skin.HasSetting(ShowDailyWeatherFanart) | IsEmpty(Skin.String(WeatherFanartDir))</visible>
             </control>
             <control type="image">
@@ -270,7 +272,7 @@
                 <height>30</height>
                 <font>Font-Condensed-S45</font>
                 <label>$INFO[Window.Property(Day0.LowTemp)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Day0.HighTemp), / ,]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>conditions label</description>
@@ -279,7 +281,7 @@
                 <width>206</width>
                 <label>$INFO[Window.Property(Day0.Outlook)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
                 <scroll>false</scroll>
             </control>
         </control>
@@ -311,7 +313,8 @@
                 <posy>48</posy>
                 <width>255</width>
                 <height>285</height>
-                <texture border="7">windows/home/tile.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="group">
                 <visible>!IsEmpty(Skin.String(WeatherFanartDir)) + Skin.HasSetting(ShowDailyWeatherFanart)</visible>
@@ -344,7 +347,7 @@
                     <height>56</height>
                     <label>$INFO[Window(Weather).Property(Day1.Title)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
             </control>
             <control type="label">
@@ -355,7 +358,7 @@
                 <height>30</height>
                 <label>$INFO[Window(Weather).Property(Day1.Title)]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <visible>!Skin.HasSetting(ShowDailyWeatherFanart) | IsEmpty(Skin.String(WeatherFanartDir))</visible>
             </control>
             <control type="image">
@@ -375,7 +378,7 @@
                 <height>30</height>
                 <font>Font-Condensed-S45</font>
                 <label>$INFO[Window.Property(Day1.LowTemp)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Day1.HighTemp), / ,]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>conditions label</description>
@@ -384,7 +387,7 @@
                 <width>206</width>
                 <label>$INFO[Window.Property(Day1.Outlook)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
                 <scroll>false</scroll>
             </control>
         </control>
@@ -416,7 +419,8 @@
                 <posy>48</posy>
                 <width>255</width>
                 <height>285</height>
-                <texture border="7">windows/home/tile.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="group">
                 <visible>!IsEmpty(Skin.String(WeatherFanartDir)) + Skin.HasSetting(ShowDailyWeatherFanart)</visible>
@@ -449,7 +453,7 @@
                     <height>56</height>
                     <label>$INFO[Window(Weather).Property(Day2.Title)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
             </control>
             <control type="label">
@@ -460,7 +464,7 @@
                 <height>30</height>
                 <label>$INFO[Window(Weather).Property(Day2.Title)]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <visible>!Skin.HasSetting(ShowDailyWeatherFanart) | IsEmpty(Skin.String(WeatherFanartDir))</visible>
             </control>
             <control type="image">
@@ -480,7 +484,7 @@
                 <height>30</height>
                 <font>Font-Condensed-S45</font>
                 <label>$INFO[Window.Property(Day2.LowTemp)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Day2.HighTemp), / ,]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>conditions label</description>
@@ -489,7 +493,7 @@
                 <width>206</width>
                 <label>$INFO[Window.Property(Day2.Outlook)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
                 <scroll>false</scroll>
             </control>
         </control>
@@ -521,7 +525,8 @@
                 <posy>48</posy>
                 <width>255</width>
                 <height>285</height>
-                <texture border="7">windows/home/tile.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="group">
                 <visible>!IsEmpty(Skin.String(WeatherFanartDir)) + Skin.HasSetting(ShowDailyWeatherFanart)</visible>
@@ -554,7 +559,7 @@
                     <height>56</height>
                     <label>$INFO[Window(Weather).Property(Day3.Title)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
             </control>
             <control type="label">
@@ -565,7 +570,7 @@
                 <height>30</height>
                 <label>$INFO[Window(Weather).Property(Day3.Title)]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <visible>!Skin.HasSetting(ShowDailyWeatherFanart) | IsEmpty(Skin.String(WeatherFanartDir))</visible>
             </control>
             <control type="image">
@@ -585,7 +590,7 @@
                 <height>30</height>
                 <font>Font-Condensed-S45</font>
                 <label>$INFO[Window.Property(Day3.LowTemp)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Day3.HighTemp), / ,]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>conditions label</description>
@@ -594,7 +599,7 @@
                 <width>206</width>
                 <label>$INFO[Window.Property(Day3.Outlook)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
                 <scroll>false</scroll>
             </control>
         </control>
@@ -626,7 +631,8 @@
                 <posy>48</posy>
                 <width>255</width>
                 <height>285</height>
-                <texture border="7">windows/home/tile.png</texture>
+                <texture border="7">windows/home/tile-white.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="group">
                 <visible>!IsEmpty(Skin.String(WeatherFanartDir)) + Skin.HasSetting(ShowDailyWeatherFanart)</visible>
@@ -659,7 +665,7 @@
                     <height>56</height>
                     <label>$INFO[Window(Weather).Property(Day4.Title)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
             </control>
             <control type="label">
@@ -670,7 +676,7 @@
                 <height>30</height>
                 <label>$INFO[Window(Weather).Property(Day4.Title)]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <visible>!Skin.HasSetting(ShowDailyWeatherFanart) | IsEmpty(Skin.String(WeatherFanartDir))</visible>
             </control>
             <control type="image">
@@ -690,7 +696,7 @@
                 <height>30</height>
                 <font>Font-Condensed-S45</font>
                 <label>$INFO[Window.Property(Day4.LowTemp)]$INFO[System.TemperatureUnits]$INFO[Window.Property(Day4.HighTemp), / ,]$INFO[System.TemperatureUnits]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>colorText2</textcolor>
             </control>
             <control type="label">
                 <description>conditions label</description>
@@ -699,7 +705,7 @@
                 <width>206</width>
                 <label>$INFO[Window.Property(Day4.Outlook)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText2</textcolor>
                 <scroll>false</scroll>
             </control>
         </control>
@@ -779,7 +785,7 @@
                     <height>120</height>
                     <label>$LOCALIZE[41693]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>C0white</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>
@@ -790,7 +796,7 @@
                     <height>120</height>
                     <label>$INFO[Window(Weather).Property(Today.moonphase)]</label>
                     <font>Font-Condensed-S28</font>
-                    <textcolor>80FFFFFF</textcolor>
+                    <textcolor>80white</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>
@@ -848,8 +854,8 @@
                     <width>300</width>
                     <height>40</height>
                     <label>$LOCALIZE[41694]</label>
-                    <textcolor>eewhite</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <textcolor>EEwhite</textcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <font>Font-Condensed-S36</font>
                     <onright>201</onright>
                     <onleft>301</onleft>
@@ -901,14 +907,14 @@
                     <height>76</height>
                     <font>Font-Condensed-S38</font>
                     <label>$INFO[Window.Property(Current.Condition)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                 </control>
                 <control type="image">
                     <posx>137</posx>
                     <posy>294</posy>
                     <width>60</width>
                     <height>123</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture>weather/temp.png</texture>
                 </control>
                 <control type="label">
@@ -919,7 +925,7 @@
                     <height>75</height>
                     <font>Font-Condensed-S72</font>
                     <label>[B]$INFO[Window.Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                 </control>
                 <control type="label">
                     <description>current feels like label</description>
@@ -929,7 +935,7 @@
                     <height>34</height>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window.Property(Current.FeelsLike),$LOCALIZE[402] ,]$INFO[System.TemperatureUnits]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                 </control>
                 <control type="image">
                     <description>Current condition icon</description>
@@ -944,7 +950,7 @@
                     <posy>426</posy>
                     <width>56</width>
                     <height>56</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture>weather/humidity.png</texture>
                 </control>
                 <control type="label">
@@ -955,7 +961,7 @@
                     <height>56</height>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window.Property(Current.Humidity)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <aligny>center</aligny>
                 </control>
                 <control type="image">
@@ -963,7 +969,7 @@
                     <posy>490</posy>
                     <width>51</width>
                     <height>51</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture fallback="weather/directions-na.png">$INFO[Window.Property(Current.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                 </control>
                 <control type="label">
@@ -974,7 +980,7 @@
                     <height>51</height>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window.Property(Current.WindSpeed)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <aligny>center</aligny>
                 </control>
                 <control type="image">
@@ -982,7 +988,7 @@
                     <posy>424</posy>
                     <width>56</width>
                     <height>56</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture>weather/sunrise.png</texture>
                     <visible>!IsEmpty(Window.Property(Today.Sunrise))</visible>
                 </control>
@@ -994,7 +1000,7 @@
                     <height>56</height>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window.Property(Today.Sunrise)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <aligny>center</aligny>
                 </control>
                 <control type="image">
@@ -1002,7 +1008,7 @@
                     <posy>486</posy>
                     <width>56</width>
                     <height>56</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>AAwhite</colordiffuse>
                     <texture>weather/sunset.png</texture>
                     <visible>!IsEmpty(Window.Property(Today.Sunset))</visible>
                 </control>
@@ -1014,7 +1020,7 @@
                     <height>51</height>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window.Property(Today.Sunset)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <aligny>center</aligny>
                 </control>
             </control>
@@ -1044,8 +1050,8 @@
                     <width>300</width>
                     <height>40</height>
                     <label>$LOCALIZE[41695]</label>
-                    <textcolor>eewhite</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <textcolor>EEwhite</textcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <font>Font-Condensed-S36</font>
                     <onleft>101</onleft>
                     <onright>301</onright>
@@ -1118,7 +1124,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.1.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.1.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1138,7 +1144,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1148,7 +1154,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.1.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1158,7 +1164,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1168,7 +1174,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.1.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1196,7 +1202,7 @@
                                 <height>51</height>
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.1.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1206,7 +1212,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.1.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1263,7 +1269,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.2.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.2.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1283,7 +1289,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1293,7 +1299,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.2.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1303,7 +1309,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1313,7 +1319,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.2.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1342,7 +1348,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.2.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1352,7 +1358,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.2.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1409,7 +1415,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.3.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.3.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1429,7 +1435,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1439,7 +1445,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.3.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1449,7 +1455,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1459,7 +1465,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.3.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1488,7 +1494,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.3.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1498,7 +1504,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.3.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1556,7 +1562,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.4.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.4.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1576,7 +1582,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1586,7 +1592,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.4.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1596,7 +1602,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1606,7 +1612,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.4.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1635,7 +1641,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.4.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1645,7 +1651,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.4.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1703,7 +1709,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.5.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.5.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1723,7 +1729,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1733,7 +1739,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.5.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1743,7 +1749,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1753,7 +1759,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.5.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1782,7 +1788,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.5.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1792,7 +1798,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.5.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1850,7 +1856,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.6.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.6.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -1870,7 +1876,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -1880,7 +1886,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.6.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -1890,7 +1896,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -1900,7 +1906,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.6.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -1929,7 +1935,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.6.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -1939,7 +1945,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.6.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -1997,7 +2003,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.7.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.7.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -2017,7 +2023,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -2027,7 +2033,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.7.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -2037,7 +2043,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -2047,7 +2053,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.7.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -2076,7 +2082,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.7.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -2086,7 +2092,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.7.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -2144,7 +2150,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.8.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.8.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -2164,7 +2170,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -2174,7 +2180,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.8.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -2184,7 +2190,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -2194,7 +2200,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.8.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -2223,7 +2229,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.8.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -2233,7 +2239,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.8.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -2291,7 +2297,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.9.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.9.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -2311,7 +2317,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -2321,7 +2327,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.9.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -2331,7 +2337,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -2341,7 +2347,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.9.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -2370,7 +2376,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.9.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -2380,7 +2386,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.9.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -2438,7 +2444,7 @@
                             <font>Font-Condensed-S38</font>
                             <label>[B]$INFO[Window.Property(Daily.10.LongDay)][/B]</label>
                             <label2>$INFO[Window.Property(Daily.10.ShortDate)]</label2>
-                            <disabledcolor>ddwhite</disabledcolor>
+                            <disabledcolor>DDwhite</disabledcolor>
                             <enable>false</enable>
                             <align>left</align>
                         </control>
@@ -2458,7 +2464,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-high.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp high value</description>
@@ -2468,7 +2474,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.10.HighTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="image">
@@ -2478,7 +2484,7 @@
                             <height>48</height>
                             <width>24</width>
                             <texture>weather/temp-low.png</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>temp low value</description>
@@ -2488,7 +2494,7 @@
                             <height>48</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[Window.Property(Daily.10.LowTemperature)]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <aligny>center</aligny>
                         </control>
                         <control type="label">
@@ -2517,7 +2523,7 @@
                                 <width>51</width>
                                 <texture>$INFO[Window.Property(Daily.10.WindDegree),special://skin/extras/weather/directions/small/,.png]</texture>
                                 <aspectratio align="center">keep</aspectratio>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>wind speed label</description>
@@ -2527,7 +2533,7 @@
                                 <height>51</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[Window.Property(Daily.10.WindSpeed)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                             </control>
                         </control>
                     </control>
@@ -2599,8 +2605,8 @@
                     <width>300</width>
                     <height>40</height>
                     <label>$LOCALIZE[41696]</label>
-                    <textcolor>eewhite</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <textcolor>EEwhite</textcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <font>Font-Condensed-S36</font>
                     <onleft>201</onleft>
                     <onright>101</onright>
@@ -2655,8 +2661,8 @@
                             <font>Font-Condensed-S32</font>
                             <align>left</align>
                             <label>[B]$INFO[ListItem.Label][/B]</label>
-                            <textcolor>aawhite</textcolor>
-                            <selectedcolor>aawhite</selectedcolor>
+                            <textcolor>AAwhite</textcolor>
+                            <selectedcolor>AAwhite</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -2678,7 +2684,7 @@
                             <width>100</width>
                             <height>100</height>
                             <texture>$INFO[ListItem.Icon]</texture>
-                            <colordiffuse>aawhite</colordiffuse>
+                            <colordiffuse>AAwhite</colordiffuse>
                         </control>
                         <control type="label">
                             <description>outlook label</description>
@@ -2709,7 +2715,7 @@
                             <height>95</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[ListItem.Property(temp)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <align>right</align>
                             <aligny>center</aligny>
                         </control>
@@ -2752,8 +2758,8 @@
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
                                 <label>[B]$INFO[ListItem.Label][/B]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -2765,8 +2771,8 @@
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
                                 <label>$INFO[ListItem.Label2]</label>
-                                <textcolor>aawhite</textcolor>
-                                <selectedcolor>aawhite</selectedcolor>
+                                <textcolor>AAwhite</textcolor>
+                                <selectedcolor>AAwhite</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="image">
@@ -2775,7 +2781,7 @@
                                 <width>100</width>
                                 <height>100</height>
                                 <texture>$INFO[ListItem.Icon]</texture>
-                                <colordiffuse>eewhite</colordiffuse>
+                                <colordiffuse>EEwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>outlook label</description>
@@ -2785,7 +2791,7 @@
                                 <height>95</height>
                                 <font>Font-Condensed-S36</font>
                                 <label>$INFO[ListItem.Property(outlook)]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -2796,7 +2802,7 @@
                                 <height>48</height>
                                 <width>24</width>
                                 <texture>weather/temp-mid.png</texture>
-                                <colordiffuse>aawhite</colordiffuse>
+                                <colordiffuse>AAwhite</colordiffuse>
                             </control>
                             <control type="label">
                                 <description>temp value</description>
@@ -2806,7 +2812,7 @@
                                 <height>95</height>
                                 <font>Font-Condensed-S42-B</font>
                                 <label>$INFO[ListItem.Property(temp)]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <align>right</align>
                                 <aligny>center</aligny>
                             </control>

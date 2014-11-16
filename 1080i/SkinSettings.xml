@@ -40,7 +40,7 @@
                     <align>right</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>[UPPERCASE]$LOCALIZE[42130][/UPPERCASE]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -49,7 +49,8 @@
                     <posy>278</posy>
                     <height>613</height>
                     <width>342</width>
-                    <texture border="4">views/list/panel/panel.png</texture>
+                    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
 
                 <control type="list" id="30">
@@ -78,7 +79,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <font>Font-Condensed-S30-B</font>
                             <textoffsetx>35</textoffsetx>
                         </control>
@@ -100,7 +101,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>white</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <font>Font-Condensed-S30-B</font>
                             <textoffsetx>35</textoffsetx>
                         </control>
@@ -166,7 +167,7 @@
                     <align>left</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>[UPPERCASE]$LOCALIZE[5]:[/UPPERCASE]$INFO[Container(30).ListItem.Label, ,]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -175,7 +176,8 @@
                     <posy>278</posy>
                     <height>613</height>
                     <width>1214</width>
-                    <texture border="4">views/list/panel/panel.png</texture>
+                    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <description>Shadow</description>
@@ -331,7 +333,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <label>$LOCALIZE[20304]</label>
                             <label2>$INFO[Skin.String(rss.setting)]</label2>
                             <visible>!ControlGroup(1007).HasFocus</visible>
@@ -345,7 +347,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>white</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <label>$LOCALIZE[20304]</label>
                             <label2>$INFO[Skin.String(rss.setting)]</label2>
                             <visible>ControlGroup(1007).HasFocus</visible>
@@ -516,7 +518,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <label>$LOCALIZE[41152]</label>
                             <label2>$INFO[Skin.String(music.name)]</label2>
                             <visible>!ControlGroup(2007).HasFocus</visible>
@@ -530,7 +532,7 @@
                             <aligny>center</aligny>
                             <textoffsetx>35</textoffsetx>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>white</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <label>$LOCALIZE[41152]</label>
                             <label2>$INFO[Skin.String(music.name)]</label2>
                             <visible>ControlGroup(2007).HasFocus</visible>

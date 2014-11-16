@@ -19,7 +19,7 @@
                 <align>center</align>
                 <label>$LOCALIZE[298] ($INFO[Container(11).NumItems])</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
                 <scroll>false</scroll>
             </control>
@@ -57,7 +57,7 @@
                 <height>96</height>
                 <font>Font-Condensed-S30-B</font>
                 <label>$INFO[Container(11).ListItem.Label]</label>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <scroll>false</scroll>
                 <align>right</align>
                 <aligny>center</aligny>

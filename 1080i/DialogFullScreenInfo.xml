@@ -74,7 +74,7 @@
                 <width>1460</width>
                 <height>260</height>
                 <label>$VAR[OSDPlot]</label>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <font>Font-Condensed-S38</font>
                 <align>justify</align>
                 <autoscroll delay="11500" time="5000" repeat="7500">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>

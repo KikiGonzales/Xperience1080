@@ -47,7 +47,7 @@
                 <posy>278</posy>
                 <width>974</width>
                 <font>Font-Condensed-S34</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
                 <label>$INFO[Control.GetLabel(1000)]</label>
                 <visible>IsEmpty(Control.GetLabel(2))</visible>
@@ -90,7 +90,7 @@
                 <align>right</align>
                 <label>$INFO[Control.GetLabel(1000)]</label>
                 <font>Font-Condensed-S32</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <visible>ControlGroup(5).HasFocus() + ControlGroup(5).HasFocus(30)</visible>
             </control>
 
@@ -124,7 +124,7 @@
                 <align>right</align>
                 <label>$INFO[Control.GetLabel(1001)]</label>
                 <font>Font-Condensed-S32</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <visible>ControlGroup(5).HasFocus() + ControlGroup(5).HasFocus(32) + !IsEmpty(Control.GetLabel(33))</visible>
             </control>
 
@@ -136,9 +136,9 @@
                 <textwidth>352</textwidth>
                 <textoffsetx>20</textoffsetx>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
             </control>
@@ -152,9 +152,9 @@
                 <textoffsetx>20</textoffsetx>
                 <radioposx>852</radioposx>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
                 <textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -170,9 +170,9 @@
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <font>Font-Condensed-S32</font>
                 <textwidth>352</textwidth>
                 <textoffsetx>20</textoffsetx>
@@ -182,9 +182,9 @@
             <control type="sliderex" id="10">
                 <description>Slider</description>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <font>Font-Condensed-S32</font>
                 <textwidth>352</textwidth>
                 <textoffsetx>20</textoffsetx>

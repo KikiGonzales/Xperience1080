@@ -41,7 +41,7 @@
                         <align>left</align>
                         <label>$VAR[MusicPlaylistEditorHeaderLabel]</label>
                         <font>Font-Condensed-S30</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                     </control>
                     <control type="group">
                         <control type="label">
@@ -228,8 +228,8 @@
                                         <font>Font-Condensed-S30</font>
                                         <align>left</align>
                                         <aligny>center</aligny>
-                                        <textcolor>eewhite</textcolor>
-                                        <selectedcolor>eewhite</selectedcolor>
+                                        <textcolor>EEwhite</textcolor>
+                                        <selectedcolor>EEwhite</selectedcolor>
                                         <shadowcolor>22000000</shadowcolor>
                                         <scroll>false</scroll>
                                     </control>
@@ -242,8 +242,8 @@
                                         <font>Font-Condensed-S27</font>
                                         <align>right</align>
                                         <aligny>center</aligny>
-                                        <textcolor>eewhite</textcolor>
-                                        <selectedcolor>eewhite</selectedcolor>
+                                        <textcolor>EEwhite</textcolor>
+                                        <selectedcolor>EEwhite</selectedcolor>
                                         <shadowcolor>22000000</shadowcolor>
                                         <scroll>false</scroll>
                                     </control>
@@ -325,7 +325,7 @@
                         <align>left</align>
                         <label>$LOCALIZE[559]</label>
                         <font>Font-Condensed-S30</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                     </control>
                     <control type="group">
                         <control type="label">
@@ -507,8 +507,8 @@
                                     <font>Font-Condensed-S30</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
-                                    <textcolor>eewhite</textcolor>
-                                    <selectedcolor>eewhite</selectedcolor>
+                                    <textcolor>EEwhite</textcolor>
+                                    <selectedcolor>EEwhite</selectedcolor>
                                     <shadowcolor>22000000</shadowcolor>
                                     <scroll>false</scroll>
                                 </control>
@@ -521,8 +521,8 @@
                                     <font>Font-Condensed-S27</font>
                                     <align>right</align>
                                     <aligny>center</aligny>
-                                    <textcolor>eewhite</textcolor>
-                                    <selectedcolor>eewhite</selectedcolor>
+                                    <textcolor>EEwhite</textcolor>
+                                    <selectedcolor>EEwhite</selectedcolor>
                                     <shadowcolor>22000000</shadowcolor>
                                     <scroll>false</scroll>
                                 </control>

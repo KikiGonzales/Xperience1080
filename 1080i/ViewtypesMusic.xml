@@ -15,7 +15,7 @@
             	<width>560</width>
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
-            	<textcolor>77white</textcolor>
+            	<textcolor>colorText3</textcolor>
             	<shadowcolor>22000000</shadowcolor>
             	<label>$INFO[Control.GetLabel(3)]</label>
             </control>
@@ -25,7 +25,8 @@
                 <posy>187</posy>
                 <height>704</height>
                 <width>1424</width>
-                <texture border="4">views/list/panel/panel.png</texture>
+                <texture border="4">texture.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="image">
                 <description>Shadow</description>
@@ -65,7 +66,7 @@
                         <width>1420</width>
                         <height>94</height>
                         <texture>views/other/selected.png</texture>
-                        <colordiffuse>07FFFFFF</colordiffuse>
+                        <colordiffuse>07white</colordiffuse>
                         <aspectratio aligny="top">center</aspectratio>
                         <visible>ListItem.IsPlaying</visible>
                     </control>
@@ -94,8 +95,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListLabel]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
                     </control>
@@ -108,8 +109,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListLabel]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist) | ListItem.IsFolder</visible>
                     </control>
@@ -122,8 +123,8 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>D4FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
                     </control>
@@ -136,8 +137,8 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Label2, ,]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>D4FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                 </itemlayout>
@@ -167,7 +168,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
                     </control>
@@ -180,7 +181,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Property(Artist_Genre))</visible>
                     </control>
@@ -193,8 +194,8 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
                     </control>
@@ -225,7 +226,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -238,7 +239,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -251,8 +252,8 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -264,8 +265,8 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Year, ,]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Year)</visible>
                     </control>
@@ -284,9 +285,9 @@
                         <height>98</height>
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
-                        <label fallback="[COLOR=33FFFFFF]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Album)</visible>
                     </control>
@@ -306,7 +307,7 @@
                         <width>1420</width>
                         <height>94</height>
                         <texture>views/other/selected.png</texture>
-                        <colordiffuse>07FFFFFF</colordiffuse>
+                        <colordiffuse>07white</colordiffuse>
                         <aspectratio aligny="top">center</aspectratio>
                         <visible>ListItem.IsPlaying</visible>
                     </control>
@@ -327,8 +328,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListSongLabel]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -341,8 +342,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$VAR[MusicListSongLabel]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -355,8 +356,8 @@
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>D4FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Artist)</visible>
                     </control>
@@ -368,8 +369,8 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$VAR[MusicListSongLabel2]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>D4FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="image">
@@ -387,9 +388,9 @@
                         <height>98</height>
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
-                        <label fallback="[COLOR=33FFFFFF]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>D4FFFFFF</selectedcolor>
+                        <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Title)</visible>
                     </control>
@@ -409,7 +410,7 @@
                         <width>1420</width>
                         <height>94</height>
                         <texture>views/other/selected.png</texture>
-                        <colordiffuse>07FFFFFF</colordiffuse>
+                        <colordiffuse>07white</colordiffuse>
                         <aspectratio aligny="top">center</aspectratio>
                         <visible>ListItem.IsPlaying</visible>
                     </control>
@@ -454,8 +455,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$VAR[MusicListLabel]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
                         </control>
@@ -468,8 +469,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$VAR[MusicListLabel]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>IsEmpty(ListItem.Artist) | ListItem.IsFolder</visible>
                         </control>
@@ -482,8 +483,8 @@
                             <font>Font-Condensed-S28</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Artist]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Artist) + !ListItem.IsFolder</visible>
                         </control>
@@ -496,8 +497,8 @@
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
                             <label>$INFO[ListItem.Label2, ,]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -543,7 +544,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$VAR[MusicListLabel]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
                         </control>
@@ -556,7 +557,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$VAR[MusicListLabel]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <visible>IsEmpty(ListItem.Property(Artist_Genre))</visible>
                         </control>
@@ -569,8 +570,8 @@
                             <font>Font-Condensed-S28</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Property(Artist_Genre))</visible>
                         </control>
@@ -617,7 +618,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Artist)</visible>
                         </control>
@@ -630,7 +631,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <visible>IsEmpty(ListItem.Artist)</visible>
                         </control>
@@ -643,8 +644,8 @@
                             <font>Font-Condensed-S28</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Artist]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Artist)</visible>
                         </control>
@@ -656,8 +657,8 @@
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
                             <label>$INFO[ListItem.Year, ,]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Year)</visible>
                         </control>
@@ -677,9 +678,9 @@
                             <height>98</height>
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
-                            <label fallback="[COLOR=47FFFFFF]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Album)</visible>
                         </control>
@@ -700,7 +701,7 @@
                         <width>1420</width>
                         <height>94</height>
                         <texture>views/other/selected.png</texture>
-                        <colordiffuse>07FFFFFF</colordiffuse>
+                        <colordiffuse>07white</colordiffuse>
                         <aspectratio aligny="top">center</aspectratio>
                         <visible>ListItem.IsPlaying</visible>
                         <animation effect="fade" start="100" end="0" time="300" tween="sine" easing="inout" condition="Window.IsVisible(songinformation)">Conditional</animation>>
@@ -740,8 +741,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>left</align>
                                 <label>$VAR[MusicListSongLabel]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Artist)</visible>
                             </control>
@@ -754,8 +755,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>left</align>
                                 <label>$VAR[MusicListSongLabel]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>IsEmpty(ListItem.Artist)</visible>
                             </control>
@@ -768,8 +769,8 @@
                                 <font>Font-Condensed-S28</font>
                                 <align>left</align>
                                 <label>$INFO[ListItem.Artist]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>D4FFFFFF</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Artist)</visible>
                             </control>
@@ -781,8 +782,8 @@
                                 <font>Font-Condensed-S36</font>
                                 <align>right</align>
                                 <label>$VAR[MusicListSongLabel2]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>D4FFFFFF</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="image">
@@ -809,9 +810,9 @@
                                 <height>98</height>
                                 <font>Font-Condensed-S36</font>
                                 <align>right</align>
-                                <label fallback="[COLOR=47FFFFFF]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>D4FFFFFF</selectedcolor>
+                                <label fallback="0.0">$INFO[ListItem.Rating,,.0]</label>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Title)</visible>
                             </control>
@@ -952,7 +953,7 @@
                             <width>516</width>
                             <font>Font-Condensed-S60</font>
                             <label>$VAR[MusicInfoListDescriptionHeader]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -964,7 +965,7 @@
                             <height>275</height>
                             <label>$VAR[MusicInfoListDescription]</label>
                             <align>justify</align>
-                            <textcolor>CCFFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <pagecontrol>71</pagecontrol>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -984,7 +985,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S45</font>
                         <label>$VAR[MusicInfoListInfo]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                         <animation effect="slide" end="0,-40" time="0" condition="Container.Content(songs)">Conditional</animation>
@@ -995,7 +996,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Album]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                         <visible>Container.Content(songs)</visible>
@@ -1006,7 +1007,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S30</font>
                         <label>$VAR[MusicInfoListSubInfo]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -1039,7 +1040,8 @@
                     <posy>394</posy>
                     <width>634</width>
                     <height>484</height>
-                    <texture>views/list/panel/panel.png</texture>
+                    <texture>texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="list" id="52">
                     <visible>Container.Content(Artists) | Container.Content(Albums) | Container.Content(Songs) | Window.IsVisible(MusicPlaylist)</visible>
@@ -1071,7 +1073,7 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -1091,7 +1093,7 @@
                             <width>510</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -1102,7 +1104,7 @@
                             <font>Font-Condensed-S31</font>
                             <label fallback="• • • •">$INFO[ListItem.Year]</label>
                             <align>center</align>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Album)</visible>
@@ -1113,7 +1115,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Label2, ,]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -1134,7 +1136,7 @@
                             <width>630</width>
                             <height>59</height>
                             <texture>views/other/selected.png</texture>
-                            <colordiffuse>07FFFFFF</colordiffuse>
+                            <colordiffuse>07white</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
                             <visible>ListItem.IsPlaying</visible>
                         </control>
@@ -1145,8 +1147,8 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$VAR[MusicInfoListSongLabel]</label>
-                            <textcolor>77white</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!Window.IsActive(songinformation)</visible>
@@ -1158,8 +1160,8 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$VAR[MusicInfoListSongLabel2]</label>
-                            <textcolor>77white</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -1197,7 +1199,7 @@
                                 <width>590</width>
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -1233,7 +1235,7 @@
                                 <width>510</width>
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -1244,7 +1246,7 @@
                                 <font>Font-Condensed-S31</font>
                                 <label fallback="• • • •">$INFO[ListItem.Year]</label>
                                 <align>center</align>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Album)</visible>
@@ -1255,7 +1257,7 @@
                                 <height>58</height>
                                 <font>Font-Condensed-S31</font>
                                 <label>$INFO[ListItem.Label2, ,]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>right</align>
@@ -1290,7 +1292,7 @@
                                 <width>630</width>
                                 <height>59</height>
                                 <texture>views/other/selected.png</texture>
-                                <colordiffuse>07FFFFFF</colordiffuse>
+                                <colordiffuse>07white</colordiffuse>
                                 <aspectratio aligny="top">center</aspectratio>
                                 <visible>ListItem.IsPlaying</visible>
                             </control>
@@ -1302,8 +1304,8 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$VAR[MusicInfoListSongLabel]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!Window.IsActive(songinformation)</visible>
@@ -1319,8 +1321,8 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$VAR[MusicInfoListSongLabel2]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -1424,7 +1426,7 @@
                             <width>152</width>
                             <height>152</height>
                             <aspectratio>scale</aspectratio>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true">$VAR[SquareThumbSmall]</texture>
                         </control>
@@ -1577,7 +1579,7 @@
                             <width>502</width>
                             <font>Font-Condensed-S60</font>
                             <label>$VAR[MusicInfoListDescriptionHeader]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -1589,7 +1591,7 @@
                             <height>275</height>
                             <label>$VAR[MusicInfoListDescription]</label>
                             <align>justify</align>
-                            <textcolor>CCFFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <pagecontrol>71</pagecontrol>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -1609,7 +1611,7 @@
                         <width>502</width>
                         <font>Font-Condensed-S45</font>
                         <label>$VAR[MusicPanelInfo]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -1619,7 +1621,7 @@
                         <width>502</width>
                         <font>Font-Condensed-S30</font>
                         <label>$VAR[MusicPanelSubInfo]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -1714,7 +1716,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge-1]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -1769,7 +1771,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge5]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -1824,7 +1826,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge4]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -1879,7 +1881,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge3]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -1934,7 +1936,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge2]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -1989,7 +1991,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true">$VAR[SquareThumbLarge1]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2126,7 +2128,7 @@
                                 <posy>16</posy>
                                 <width>380</width>
                                 <height>380</height>
-                                <colordiffuse>ddwhite</colordiffuse>
+                                <colordiffuse>DDwhite</colordiffuse>
                                 <texture background="true">$VAR[SquareThumbLarge]</texture>
                                 <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                             </control>
@@ -2228,7 +2230,7 @@
                         <width>1730</width>
                         <label>$VAR[CoverViewBottomInfo]</label>
                         <font>Font-Condensed-S45-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -2238,7 +2240,7 @@
                         <width>1730</width>
                         <label>$VAR[CoverViewBottomInfo2]</label>
                         <font>Font-Condensed-S36</font>
-                        <textcolor>77white</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -2343,7 +2345,7 @@
                             <height>232</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="special://skin/extras/musicgenres/default.jpg">$INFO[ListItem.Label,special://skin/extras/musicgenres/,.jpg]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                             <visible>Container.Content(Genres)</visible>
                         </control>
@@ -2355,7 +2357,7 @@
                             <height>232</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true">$VAR[SquareThumbSmall]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                             <visible>!Container.Content(genres)</visible>
                         </control>
@@ -2439,7 +2441,7 @@
                     <height>476</height>
                     <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                     <texture background="true" fallback="special://skin/extras/musicgenres/default.jpg">$INFO[ListItem.Label,special://skin/extras/musicgenres/,.jpg]</texture>
-                    <colordiffuse>eewhite</colordiffuse>
+                    <colordiffuse>EEwhite</colordiffuse>
                     <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                     <visible>Container.Content(Genres)</visible>
                 </control>
@@ -2460,7 +2462,8 @@
                     <posy>669</posy>
                     <width>486</width>
                     <height>242</height>
-                    <texture border="7">windows/home/tile.png</texture>
+                    <texture border="7">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <posx>1332</posx>
@@ -2479,7 +2482,7 @@
                         <height>74</height>
                         <font>Font-Condensed-S34-B</font>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -2493,7 +2496,7 @@
                             <align>left</align>
                             <font>Font-Condensed-S30</font>
                             <label>$VAR[MusicThumbnailInfo]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -2505,7 +2508,7 @@
                             <align>left</align>
                             <font>Font-Condensed-S30</font>
                             <label>$VAR[MusicPanelSubInfo]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -2587,8 +2590,8 @@
                             <height>96</height>
                             <label>$INFO[ListItem.Year]</label>
                             <font>Font-Condensed-S60</font>
-                            <textcolor>80FFFFFF</textcolor>
-                            <selectedcolor>80FFFFFF</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected2</selectedcolor>
                             <scroll>false</scroll>
                             <align>right</align>
                             <visible>Container.Content(Albums)</visible>
@@ -2599,7 +2602,7 @@
                             <width>690</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>![Container.Content(Artists) + IsEmpty(ListItem.Property(Artist_Genre))] + ![Container.Content(Artists) + IsEmpty(ListItem.Property(Artist_Genre))]</visible>
@@ -2610,7 +2613,7 @@
                             <width>690</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>[Container.Content(Artists) + IsEmpty(ListItem.Property(Artist_Genre))] | [Container.Content(Artists) + IsEmpty(ListItem.Artist)]</visible>
@@ -2621,7 +2624,7 @@
                             <width>690</width>
                             <label>$INFO[ListItem.Property(Artist_Genre)]</label>
                             <font>Font-Condensed-S28</font>
-                            <textcolor>80FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>Container.Content(Artists)</visible>
@@ -2632,7 +2635,7 @@
                             <width>690</width>
                             <label>$INFO[ListItem.Artist]</label>
                             <font>Font-Condensed-S28</font>
-                            <textcolor>80FFFFFF</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>Container.Content(Albums)</visible>
@@ -2647,8 +2650,8 @@
                         <height>96</height>
                         <label>$INFO[ListItem.TrackNumber]</label>
                         <font>Font-Condensed-S80-B</font>
-                        <textcolor>80FFFFFF</textcolor>
-                        <selectedcolor>80FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected2</selectedcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                         <visible>!stringcompare(Container.FolderPath,musicdb://top100/songs/)</visible>
@@ -2660,8 +2663,8 @@
                         <height>96</height>
                         <label>$INFO[ListItem.PlayCount]</label>
                         <font>Font-Condensed-S80-B</font>
-                        <textcolor>80FFFFFF</textcolor>
-                        <selectedcolor>80FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected2</selectedcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                         <visible>stringcompare(Container.FolderPath,musicdb://top100/songs/)</visible>
@@ -2672,8 +2675,8 @@
                         <width>690</width>
                         <label>$INFO[ListItem.Title]</label>
                         <font>Font-Condensed-S34-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected2</selectedcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -2683,8 +2686,8 @@
                         <width>690</width>
                         <label>$INFO[ListItem.Artist]</label>
                         <font>Font-Condensed-S28</font>
-                        <textcolor>80FFFFFF</textcolor>
-                        <selectedcolor>80FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected2</selectedcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -2695,8 +2698,8 @@
                         <height>96</height>
                         <label>$INFO[ListItem.Label]</label>
                         <font>Font-Condensed-S34-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
-                        <selectedcolor>SelectedGreen</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected2</selectedcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>IsEmpty(ListItem.Title) + IsEmpty(ListItem.Artist)</visible>
@@ -2713,6 +2716,7 @@
                             <width>1062</width>
                             <height>332</height>
                             <texture border="60">views/banner/other/panel.png</texture>
+							<colordiffuse>colorTheme</colordiffuse>
                         </control>
                         <control type="image">
                             <posx>33</posx>
@@ -2738,7 +2742,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Artist]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>FF333333</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2748,7 +2752,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Property(Artist_Genre),[B]$LOCALIZE[515]: [/B]]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2758,7 +2762,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Property(Artist_YearsActive),[B]$LOCALIZE[21898]: [/B]]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2770,7 +2774,7 @@
                                 <height>105</height>
                                 <info>ListItem.Property(Artist_Description)</info>
                                 <align>justify</align>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S25</font>
                             </control>
@@ -2788,6 +2792,7 @@
                             <width>1062</width>
                             <height>332</height>
                             <texture border="60">views/banner/other/panel.png</texture>
+							<colordiffuse>colorTheme</colordiffuse>
                         </control>
                         <control type="image">
                             <posx>33</posx>
@@ -2828,7 +2833,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>FF333333</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2838,7 +2843,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Year,, • ]$INFO[ListItem.Genre]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2850,7 +2855,7 @@
                                 <height>105</height>
                                 <info>ListItem.Property(Album_Description)</info>
                                 <align>justify</align>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S25</font>
                             </control>
@@ -2869,6 +2874,7 @@
                             <width>1062</width>
                             <height>332</height>
                             <texture border="60">views/banner/other/panel.png</texture>
+							<colordiffuse>colorTheme</colordiffuse>
                         </control>
                         <control type="image">
                             <posx>33</posx>
@@ -2902,6 +2908,7 @@
                                 <width>48</width>
                                 <height>31</height>
                                 <texture>$INFO[ListItem.DiscNumber,flags/discnumber/,.png]</texture>
+								<colordiffuse>colorText2</colordiffuse>
                             </control>
                             <control type="image">
                                 <posx>55</posx>
@@ -2909,6 +2916,7 @@
                                 <width>90</width>
                                 <height>31</height>
                                 <texture>$INFO[ListItem.FileExtension,flags/fileextension/,.png]</texture>
+								<colordiffuse>colorText2</colordiffuse>
                                 <animation effect="slide" end="-55" time="0" condition="IsEmpty(ListItem.DiscNumber)">Conditional</animation>
                             </control>
                             <control type="image">
@@ -2924,7 +2932,7 @@
                                 <width>690</width>
                                 <label>$VAR[MusicInfoListSongLabel]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>FF333333</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2934,7 +2942,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Artist]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2944,7 +2952,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Genre,[B]$LOCALIZE[515]: [/B]]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2954,7 +2962,7 @@
                                 <width>690</width>
                                 <label>$INFO[ListItem.Duration,[B]$LOCALIZE[180]: [/B]]</label>
                                 <font>Font-Condensed-S28</font>
-                                <textcolor>FF484848</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>

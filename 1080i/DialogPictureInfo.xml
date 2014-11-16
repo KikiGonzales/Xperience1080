@@ -24,7 +24,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$LOCALIZE[13406]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -191,7 +191,7 @@
                                 <posy>0</posy>
                                 <width>604</width>
                                 <height>60</height>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <info>ListItem.Label</info>
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
@@ -203,7 +203,7 @@
                                 <posy>0</posy>
                                 <width>604</width>
                                 <height>60</height>
-                                <textcolor>CCFFFFFF</textcolor>
+                                <textcolor>C0white</textcolor>
                                 <info>ListItem.Label2</info>
                                 <font>Font-Condensed-S32</font>
                                 <align>right</align>

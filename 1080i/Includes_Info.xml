@@ -20,6 +20,7 @@
                     <height>100</height>
                     <texture>weather/small/$INFO[Weather.FanartCode].png</texture>
                     <visible>Weather.IsFetched + ![stringcompare(Weather.FanartCode,na) + substring(Weather.Conditions,/)]</visible>
+					<colordiffuse>colorText3</colordiffuse>
                     <include>visiblehidefadeinfo</include>
                 </control>
                 <control type="label">
@@ -30,7 +31,7 @@
                     <height>100</height>
                     <label>[B]$INFO[System.Time][/B]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                     <align>right</align>
                     <scroll>false</scroll>
@@ -116,6 +117,7 @@
                 <width>100</width>
                 <height>100</height>
                 <texture>$VAR[OptionsButtonTexture]</texture>
+				<colordiffuse>colorText3</colordiffuse>
                 <include>homebuttonsanim3</include>
                 <visible>!Skin.HasSetting(HideOptionsButton) + !Window.IsVisible(movieinformation) + !Window.IsVisible(script-Actors-DialogInfo.xml) + !Window.IsVisible(script-Actors-DialogVideoInfo.xml) + !Window.IsVisible(addoninformation) + !Window.IsVisible(musicinformation) + !Window.IsVisible(songinformation) + !Window.IsVisible(1122) + !Window.IsActive(favourites)</visible>
             </control>
@@ -127,7 +129,7 @@
                 <height>100</height>
                 <label>$LOCALIZE[41600]</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <shadowcolor>22000000</shadowcolor>
                 <include>homebuttonsanim4</include>
                 <visible>!Skin.HasSetting(HideOptionsButton) + !Window.IsVisible(movieinformation) + !Window.IsVisible(script-Actors-DialogInfo.xml) + !Window.IsVisible(script-Actors-DialogVideoInfo.xml) + !Window.IsVisible(addoninformation) + !Window.IsVisible(musicinformation) + !Window.IsVisible(songinformation) + !Window.IsVisible(1122) + !Window.IsActive(favourites)</visible>
@@ -145,6 +147,7 @@
                 <width>100</width>
                 <height>100</height>
                 <texture>buttons/shutdown_nofo.png</texture>
+				<colordiffuse>colorText3</colordiffuse>
                 <include>homebuttonsanim</include>
                 <visible>!Skin.HasSetting(HideShutdownButton)</visible>
             </control>
@@ -155,7 +158,7 @@
                 <height>100</height>
                 <label>$LOCALIZE[41507]</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>colorText3</textcolor>
                 <shadowcolor>22000000</shadowcolor>
                 <include>homebuttonsanim2</include>
                 <visible>!Skin.HasSetting(HideShutdownButton)</visible>
@@ -197,7 +200,7 @@
                     <height>120</height>
                     <label>$VAR[NowPlayingTitle]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                     <animation effect="slide" end="0,16" time="300" tween="sine" easing="inout" condition="IsEmpty(Control.GetLabel(934))">Conditional</animation>
@@ -210,7 +213,7 @@
                     <height>120</height>
                     <label>$VAR[NowPlayingSubTitle]</label>
                     <font>Font-Condensed-S28</font>
-                    <textcolor>80FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>

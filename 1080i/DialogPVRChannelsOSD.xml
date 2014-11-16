@@ -25,10 +25,10 @@
                     <width>640</width>
                     <height>38</height>
                     <align>left</align>
-                    <label>[COLOR=BBFFFFFF][B]$INFO[VideoPlayer.ChannelGroup][/B][/COLOR]</label>
+                    <label>[COLOR=BBwhite][B]$INFO[VideoPlayer.ChannelGroup][/B][/COLOR]</label>
                     <label2>$INFO[System.Time]</label2>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>BBFFFFFF</textcolor>
+                    <textcolor>BBwhite</textcolor>
                     <shadowcolor>66000000</shadowcolor>
                 </control>
                 <control type="list" id="11">
@@ -56,7 +56,7 @@
                             <width>780</width>
                             <height>94</height>
                             <texture>views/other/selected.png</texture>
-                            <colordiffuse>07FFFFFF</colordiffuse>
+                            <colordiffuse>07white</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
                             <visible>ListItem.IsPlaying</visible>
                         </control>
@@ -77,7 +77,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
@@ -91,7 +91,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
@@ -121,7 +121,7 @@
                         	<midtexture>windows/pvr/progress-mid.png</midtexture>
                         	<righttexture>windows/pvr/progress-leftright.png</righttexture>
                         	<info>ListItem.Progress</info>
-                        	<colordiffuse>D4FFFFFF</colordiffuse>
+                        	<colordiffuse>D4white</colordiffuse>
                         	<visible>ListItem.HasEpg + ListItem.IsPlaying</visible>
                         </control>
                         <control type="label">
@@ -133,7 +133,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
@@ -176,7 +176,7 @@
                             <align>left</align>
                             <label>$INFO[ListItem.Title]</label>
                             <textcolor>77white</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <selectedcolor>D4white</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
                         </control>
@@ -189,7 +189,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>99FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
@@ -235,7 +235,7 @@
                             <width>780</width>
                             <height>94</height>
                             <texture>views/other/selected.png</texture>
-                            <colordiffuse>07FFFFFF</colordiffuse>
+                            <colordiffuse>07white</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
                             <visible>ListItem.IsPlaying</visible>
                         </control>
@@ -266,7 +266,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
@@ -281,7 +281,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
@@ -296,7 +296,7 @@
                             <font>Font-Condensed-S28</font>
                             <align>right</align>
                             <label>$INFO[ListItem.EndTime,→ ,]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg + !ListItem.IsRecording</visible>
@@ -311,7 +311,7 @@
                             <font>Font-Condensed-S28</font>
                             <align>right</align>
                             <label>$INFO[ListItem.EndTime,→ ,]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg + ListItem.IsRecording</visible>
@@ -326,7 +326,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
@@ -341,7 +341,7 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <selectedcolor>SelectedGreen</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
@@ -360,7 +360,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>D4FFFFFF</colordiffuse>
+	                        	<colordiffuse>D4white</colordiffuse>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
 	                        <control type="label">
@@ -372,8 +372,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Title]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>D4white</textcolor>
+	                            <selectedcolor>D4white</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>

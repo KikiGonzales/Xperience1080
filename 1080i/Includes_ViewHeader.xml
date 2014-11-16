@@ -134,18 +134,18 @@
     </variable>
 
     <variable name="SettingsHeaderSubLabel">
-        <value condition="Control.HasFocus(111) | Window.IsActive(systeminfo)">$LOCALIZE[154] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[705] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[157] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[13281]</value>
+        <value condition="Control.HasFocus(111) | Window.IsActive(systeminfo)">$LOCALIZE[154] [COLOR=44white]/[/COLOR] $LOCALIZE[705] [COLOR=44white]/[/COLOR] $LOCALIZE[157] [COLOR=44white]/[/COLOR] $LOCALIZE[13281]</value>
         <value condition="Control.HasFocus(110) | Window.IsActive(weathersettings)">$LOCALIZE[24029]</value>
-        <value condition="Control.HasFocus(109) | Window.IsActive(systemsettings)">$LOCALIZE[291]/$LOCALIZE[337] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14094] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[798] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14095] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[19191]</value>
-        <value condition="Control.HasFocus(108) | Window.IsActive(pvrsettings)">$LOCALIZE[19181] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[19222] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14086] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[19043]</value>
-        <value condition="Control.HasFocus(107) | Window.IsActive(skinsettings)">$LOCALIZE[10000] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[41190] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[478] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[33069] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[41460] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[41220] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[24001]</value>
-        <value condition="Control.HasFocus(106) | Window.IsActive(picturessettings)">$LOCALIZE[14081] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[108]</value>
-        <value condition="Control.HasFocus(105) | Window.IsActive(addonbrowser)">$LOCALIZE[1024] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[24038] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[24020]</value>
-        <value condition="Control.HasFocus(104) | Window.IsActive(musicsettings)">$LOCALIZE[14022] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14086] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[15200] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[620] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[13327]</value>
-        <value condition="Control.HasFocus(103) | Window.IsActive(profiles)">$LOCALIZE[20067] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[20096]</value>
-        <value condition="Control.HasFocus(102) | Window.IsActive(videossettings)">$LOCALIZE[14022] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14086] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[24012] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14087]</value>
-        <value condition="Control.HasFocus(101) | Window.IsActive(servicesettings)">$LOCALIZE[20187] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[33101] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[790] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[1259] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[1273] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[1200]</value>
-        <value>$LOCALIZE[166] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14090] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[14081] [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[360]</value>
+        <value condition="Control.HasFocus(109) | Window.IsActive(systemsettings)">$LOCALIZE[291]/$LOCALIZE[337] [COLOR=44white]/[/COLOR] $LOCALIZE[14094] [COLOR=44white]/[/COLOR] $LOCALIZE[798] [COLOR=44white]/[/COLOR] $LOCALIZE[14095] [COLOR=44white]/[/COLOR] $LOCALIZE[19191]</value>
+        <value condition="Control.HasFocus(108) | Window.IsActive(pvrsettings)">$LOCALIZE[19181] [COLOR=44white]/[/COLOR] $LOCALIZE[19222] [COLOR=44white]/[/COLOR] $LOCALIZE[14086] [COLOR=44white]/[/COLOR] $LOCALIZE[19043]</value>
+        <value condition="Control.HasFocus(107) | Window.IsActive(skinsettings)">$LOCALIZE[10000] [COLOR=44white]/[/COLOR] $LOCALIZE[41190] [COLOR=44white]/[/COLOR] $LOCALIZE[478] [COLOR=44white]/[/COLOR] $LOCALIZE[33069] [COLOR=44white]/[/COLOR] $LOCALIZE[41460] [COLOR=44white]/[/COLOR] $LOCALIZE[41220] [COLOR=44white]/[/COLOR] $LOCALIZE[24001]</value>
+        <value condition="Control.HasFocus(106) | Window.IsActive(picturessettings)">$LOCALIZE[14081] [COLOR=44white]/[/COLOR] $LOCALIZE[108]</value>
+        <value condition="Control.HasFocus(105) | Window.IsActive(addonbrowser)">$LOCALIZE[1024] [COLOR=44white]/[/COLOR] $LOCALIZE[24038] [COLOR=44white]/[/COLOR] $LOCALIZE[24020]</value>
+        <value condition="Control.HasFocus(104) | Window.IsActive(musicsettings)">$LOCALIZE[14022] [COLOR=44white]/[/COLOR] $LOCALIZE[14086] [COLOR=44white]/[/COLOR] $LOCALIZE[15200] [COLOR=44white]/[/COLOR] $LOCALIZE[620] [COLOR=44white]/[/COLOR] $LOCALIZE[13327]</value>
+        <value condition="Control.HasFocus(103) | Window.IsActive(profiles)">$LOCALIZE[20067] [COLOR=44white]/[/COLOR] $LOCALIZE[20096]</value>
+        <value condition="Control.HasFocus(102) | Window.IsActive(videossettings)">$LOCALIZE[14022] [COLOR=44white]/[/COLOR] $LOCALIZE[14086] [COLOR=44white]/[/COLOR] $LOCALIZE[24012] [COLOR=44white]/[/COLOR] $LOCALIZE[14087]</value>
+        <value condition="Control.HasFocus(101) | Window.IsActive(servicesettings)">$LOCALIZE[20187] [COLOR=44white]/[/COLOR] $LOCALIZE[33101] [COLOR=44white]/[/COLOR] $LOCALIZE[790] [COLOR=44white]/[/COLOR] $LOCALIZE[1259] [COLOR=44white]/[/COLOR] $LOCALIZE[1273] [COLOR=44white]/[/COLOR] $LOCALIZE[1200]</value>
+        <value>$LOCALIZE[166] [COLOR=44white]/[/COLOR] $LOCALIZE[14090] [COLOR=44white]/[/COLOR] $LOCALIZE[14081] [COLOR=44white]/[/COLOR] $LOCALIZE[360]</value>
     </variable>
 
     <variable name="FileManagerSortLetterLabel">
@@ -157,7 +157,7 @@
         <width min="0" max="400">auto</width>
         <height>120</height>
         <font>Font-Condensed-S28</font>
-        <textcolor>eewhite</textcolor>
+        <textcolor>colorText3</textcolor>
         <scroll>false</scroll>
         <align>left</align>
     </include>
@@ -173,7 +173,7 @@
                 <height>120</height>
                 <label>$INFO[Container.NumItems,, $LOCALIZE[41822]]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>80white</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
                 <visible>IntegerGreaterThan(Container.NumItems,0) + !IntegerGreaterThan(Container.NumItems,1)</visible>
@@ -183,7 +183,7 @@
                 <height>120</height>
                 <label>$INFO[Container.NumItems,, $LOCALIZE[41817]]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
                 <visible>!IntegerGreaterThan(Container.NumItems,0) | IntegerGreaterThan(Container.NumItems,1)</visible>
@@ -191,9 +191,9 @@
             <control type="label">
                 <width min="50" max="400">auto</width>
                 <height>120</height>
-                <label>$INFO[Container.CurrentPage, [COLOR=44FFFFFF]/[/COLOR] $LOCALIZE[41819] ,]$INFO[Container.NumPages,/,]</label>
+                <label>$INFO[Container.CurrentPage, / $LOCALIZE[41819] ,]$INFO[Container.NumPages,/,]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
                 <visible>IntegerGreaterThan(Container.NumPages,1)</visible>
@@ -229,7 +229,7 @@
                 <align>center</align>
                 <font>Font-Condensed-S52-B</font>
                 <label>$INFO[ListItem.SortLetter]</label>
-                <textcolor>C0000000</textcolor>
+                <textcolor>colorText3</textcolor>
                 <shadowcolor>white</shadowcolor>
             </control>
         </control>
@@ -273,7 +273,7 @@
                         <height>120</height>
                         <label>$VAR[VideoHeaderLabel]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -282,7 +282,7 @@
                         <height>120</height>
                         <label>$INFO[Container.FolderName,: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>!substring(Container.FolderPath,special,left) + !substring(Container.FolderPath,addons,left) + !substring(Container.FolderPath,sources,left) + !Container.Content(episodes) + !stringcompare(Container.FolderPath,videodb://movies/)</visible>
@@ -292,7 +292,7 @@
                         <height>120</height>
                         <label>$INFO[Container.ListItem.TVShowTitle,: ,]$INFO[Container.ListItem.Season, (,)]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>Container.Content(episodes)</visible>
@@ -324,7 +324,7 @@
                     <height>120</height>
                     <label>$VAR[MusicHeaderLabel]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                 </control>
@@ -333,7 +333,7 @@
                     <height>120</height>
                     <label>$INFO[Container.FolderName,: ,]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                     <visible>!stringcompare(Container.FolderPath,musicdb://genres/) + !stringcompare(Container.FolderPath,musicdb://artists/) + !stringcompare(Container.FolderPath,musicdb://albums/) + !stringcompare(Container.FolderPath,musicdb://songs/) + !stringcompare(Container.FolderPath,musicdb://top100/) + !stringcompare(Container.FolderPath,musicdb://recentlyaddedalbums/) + !stringcompare(Container.FolderPath,musicdb://recentlyplayedalbums/) + !stringcompare(Container.FolderPath,musicdb://compilations/) + !stringcompare(Container.FolderPath,musicdb://years/) + !stringcompare(Container.FolderPath,musicdb://top100/songs/) + !stringcompare(Container.FolderPath,special://musicplaylists/) + !Container.Content(albums)</visible>
@@ -343,7 +343,7 @@
                     <height>120</height>
                     <label>$INFO[ListItem.Artist,: ,]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                     <visible>Container.Content(albums)</visible>
@@ -375,7 +375,7 @@
                         <height>120</height>
                         <label>$LOCALIZE[41504]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -384,7 +384,7 @@
                         <height>120</height>
                         <label>$INFO[Container.FolderName,: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>!IsEmpty(Container.FolderPath)</visible>
@@ -417,7 +417,7 @@
                         <height>120</height>
                         <label>$LOCALIZE[1]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -426,7 +426,7 @@
                         <height>120</height>
                         <label>$INFO[Container.FolderName,: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>!IsEmpty(Container.FolderPath)</visible>
@@ -459,7 +459,7 @@
                         <height>120</height>
                         <label>$VAR[AddonHeaderLabel]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -468,7 +468,7 @@
                         <height>120</height>
                         <label>$INFO[Container.FolderName,: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                         <visible>!IsEmpty(Container.FolderPath) + !stringcompare(Container.FolderPath,addons://disabled/) + !stringcompare(Container.FolderPath,addons://enabled/) + !stringcompare(Container.FolderPath,addons://repos/)</visible>
@@ -529,7 +529,7 @@
                         <align>center</align>
                         <font>Font-Condensed-S52-B</font>
                         <label>$VAR[FileManagerSortLetterLabel]</label>
-                        <textcolor>C0000000</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <shadowcolor>white</shadowcolor>
                     </control>
                 </control>
@@ -540,7 +540,7 @@
                     <height>120</height>
                     <label>$LOCALIZE[7]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                 </control>
@@ -569,7 +569,7 @@
                     <height>120</height>
                     <label>$LOCALIZE[10503]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                 </control>
@@ -601,7 +601,7 @@
                         <height>120</height>
                         <label>$LOCALIZE[5]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -610,7 +610,7 @@
                         <height>120</height>
                         <label>: $VAR[SettingsHeaderLabel]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -623,7 +623,7 @@
                 <height>120</height>
                 <label>$VAR[SettingsHeaderSubLabel]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
                 <wrapmultiline>false</wrapmultiline>
@@ -653,7 +653,7 @@
                         <height>120</height>
                         <label>$LOCALIZE[19020]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -662,7 +662,7 @@
                         <height>120</height>
                         <label>$INFO[Control.GetLabel(29),: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>B0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -671,7 +671,7 @@
                         <height>120</height>
                         <label>$INFO[Control.GetLabel(30),: ,]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>A0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -711,7 +711,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[41562]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0FFFFFF</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
                     <visible>!Weather.IsFetched</visible>
@@ -727,7 +727,7 @@
                         <height>120</height>
                         <label fallback="41563">$INFO[Window.Property(Location)]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -738,7 +738,7 @@
                         <height>120</height>
                         <label>$INFO[Window.Property(WeatherProvider)]</label>
                         <font>Font-Condensed-S28</font>
-                        <textcolor>80FFFFFF</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>

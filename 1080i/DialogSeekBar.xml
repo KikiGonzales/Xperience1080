@@ -63,7 +63,7 @@
                             <midtexture>osd/fullscreen/progress/mid.png</midtexture>
                             <lefttexture>osd/fullscreen/progress/left.png</lefttexture>
                             <righttexture>osd/fullscreen/progress/right.png</righttexture>
-                            <colordiffuse>44FFFFFF</colordiffuse>
+                            <colordiffuse>44white</colordiffuse>
                             <overlaytexture>-</overlaytexture>
                         </control>
                         <control type="progress" id="23">
@@ -86,7 +86,7 @@
                         <width>360</width>
                         <height>25</height>
                         <label>$INFO[Player.Time(hh:mm:ss)]$INFO[Player.Duration(hh:mm:ss), / ,]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <font>Font-Condensed-S34</font>
                         <align>left</align>
                     </control>
@@ -98,7 +98,7 @@
                         <height>25</height>
                         <label>$LOCALIZE[112]</label>
                         <scroll>false</scroll>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <font>Font-Condensed-S34</font>
                         <align>right</align>
                         <visible>Player.Paused + ![Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding] + ![Player.ShowInfo | Window.IsVisible(fullscreeninfo)]</visible>
@@ -113,7 +113,7 @@
                         <height>25</height>
                         <label>$INFO[Player.SeekOffset,$LOCALIZE[773] ,]</label>
                         <scroll>false</scroll>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <font>Font-Condensed-S34</font>
                         <align>right</align>
                         <visible>Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding</visible>
@@ -146,7 +146,7 @@
                                     <posy>0</posy>
                                     <width>55</width>
                                     <height>38</height>
-                                    <colordiffuse>bbwhite</colordiffuse>
+                                    <colordiffuse>BBwhite</colordiffuse>
                                     <texture>flags/other/3d-osd.png</texture>
                                     <include>visiblehidefadeflags</include>
                                     <visible>substring(Player.FileNameAndPath,.3D.) | substring(Player.FileNameAndPath,-3D.)</visible>
@@ -156,7 +156,7 @@
                                     <posy>0</posy>
                                     <width>104</width>
                                     <height>38</height>
-                                    <colordiffuse>bbwhite</colordiffuse>
+                                    <colordiffuse>BBwhite</colordiffuse>
                                     <texture>$INFO[VideoPlayer.VideoResolution,flags/res/osd/,.png]</texture>
                                     <include>visiblehidefadeflags</include>
                                     <visible>!IsEmpty(VideoPlayer.VideoResolution)</visible>
@@ -166,7 +166,7 @@
                                     <posy>0</posy>
                                     <width>88</width>
                                     <height>38</height>
-                                    <colordiffuse>bbwhite</colordiffuse>
+                                    <colordiffuse>BBwhite</colordiffuse>
                                     <texture>$INFO[VideoPlayer.AudioCodec,flags/audio/osd/,.png]</texture>
                                     <include>visiblehidefadeflags</include>
                                     <visible>!IsEmpty(VideoPlayer.AudioCodec)</visible>
@@ -178,7 +178,7 @@
                                 <width>1300</width>
                                 <height>56</height>
                                 <label>[UPPERCASE]$LOCALIZE[41372][/UPPERCASE]</label>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <font>Font-Condensed-S50</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -191,7 +191,7 @@
                                 <width>1300</width>
                                 <height>56</height>
                                 <label>[UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <font>Font-Condensed-S50</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -213,7 +213,7 @@
                                     <width min="0" max="400">auto</width>
                                     <height>100</height>
                                     <label>[B]$INFO[VideoPlayer.ChannelNumber][/B]</label>
-                                    <textcolor>99FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S100</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -225,7 +225,7 @@
                                     <width>900</width>
                                     <height>100</height>
                                     <label>[UPPERCASE]$INFO[VideoPlayer.ChannelName, ,][/UPPERCASE]</label>
-                                    <textcolor>99FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S50</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -252,7 +252,7 @@
                                 <width>1240</width>
                                 <height>56</height>
                                 <label>$INFO[VideoPlayer.Title]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <font>Font-Condensed-S50-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -269,7 +269,7 @@
                                     <height>44</height>
                                     <label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, • ,]</label>
                                     <label2>$INFO[VideoPlayer.Rating, ★ ,]</label2>
-                                    <disabledcolor>88FFFFFF</disabledcolor>
+                                    <disabledcolor>96white</disabledcolor>
                                     <font>Font-Condensed-S36</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -283,7 +283,7 @@
                                     <height>44</height>
                                     <label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre]</label>
                                     <label2>$INFO[VideoPlayer.Rating, ★ ,]</label2>
-                                    <disabledcolor>88FFFFFF</disabledcolor>
+                                    <disabledcolor>96white</disabledcolor>
                                     <font>Font-Condensed-S36</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -296,7 +296,7 @@
                                     <width>1460</width>
                                     <height>90</height>
                                     <label>$INFO[VideoPlayer.Plot]</label>
-                                    <textcolor>aawhite</textcolor>
+                                    <textcolor>AAwhite</textcolor>
                                     <font>Font-Condensed-S32</font>
                                     <align>justify</align>
                                     <autoscroll delay="11500" time="5000" repeat="7500">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -322,7 +322,7 @@
                                 <width>1240</width>
                                 <height>56</height>
                                 <label>$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.Title]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <font>Font-Condensed-S50-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -339,7 +339,7 @@
                                     <height>44</height>
                                     <label>$INFO[VideoPlayer.TVShowTitle]$INFO[VideoPlayer.Season, • $LOCALIZE[20373] ,]</label>
                                     <label2>$INFO[VideoPlayer.Rating, ★ ,]</label2>
-                                    <disabledcolor>88FFFFFF</disabledcolor>
+                                    <disabledcolor>96white</disabledcolor>
                                     <font>Font-Condensed-S36</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -351,7 +351,7 @@
                                     <width>1460</width>
                                     <height>90</height>
                                     <label>$INFO[VideoPlayer.Plot]</label>
-                                    <textcolor>aawhite</textcolor>
+                                    <textcolor>AAwhite</textcolor>
                                     <font>Font-Condensed-S32</font>
                                     <align>justify</align>
                                     <autoscroll delay="11500" time="5000" repeat="7500">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -375,7 +375,7 @@
                                 <width>1240</width>
                                 <height>56</height>
                                 <label>$VAR[OSDTitle]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <font>Font-Condensed-S50-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -391,7 +391,7 @@
                                     <width>1160</width>
                                     <height>44</height>
                                     <label>$VAR[OSDNextTitle]</label>
-                                    <textcolor>88FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S36</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -403,7 +403,7 @@
                                     <width>1460</width>
                                     <height>90</height>
                                     <label>$VAR[OSDPlot]</label>
-                                    <textcolor>aawhite</textcolor>
+                                    <textcolor>AAwhite</textcolor>
                                     <font>Font-Condensed-S32</font>
                                     <align>justify</align>
                                     <autoscroll delay="11500" time="5000" repeat="7500">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -429,7 +429,7 @@
                                 <width>1240</width>
                                 <height>56</height>
                                 <label>$INFO[VideoPlayer.Title]</label>
-                                <textcolor>bbwhite</textcolor>
+                                <textcolor>BBwhite</textcolor>
                                 <font>Font-Condensed-S50-B</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
@@ -447,7 +447,7 @@
                                     <width>1460</width>
                                     <height>44</height>
                                     <label>$INFO[VideoPlayer.Artist]</label>
-                                    <textcolor>99FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S36-B</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -460,7 +460,7 @@
                                     <width>1460</width>
                                     <height>44</height>
                                     <label>$INFO[VideoPlayer.Album]</label>
-                                    <textcolor>99FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S36-B</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
@@ -473,7 +473,7 @@
                                     <width>1460</width>
                                     <height>44</height>
                                     <label>$INFO[Player.FolderPath]</label>
-                                    <textcolor>88FFFFFF</textcolor>
+                                    <textcolor>96white</textcolor>
                                     <font>Font-Condensed-S36</font>
                                     <align>left</align>
                                     <aligny>center</aligny>

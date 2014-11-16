@@ -82,7 +82,7 @@
                 <align>left</align>
                 <textoffsetx>20</textoffsetx>
                 <font>Font-Condensed-S30</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <label>$LOCALIZE[41141]</label>
                 <label2>$VAR[CustomHomePanelTypeName]</label2>
                 <visible>ControlGroup(2405).HasFocus</visible>
@@ -215,7 +215,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window(skinsettings).property(Dialog)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -254,7 +254,7 @@
                     <width>257</width>
                     <height>60</height>
                     <texture>windows/common/black.png</texture>
-                    <colordiffuse>15FFFFFF</colordiffuse>
+                    <colordiffuse>20white</colordiffuse>
                     <aspectratio>stretch</aspectratio>
                     <animation effect="slide" end="0,60" time="0" condition="ControlGroup(3).HasFocus(2102)">Conditional</animation>
                     <animation effect="slide" end="0,120" time="0" condition="ControlGroup(3).HasFocus(2103)">Conditional</animation>

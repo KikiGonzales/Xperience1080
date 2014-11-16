@@ -72,7 +72,7 @@
                         <width>666</width>
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <animation effect="slide" start="0" end="50" time="200" tween="sine" easing="inout" condition="!stringcompare(Control.GetLabel(101),$LOCALIZE[20108])">Conditional</animation>
                     </control>
                     <control type="group">
@@ -140,7 +140,7 @@
                                 <width>752</width>
                                 <height>60</height>
                                 <texture>selected.png</texture>
-                                <colordiffuse>08FFFFFF</colordiffuse>
+                                <colordiffuse>08white</colordiffuse>
                                 <aspectratio aligny="top">keep</aspectratio>
                                 <visible>ListItem.IsSelected</visible>
                             </control>
@@ -201,7 +201,7 @@
                                 <width>752</width>
                                 <height>60</height>
                                 <texture>selected.png</texture>
-                                <colordiffuse>08FFFFFF</colordiffuse>
+                                <colordiffuse>08white</colordiffuse>
                                 <aspectratio aligny="top">keep</aspectratio>
                                 <visible>ListItem.IsSelected</visible>
                             </control>
@@ -237,7 +237,7 @@
                                 <font>Font-Condensed-S30</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <selectedcolor>SelectedGreen</selectedcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
@@ -255,7 +255,7 @@
                                 <font>Font-Condensed-S27</font>
                                 <align>right</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <selectedcolor>SelectedGreen</selectedcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
@@ -349,7 +349,7 @@
                         <width>666</width>
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <animation effect="slide" start="0" end="50" time="200" tween="sine" easing="inout" condition="!stringcompare(Control.GetLabel(102),$LOCALIZE[20108])">Conditional</animation>
                     </control>
                     <control type="group">
@@ -515,8 +515,8 @@
                                     <font>Font-Condensed-S30</font>
                                     <align>left</align>
                                     <aligny>center</aligny>
-                                    <textcolor>eewhite</textcolor>
-                                    <selectedcolor>eewhite</selectedcolor>
+                                    <textcolor>EEwhite</textcolor>
+                                    <selectedcolor>EEwhite</selectedcolor>
                                     <shadowcolor>22000000</shadowcolor>
                                     <scroll>false</scroll>
                                 </control>
@@ -529,8 +529,8 @@
                                     <font>Font-Condensed-S27</font>
                                     <align>right</align>
                                     <aligny>center</aligny>
-                                    <textcolor>eewhite</textcolor>
-                                    <selectedcolor>eewhite</selectedcolor>
+                                    <textcolor>EEwhite</textcolor>
+                                    <selectedcolor>EEwhite</selectedcolor>
                                     <shadowcolor>22000000</shadowcolor>
                                     <scroll>false</scroll>
                                 </control>

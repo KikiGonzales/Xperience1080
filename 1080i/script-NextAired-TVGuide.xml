@@ -22,6 +22,11 @@
             <include>FullscreenDimensions</include>
             <texture background="true">special://skin/extras/fade/overlay.png</texture>
         </control>
+        <control type="image">
+            <include>FullscreenDimensions</include>
+            <texture>windows/overlay.png</texture>
+			<colordiffuse>colorBackground</colordiffuse>
+        </control>		
         <control type="group">
             <posx>75</posx>
             <posy>26</posy>
@@ -32,6 +37,7 @@
                 <width>85</width>
                 <height>85</height>
                 <texture>DefaultTVGuide.png</texture>
+				<colordiffuse>colorText3</colordiffuse>
             </control>
             <control type="label">
                 <posx>110</posx>
@@ -40,7 +46,7 @@
                 <height>120</height>
                 <label>$LOCALIZE[42160]</label>
                 <font>Font-Condensed-S36-B</font>
-                <textcolor>C0FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
             </control>
@@ -51,7 +57,7 @@
                 <height>120</height>
                 <label>$INFO[System.Date]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80FFFFFF</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
             </control>
@@ -567,7 +573,8 @@
                     <posy>-3</posy>
                     <width>484</width>
                     <height>592</height>
-                    <texture border="3">views/list/panel/panel.png</texture>
+                    <texture border="3">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <description>Focus image</description>
@@ -787,7 +794,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>

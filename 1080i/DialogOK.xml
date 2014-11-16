@@ -44,8 +44,8 @@
                         <texturefocus border="20">dialogs/keyboard/donefocus.png</texturefocus>
                         <texturenofocus border="20">dialogs/keyboard/key-nf.png</texturenofocus>
                         <textcolor>KeyboardGrey</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
-                        <selectedcolor>eewhite</selectedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
+                        <selectedcolor>EEwhite</selectedcolor>
                     </control>
                 </control>
                 <control type="label" id="1">
@@ -56,7 +56,7 @@
                     <height>22</height>
                     <font>Font-Condensed-S34</font>
                     <align>center</align>
-                    <textcolor>77FFFFFF</textcolor>
+                    <textcolor>77white</textcolor>
                     <animation effect="slide" end="0,25" time="0" condition="IsEmpty(Control.GetLabel(2))">Conditional</animation>
                     <animation effect="slide" end="0,25" time="0" condition="IsEmpty(Control.GetLabel(3))">Conditional</animation>
                     <animation effect="slide" end="0,25" time="0" condition="IsEmpty(Control.GetLabel(4))">Conditional</animation>

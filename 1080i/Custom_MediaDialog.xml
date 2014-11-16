@@ -33,7 +33,7 @@
                     <height>60</height>
                     <label>←</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -47,7 +47,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[13511]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Window.IsActive(selectdialog) | Window.IsActive(DialogSelect.xml) | Window.IsActive(filebrowser)">Conditional</animation>
@@ -60,7 +60,7 @@
                     <height>60</height>
                     <label>→</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -105,9 +105,9 @@
                     <label>$LOCALIZE[13511]</label>
                     <font>Font-Condensed-S40</font>
                     <textoffsetx>30</textoffsetx>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>33000000</shadowcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <texturefocus border="90,3,90,3">views/list/other/separator.png</texturefocus>
                     <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                     <align>left</align>
@@ -129,8 +129,8 @@
                     <font>Font-Condensed-S40-B</font>
                     <align>left</align>
                     <aligny>top</aligny>
-                    <textcolor>bbwhite</textcolor>
-                    <disabledcolor>bbwhite</disabledcolor>
+                    <textcolor>BBwhite</textcolor>
+                    <disabledcolor>BBwhite</disabledcolor>
                     <textoffsetx>30</textoffsetx>
                     <textoffsety>34</textoffsety>
                     <enable>false</enable>
@@ -165,7 +165,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
                         </control>
@@ -196,7 +196,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <animation effect="fade" start="50" end="100" time="300" tween="sine" easing="inout" reversible="false" condition="Container(3).OnNext | Container(3).OnPrevious">Focus</animation>
                             <animation effect="fade" start="100" end="50" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(3)">Conditional</animation>

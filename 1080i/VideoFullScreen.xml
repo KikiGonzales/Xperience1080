@@ -19,7 +19,7 @@
                 <posy>10</posy>
                 <width>1660</width>
                 <height>98</height>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S34</font>
                 <label>-</label>
             </control>
@@ -29,7 +29,7 @@
                 <posy>104</posy>
                 <width>1660</width>
                 <height>98</height>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S34</font>
                 <label>-</label>
             </control>
@@ -39,7 +39,7 @@
                 <posy>198</posy>
                 <width>1660</width>
                 <height>98</height>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S34</font>
                 <label>-</label>
             </control>
@@ -64,7 +64,7 @@
     			<width>1200</width>
     			<height>80</height>
     			<label>$LOCALIZE[19005]</label>
-    			<textcolor>ddwhite</textcolor>
+    			<textcolor>DDwhite</textcolor>
     			<font>Font-Condensed-S40-B</font>
     			<scroll>false</scroll>
     		</control>
@@ -86,7 +86,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamClient]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -108,7 +108,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamDevice]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -130,7 +130,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamStatus]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -165,7 +165,7 @@
     			<width>246</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamSignal]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -200,7 +200,7 @@
     			<width>246</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamSNR]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -222,7 +222,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamBER]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -244,7 +244,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamUNC]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>
@@ -266,7 +266,7 @@
     			<width>1410</width>
     			<height>54</height>
     			<label>$INFO[PVR.ActStreamEncryptionName]</label>
-    			<textcolor>aawhite</textcolor>
+    			<textcolor>AAwhite</textcolor>
     			<font>Font-Condensed-S34</font>
     			<scroll>false</scroll>
     		</control>

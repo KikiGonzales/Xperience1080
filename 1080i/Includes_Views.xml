@@ -110,39 +110,39 @@
     </variable>
 
     <variable name="LandscapeHDSD3DLabel">
-        <value condition="SubString(ListItem.FileNameAndPath,.3D.) | SubString(ListItem.FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(ListItem.VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(ListItem.VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(ListItem.FileNameAndPath,.3D.) | SubString(ListItem.FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(ListItem.VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(ListItem.VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <variable name="LandscapeHDSD3DLabel0">
-        <value condition="SubString(Container(54).ListItem(0).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(0).FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(Container(54).ListItem(0).VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(Container(54).ListItem(0).VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(Container(54).ListItem(0).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(0).FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(Container(54).ListItem(0).VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(Container(54).ListItem(0).VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <variable name="LandscapeHDSD3DLabel1">
-        <value condition="SubString(Container(54).ListItem(1).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(1).FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(Container(54).ListItem(1).VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(Container(54).ListItem(1).VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(Container(54).ListItem(1).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(1).FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(Container(54).ListItem(1).VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(Container(54).ListItem(1).VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <variable name="LandscapeHDSD3DLabel2">
-        <value condition="SubString(Container(54).ListItem(2).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(2).FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(Container(54).ListItem(2).VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(Container(54).ListItem(2).VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(Container(54).ListItem(2).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(2).FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(Container(54).ListItem(2).VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(Container(54).ListItem(2).VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <variable name="LandscapeHDSD3DLabel3">
-        <value condition="SubString(Container(54).ListItem(3).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(3).FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(Container(54).ListItem(3).VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(Container(54).ListItem(3).VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(Container(54).ListItem(3).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(3).FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(Container(54).ListItem(3).VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(Container(54).ListItem(3).VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <variable name="LandscapeHDSD3DLabel-1">
-        <value condition="SubString(Container(54).ListItem(-1).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(-1).FileNameAndPath,-3D.)"> [COLOR=44FFFFFF]/[/COLOR] 3D</value>
-        <value condition="IntegerGreaterThan(Container(54).ListItem(-1).VideoResolution,719)"> [COLOR=44FFFFFF]/[/COLOR] HD</value>
-        <value condition="!IsEmpty(Container(54).ListItem(-1).VideoResolution)"> [COLOR=44FFFFFF]/[/COLOR] SD</value>
+        <value condition="SubString(Container(54).ListItem(-1).FileNameAndPath,.3D.) | SubString(Container(54).ListItem(-1).FileNameAndPath,-3D.)"> [COLOR=44white]/[/COLOR] 3D</value>
+        <value condition="IntegerGreaterThan(Container(54).ListItem(-1).VideoResolution,719)"> [COLOR=44white]/[/COLOR] HD</value>
+        <value condition="!IsEmpty(Container(54).ListItem(-1).VideoResolution)"> [COLOR=44white]/[/COLOR] SD</value>
     </variable>
 
     <!-- Overlays -->
@@ -570,18 +570,18 @@
     </variable>
 
     <variable name="Colordiffuse.Color">
-        <value condition="ListItem.IsPlaying">D4FFFFFF</value>
-        <value>99FFFFFF</value>
+        <value condition="ListItem.IsPlaying">D4white</value>
+        <value>96white</value>
     </variable>
 
     <variable name="Colordiffuse.Color.2">
-        <value condition="ListItem.IsPlaying">D4FFFFFF</value>
+        <value condition="ListItem.IsPlaying">D4white</value>
         <value>77white</value>
     </variable>
 
     <variable name="Colordiffuse.Color.3">
-        <value condition="ListItem.IsPlaying">FFFFFFFF</value>
-        <value>7FFFFFFF</value>
+        <value condition="ListItem.IsPlaying">white</value>
+        <value>77white</value>
     </variable>
 
     <variable name="SelectedColor.Open">
@@ -696,7 +696,7 @@
     </variable>
 
     <variable name="VideoPanelThumbInfo">
-        <value condition="Container.Content(movies)">$INFO[ListItem.Rating,★ , [COLOR=44FFFFFF]/[/COLOR] ]$INFO[ListItem.Year]$INFO[ListItem.Duration, [COLOR=44FFFFFF]/[/COLOR] , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel]</value>
+        <value condition="Container.Content(movies)">$INFO[ListItem.Rating,★ , [COLOR=44white]/[/COLOR] ]$INFO[ListItem.Year]$INFO[ListItem.Duration, [COLOR=44white]/[/COLOR] , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel]</value>
         <value>$INFO[ListItem.Property(UnWatchedEpisodes),$LOCALIZE[41311],]</value>
     </variable>
 

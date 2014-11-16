@@ -30,7 +30,7 @@
             <include condition="StringCompare(Window(Home).Property(search_list),111) | StringCompare(Window(Home).Property(search_list),121) | StringCompare(Window(Home).Property(search_list),131)">ContextMenuSearchSmallWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),141) | StringCompare(Window(Home).Property(search_list),151)">ContextMenuSearchLargeWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),161) | StringCompare(Window(Home).Property(search_list),171) | StringCompare(Window(Home).Property(search_list),181)">ContextMenuSearchMediumWidth</include>
-            <textcolor>aawhite</textcolor>
+            <textcolor>AAwhite</textcolor>
             <texturefocus border="45,2,45,2">dialogs/context/selection.png</texturefocus>
             <include>ContextMenuButtonVars</include>
             <label>$INFO[Control.GetLabel(1001)]</label>
@@ -46,7 +46,7 @@
             <include condition="StringCompare(Window(Home).Property(search_list),111) | StringCompare(Window(Home).Property(search_list),121) | StringCompare(Window(Home).Property(search_list),131)">ContextMenuSearchSmallWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),141) | StringCompare(Window(Home).Property(search_list),151)">ContextMenuSearchLargeWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),161) | StringCompare(Window(Home).Property(search_list),171) | StringCompare(Window(Home).Property(search_list),181)">ContextMenuSearchMediumWidth</include>
-            <textcolor>aawhite</textcolor>
+            <textcolor>AAwhite</textcolor>
             <texturefocus border="45,2,45,2">dialogs/context/selection.png</texturefocus>
             <include>ContextMenuButtonVars</include>
             <label>$INFO[Control.GetLabel(1002)]</label>
@@ -63,7 +63,7 @@
             <include condition="StringCompare(Window(Home).Property(search_list),111) | StringCompare(Window(Home).Property(search_list),121) | StringCompare(Window(Home).Property(search_list),131)">ContextMenuSearchSmallWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),141) | StringCompare(Window(Home).Property(search_list),151)">ContextMenuSearchLargeWidth</include>
             <include condition="StringCompare(Window(Home).Property(search_list),161) | StringCompare(Window(Home).Property(search_list),171) | StringCompare(Window(Home).Property(search_list),181)">ContextMenuSearchMediumWidth</include>
-            <textcolor>aawhite</textcolor>
+            <textcolor>AAwhite</textcolor>
             <texturefocus border="45,2,45,2">dialogs/context/selection.png</texturefocus>
             <include>ContextMenuButtonVars</include>
             <label>$INFO[Control.GetLabel(1003)]</label>

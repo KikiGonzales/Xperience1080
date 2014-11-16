@@ -44,7 +44,7 @@
                         <height>100</height>
                         <label>$INFO[Player.Volume]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                     </control>
@@ -59,7 +59,7 @@
                         <height>100</height>
                         <label>$LOCALIZE[29802]</label>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0FFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                     </control>
@@ -104,7 +104,7 @@
                     <height>34</height>
                     <label>$INFO[Player.Volume]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>right</align>
                     <scroll>No</scroll>
                 </control>
@@ -127,7 +127,7 @@
                     <height>34</height>
                     <label>$LOCALIZE[29802]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                     <align>right</align>
                     <scroll>No</scroll>
                 </control>

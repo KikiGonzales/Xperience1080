@@ -17,7 +17,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$LOCALIZE[20043]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
                 <control type="image">
@@ -67,9 +67,9 @@
                     <textoffsetx>20</textoffsetx>
                     <align>left</align>
                     <textcolor>FF585858</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <disabledcolor>77585858</disabledcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                 </control>
@@ -80,9 +80,9 @@
                     <textoffsetx>20</textoffsetx>
                     <radioposx>538</radioposx>
                     <textcolor>FF585858</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <disabledcolor>77585858</disabledcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
                     <textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
                     <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -100,9 +100,9 @@
                     <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                     <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
                     <textcolor>FF585858</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <disabledcolor>77585858</disabledcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <textoffsetx>20</textoffsetx>
                     <spinposx>16</spinposx>
                     <visible>!Window.IsActive(contextmenu)</visible>

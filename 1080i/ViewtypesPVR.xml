@@ -28,7 +28,8 @@
                         <posy>-3</posy>
                         <width>580</width>
                         <height>676</height>
-                        <texture border="4">views/list/panel/panel.png</texture>
+                        <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
                     </control>
                     <control type="label">
                         <posx>30</posx>
@@ -36,7 +37,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S40</font>
                         <label>$INFO[Container(11).ListItem.Title]</label>
-                        <textcolor>ddwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -51,7 +52,7 @@
                     	    <height>416</height>
                     	    <info>Container(11).ListItem.Plot</info>
                     	    <align>justify</align>
-                    	    <textcolor>aawhite</textcolor>
+                    	    <textcolor>colorText2</textcolor>
                     	    <shadowcolor>33000000</shadowcolor>
                     	    <pagecontrol>71</pagecontrol>
                     	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -68,7 +69,7 @@
 	                    	<midtexture>windows/pvr/progress-mid-wide.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>Container(11).ListItem.Progress</info>
-	                    	<colordiffuse>bbwhite</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    </control>
 	                    <control type="label">
 	                        <posx>30</posx>
@@ -76,7 +77,7 @@
 	                        <width>516</width>
 	                        <font>Font-Condensed-S30-B</font>
 	                        <label>$INFO[Container(11).ListItem.Genre]</label>
-	                        <textcolor>aawhite</textcolor>
+	                        <textcolor>colorText2</textcolor>
 	                        <shadowcolor>22000000</shadowcolor>
 	                        <scroll>false</scroll>
 	                    </control>
@@ -86,7 +87,7 @@
 	                        <width>516</width>
 	                        <font>Font-Condensed-S30</font>
 	                        <label>$INFO[Container(11).ListItem.NextTitle,$LOCALIZE[19031]: ,]$INFO[Container(11).ListItem.NextStartTime, (,)]</label>
-	                        <textcolor>aawhite</textcolor>
+	                        <textcolor>colorText2</textcolor>
 	                        <shadowcolor>22000000</shadowcolor>
 	                        <scroll>false</scroll>
 	                    </control>
@@ -100,7 +101,7 @@
 	            	    <height>72</height>
 	            	    <font>Font-Condensed-S40</font>
 	            	    <label>$LOCALIZE[19055]</label>
-	            	    <textcolor>77white</textcolor>
+	            	    <textcolor>colorText2</textcolor>
 	            	    <shadowcolor>22000000</shadowcolor>
 	            	    <scroll>false</scroll>
 	            	    <align>center</align>
@@ -142,7 +143,7 @@
                 	<width>300</width>
                 	<height>30</height>
                 	<font>Font-Condensed-S30-B</font>
-                	<textcolor>99FFFFFF</textcolor>
+                	<textcolor>colorText3</textcolor>
                 	<shadowcolor>55000000</shadowcolor>
                 	<align>left</align>
                 	<aligny>center</aligny>
@@ -162,7 +163,8 @@
                     <posy>215</posy>
                     <width>1026</width>
                     <height>676</height>
-                    <texture border="4">views/list/panel/panel.png</texture>
+					<texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="list" id="11">
                     <posx>150</posx>
@@ -191,7 +193,7 @@
                             <width>1022</width>
                             <height>94</height>
                             <texture>views/other/selected.png</texture>
-                            <colordiffuse>07FFFFFF</colordiffuse>
+                            <colordiffuse>07white</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
                             <visible>ListItem.IsPlaying</visible>
                         </control>
@@ -201,6 +203,7 @@
                             <width>80</width>
                             <height>80</height>
                             <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+							<colordiffuse>colorText3</colordiffuse>
                             <aspectratio>keep</aspectratio>
                         </control>
                         <control type="label">
@@ -212,8 +215,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>99FFFFFF</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>ListItem.HasEpg</visible>
                         </control>
@@ -226,8 +229,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
-                            <textcolor>99FFFFFF</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
                         </control>
@@ -242,7 +245,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>77white</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<visible>ListItem.HasEpg + !ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="progress">
@@ -256,7 +259,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>D4FFFFFF</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<visible>ListItem.HasEpg + ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="label">
@@ -268,8 +271,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -282,8 +285,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                        <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
@@ -297,8 +300,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Title]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -311,8 +314,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>99FFFFFF</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+							<selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <visible>!ListItem.HasEpg</visible>
                         </control>
@@ -357,7 +360,7 @@
                             <width>1022</width>
                             <height>94</height>
                             <texture>views/other/selected.png</texture>
-                            <colordiffuse>07FFFFFF</colordiffuse>
+                            <colordiffuse>07white</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
                             <visible>ListItem.IsPlaying</visible>
                         </control>
@@ -378,6 +381,7 @@
                             <width>80</width>
                             <height>80</height>
                             <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+							<colordiffuse>colorText2</colordiffuse>
                             <aspectratio>keep</aspectratio>
                         </control>
                         <control type="group">
@@ -394,8 +398,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>right</align>
                                 <label>$VAR[ListItem.ChannelNumber]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+								<selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>ListItem.HasEpg</visible>
                             </control>
@@ -408,8 +412,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>right</align>
                                 <label>$VAR[ListItem.ChannelNumber]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+								<selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>!ListItem.HasEpg</visible>
                             </control>
@@ -422,8 +426,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>left</align>
                                 <label>$VAR[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+								<selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>ListItem.HasEpg</visible>
                             </control>
@@ -436,8 +440,7 @@
                                 <font>Font-Condensed-S28</font>
                                 <align>right</align>
                                 <label>$INFO[ListItem.EndTime,→ ,]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
                                 <scroll>false</scroll>
                                 <visible>ListItem.HasEpg</visible>
                                 <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
@@ -451,8 +454,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>left</align>
                                 <label>$VAR[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+								<selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <visible>!ListItem.HasEpg</visible>
                             </control>
@@ -467,7 +470,7 @@
 		                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 		                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 		                    	<info>ListItem.Progress</info>
-		                    	<colordiffuse>D4FFFFFF</colordiffuse>
+		                    	<colordiffuse>colorText3</colordiffuse>
 		                    	<visible>ListItem.HasEpg</visible>
 		                    </control>
 		                    <control type="label">
@@ -479,8 +482,8 @@
 		                        <font>Font-Condensed-S28</font>
 		                        <align>left</align>
 		                        <label>$INFO[ListItem.Title]</label>
-		                        <textcolor>D4FFFFFF</textcolor>
-		                        <selectedcolor>D4FFFFFF</selectedcolor>
+		                        <textcolor>colorText2</textcolor>
+								<selectedcolor>colorTextSelected</selectedcolor>
 		                        <scroll>false</scroll>
 		                        <visible>ListItem.HasEpg</visible>
 		                    </control>
@@ -560,7 +563,8 @@
                         <posy>-3</posy>
                         <width>580</width>
                         <height>676</height>
-                        <texture border="4">views/list/panel/panel.png</texture>
+                        <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
                     </control>
                     <control type="label">
                         <posx>30</posx>
@@ -568,7 +572,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S40</font>
                         <label>$INFO[Container(12).ListItem.Title]</label>
-                        <textcolor>ddwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -583,7 +587,7 @@
                     	    <height>416</height>
                     	    <info>Container(12).ListItem.Plot</info>
                     	    <align>justify</align>
-                    	    <textcolor>aawhite</textcolor>
+                    	    <textcolor>colorText2</textcolor>
                     	    <shadowcolor>33000000</shadowcolor>
                     	    <pagecontrol>71</pagecontrol>
                     	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -600,7 +604,7 @@
                         	<midtexture>windows/pvr/progress-mid-wide.png</midtexture>
                         	<righttexture>windows/pvr/progress-leftright.png</righttexture>
                         	<info>Container(12).ListItem.Progress</info>
-                        	<colordiffuse>bbwhite</colordiffuse>
+                        	<colordiffuse>colorText3</colordiffuse>
                         </control>
                         <control type="label">
                             <posx>30</posx>
@@ -608,7 +612,7 @@
                             <width>516</width>
                             <font>Font-Condensed-S30-B</font>
                             <label>$INFO[Container(12).ListItem.Genre]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -618,7 +622,7 @@
                             <width>516</width>
                             <font>Font-Condensed-S30</font>
                             <label>$INFO[Container(12).ListItem.NextTitle,$LOCALIZE[19031]: ,]$INFO[Container(12).ListItem.NextStartTime, (,)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -674,7 +678,7 @@
 	            	<width>300</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
+	            	<textcolor>colorText3</textcolor>
 	            	<shadowcolor>55000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
@@ -694,7 +698,8 @@
 	                <posy>215</posy>
 	                <width>1026</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="list" id="12">
 	                <posx>150</posx>
@@ -723,7 +728,7 @@
 	                        <width>1022</width>
 	                        <height>94</height>
 	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07FFFFFF</colordiffuse>
+	                        <colordiffuse>07white</colordiffuse>
 	                        <aspectratio aligny="top">center</aspectratio>
 	                        <visible>ListItem.IsPlaying</visible>
 	                    </control>
@@ -733,6 +738,7 @@
 	                        <width>80</width>
 	                        <height>80</height>
 	                        <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+							<colordiffuse>colorText3</colordiffuse>
 	                        <aspectratio>keep</aspectratio>
 	                    </control>
 	                    <control type="label">
@@ -744,8 +750,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.ChannelNumber]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -758,8 +763,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.ChannelNumber]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasEpg</visible>
 	                    </control>
@@ -774,7 +778,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>77white</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<visible>ListItem.HasEpg + !ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="progress">
@@ -788,7 +792,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>D4FFFFFF</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<visible>ListItem.HasEpg + ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="label">
@@ -800,8 +804,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -814,8 +817,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                        <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
@@ -829,8 +831,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Title]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -843,8 +844,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasEpg</visible>
 	                    </control>
@@ -889,7 +889,7 @@
 	                        <width>1022</width>
 	                        <height>94</height>
 	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07FFFFFF</colordiffuse>
+	                        <colordiffuse>07white</colordiffuse>
 	                        <aspectratio aligny="top">center</aspectratio>
 	                        <visible>ListItem.IsPlaying</visible>
 	                    </control>
@@ -926,8 +926,7 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$VAR[ListItem.ChannelNumber]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -940,8 +939,7 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$VAR[ListItem.ChannelNumber]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasEpg</visible>
 	                        </control>
@@ -954,8 +952,7 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$VAR[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -968,8 +965,7 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                            <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
@@ -983,8 +979,7 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$VAR[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasEpg</visible>
 	                        </control>
@@ -999,7 +994,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>D4FFFFFF</colordiffuse>
+	                        	<colordiffuse>colorText3</colordiffuse>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
 	                        <control type="label">
@@ -1011,8 +1006,7 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Title]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -1096,7 +1090,8 @@
     			    <posy>215</posy>
     			    <width>504</width>
     			    <height>483</height>
-    			    <texture border="4">views/list/panel/panel.png</texture>
+    			    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
     			</control>
     			<control type="epggrid" id="10">
     				<description>EPG Grid</description>
@@ -1119,9 +1114,8 @@
     						<width>10</width>
     						<height>30</height>
     						<font>Font-Condensed-S30-B</font>
-    						<textcolor>99FFFFFF</textcolor>
-    						<selectedcolor>99FFFFFF</selectedcolor>
-    						<shadowcolor>55000000</shadowcolor>
+    						<textcolor>colorText3</textcolor>
+    						<shadowcolor>22000000</shadowcolor>
     						<align>left</align>
     						<aligny>center</aligny>
     						<label>$INFO[ListItem.Label]</label>
@@ -1141,7 +1135,7 @@
     				        <width>500</width>
     				        <height>79</height>
     				        <texture>views/other/selected.png</texture>
-    				        <colordiffuse>07FFFFFF</colordiffuse>
+    				        <colordiffuse>07white</colordiffuse>
     				        <aspectratio aligny="top">center</aspectratio>
     				        <visible>ListItem.IsSelected | ListItem.IsPlaying</visible>
     				    </control>
@@ -1151,6 +1145,7 @@
     				        <width>70</width>
     				        <height>70</height>
     				        <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+							<colordiffuse>colorText3</colordiffuse>
     				        <aspectratio>keep</aspectratio>
     				    </control>
     				    <control type="label">
@@ -1162,8 +1157,7 @@
     				        <font>Font-Condensed-S34-B</font>
     				        <align>left</align>
     				        <label>$INFO[ListItem.ChannelName]</label>
-    				        <textcolor>99FFFFFF</textcolor>
-    				        <selectedcolor>SelectedGreen</selectedcolor>
+    				        <textcolor>colorText3</textcolor>
     				        <scroll>false</scroll>
     				    </control>
     				    <control type="label">
@@ -1175,8 +1169,7 @@
     				        <font>Font-Condensed-S34</font>
     				        <align>right</align>
     				        <label>$INFO[ListItem.ChannelNumber]</label>
-    				        <textcolor>99FFFFFF</textcolor>
-    				        <selectedcolor>SelectedGreen</selectedcolor>
+    				        <textcolor>colorText3</textcolor>
     				        <scroll>false</scroll>
     				    </control>
     				</channellayout>
@@ -1194,7 +1187,7 @@
     					    <width>500</width>
     					    <height>79</height>
     					    <texture>views/other/selected.png</texture>
-    					    <colordiffuse>07FFFFFF</colordiffuse>
+    					    <colordiffuse>07white</colordiffuse>
     					    <aspectratio aligny="top">center</aspectratio>
     					    <visible>ListItem.IsSelected | ListItem.IsPlaying</visible>
     					</control>
@@ -1213,6 +1206,7 @@
     					    <width>70</width>
     					    <height>70</height>
     					    <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+							<colordiffuse>colorText2</colordiffuse>
     					    <aspectratio>keep</aspectratio>
     					</control>
     					<control type="label">
@@ -1224,8 +1218,7 @@
     					    <font>Font-Condensed-S34-B</font>
     					    <align>left</align>
     					    <label>$INFO[ListItem.ChannelName]</label>
-    					    <textcolor>eewhite</textcolor>
-    					    <selectedcolor>SelectedGreen</selectedcolor>
+    					    <textcolor>colorText2</textcolor>
     					    <scroll>false</scroll>
     					    <animation effect="fade" start="100" end="64" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(10) + ![ListItem.IsSelected | ListItem.IsPlaying]">Conditional</animation>
     					</control>
@@ -1238,8 +1231,7 @@
     					    <font>Font-Condensed-S34</font>
     					    <align>right</align>
     					    <label>$INFO[ListItem.ChannelNumber]</label>
-    					    <textcolor>eewhite</textcolor>
-    					    <selectedcolor>SelectedGreen</selectedcolor>
+    					    <textcolor>colorText2</textcolor>
     					    <scroll>false</scroll>
     					    <animation effect="fade" start="100" end="64" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(10) + ![ListItem.IsSelected | ListItem.IsPlaying]">Conditional</animation>
     					</control>
@@ -1249,9 +1241,10 @@
     					    <posx>2</posx>
     					    <posy>0</posy>
     						<width>98</width>
-    						<height>80</height>
+    						<height>78</height>
     						<aspectratio>stretch</aspectratio>
-    						<texture border="12">windows/pvr/epg-back.png</texture>
+    						<texture border="2">texture.png</texture>
+							<colordiffuse>colorTheme</colordiffuse>
     						<visible>!Skin.HasSetting(EPGGenreColors.Enabled)</visible>
     					</control>
     					<control type="image" id="2">
@@ -1270,8 +1263,7 @@
     						<height>78</height>
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
-    						<textcolor>77white</textcolor>
-    						<selectedcolor>77white</selectedcolor>
+    						<textcolor>colorText3</textcolor>
     						<shadowcolor>22000000</shadowcolor>
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
@@ -1285,9 +1277,8 @@
     						<height>78</height>
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
-    						<textcolor>77white</textcolor>
+    						<textcolor>colorText3</textcolor>
     						<textoffsetx>11</textoffsetx>
-    						<selectedcolor>77white</selectedcolor>
     						<shadowcolor>22000000</shadowcolor>
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
@@ -1323,17 +1314,18 @@
     				</itemlayout>
     				<focusedlayout height="80" width="100">
     				    <control type="image" id="2">
-    				        <posx>-3</posx>
-    				        <posy>-5</posy>
-    				    	<width>108</width>
-    				    	<height>90</height>
+							<posx>2</posx>
+    					    <posy>0</posy>
+    				    	<width>98</width>
+    				    	<height>78</height>
     				    	<aspectratio>stretch</aspectratio>
-    				    	<texture border="12">windows/pvr/epg-fo.png</texture>
+    				    	<texture border="2">texture.png</texture>
+							<colordiffuse>colorTheme</colordiffuse>
     				    	<visible>!Skin.HasSetting(EPGGenreColors.Enabled)</visible>
     				    </control>
     				    <control type="image" id="2">
-    				        <posx>-3</posx>
-    				        <posy>-5</posy>
+							<posx>2</posx>
+    					    <posy>0</posy>
     				        <width>108</width>
     				        <height>90</height>
     				    	<aspectratio>stretch</aspectratio>
@@ -1342,7 +1334,7 @@
     				    </control>
     				    <control type="progress" id="2">
     				        <posx>2</posx>
-    				        <posy>1</posy>
+    				        <posy>0</posy>
     				        <width>98</width>
     				        <height>78</height>
     				        <reveal>true</reveal>
@@ -1352,6 +1344,14 @@
     				    	<righttexture>-</righttexture>
     				    	<info>ListItem.Progress</info>
     				    </control>
+						<control type="image" id="2">
+    					    <posx>0</posx>
+    					    <posy>0</posy>
+    				        <width>98</width>
+    				        <height>78</height>
+							<aspectratio>stretch</aspectratio>
+    					    <texture border="2">views/other/focus.png</texture>
+    					</control>
     					<control type="label" id="1">
     						<posx>22</posx>
     						<posy>0</posy>
@@ -1359,8 +1359,7 @@
     						<height>78</height>
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
-    						<textcolor>eewhite</textcolor>
-    						<selectedcolor>eewhite</selectedcolor>
+    						<textcolor>colorText2</textcolor>
     						<shadowcolor>44000000</shadowcolor>
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
@@ -1374,9 +1373,8 @@
     						<height>78</height>
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
-    						<textcolor>eewhite</textcolor>
+    						<textcolor>colorText2</textcolor>
     						<textoffsetx>11</textoffsetx>
-    						<selectedcolor>eewhite</selectedcolor>
     						<shadowcolor>22000000</shadowcolor>
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
@@ -1429,8 +1427,8 @@
         			    <height>86</height>
         			    <label>[B]$INFO[ListItem.Label][/B]</label>
         			    <label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]</label2>
-        			    <disabledcolor>ddwhite</disabledcolor>
-        			    <shadowcolor>55000000</shadowcolor>
+        			    <disabledcolor>colorText3</disabledcolor>
+        			    <shadowcolor>22000000</shadowcolor>
         			    <font>Font-Condensed-S38</font>
         			    <align>left</align>
         			    <aligny>center</aligny>
@@ -1444,8 +1442,8 @@
         				<height>135</height>
         				<font>Font-Condensed-S33</font>
         				<align>justify</align>
-        				<textcolor>aawhite</textcolor>
-        				<shadowcolor>55000000</shadowcolor>
+        				<textcolor>colorText3</textcolor>
+        				<shadowcolor>22000000</shadowcolor>
         				<pagecontrol>60</pagecontrol>
         				<autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
         				<label fallback="161">$INFO[ListItem.Plot]</label>
@@ -1483,7 +1481,8 @@
 	                    <posy>-3</posy>
 	                    <width>580</width>
 	                    <height>676</height>
-	                    <texture border="4">views/list/panel/panel.png</texture>
+	                    <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
 	                </control>
 	                <control type="label">
 	                    <posx>30</posx>
@@ -1491,7 +1490,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(15).ListItem.Title]</label>
-	                    <textcolor>ddwhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -1503,7 +1502,7 @@
 	                    <height>505</height>
 	                    <info>Container(15).ListItem.Plot</info>
 	                    <align>justify</align>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>33000000</shadowcolor>
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -1517,7 +1516,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(15).ListItem.Genre]</label>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -1557,8 +1556,8 @@
 	            	<width>300</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	<textcolor>colorText3</textcolor>
+	            	<shadowcolor>22000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -1578,7 +1577,8 @@
 	                <posy>215</posy>
 	                <width>1026</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="label">
 	                <posx>180</posx>
@@ -1586,7 +1586,7 @@
 	                <width>962</width>
 	                <height>100</height>
 	                <label>$LOCALIZE[19055]</label>
-	                <textcolor>77white</textcolor>
+	                <textcolor>colorText2</textcolor>
 	                <font>Font-Condensed-S50</font>
 	                <scroll>false</scroll>
 	                <align>center</align>
@@ -1622,8 +1622,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1635,8 +1634,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1648,8 +1646,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.Duration]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1661,8 +1658,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Genre]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                </itemlayout>
@@ -1683,8 +1680,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1696,8 +1693,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1709,8 +1706,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.Duration]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -1722,8 +1719,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Genre]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                </itemlayout>
@@ -1760,8 +1757,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1773,8 +1770,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1786,8 +1783,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.Duration]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1799,8 +1796,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Genre]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                    </control>
@@ -1838,8 +1835,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1851,8 +1848,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1864,8 +1861,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.Duration]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -1877,8 +1874,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Genre]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                    </control>
@@ -1931,7 +1928,8 @@
 	                    <posy>-3</posy>
 	                    <width>580</width>
 	                    <height>676</height>
-	                    <texture border="4">views/list/panel/panel.png</texture>
+	                    <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
 	                </control>
 	                <control type="label">
 	                    <posx>30</posx>
@@ -1939,7 +1937,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(16).ListItem.Title]</label>
-	                    <textcolor>ddwhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -1951,7 +1949,7 @@
 	                    <height>505</height>
 	                    <info>Container(16).ListItem.Plot</info>
 	                    <align>justify</align>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>33000000</shadowcolor>
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -1965,7 +1963,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(16).ListItem.Genre]</label>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -2005,7 +2003,7 @@
 	            	<width>300</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
+	            	<textcolor>colorText3</textcolor>
 	            	<shadowcolor>55000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
@@ -2025,7 +2023,8 @@
 	                <posy>215</posy>
 	                <width>1026</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="list" id="16">
 	                <posx>150</posx>
@@ -2065,8 +2064,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="progress">
@@ -2080,7 +2078,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>77white</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                    	<visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2093,8 +2091,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.ChannelName]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -2106,8 +2103,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -2119,8 +2115,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2133,8 +2128,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasEpg</visible>
 	                    </control>
@@ -2164,8 +2158,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="progress">
@@ -2179,7 +2172,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>77white</colordiffuse>
+	                    	<colordiffuse>colorText3</colordiffuse>
 	                    	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                    	<visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2192,8 +2185,7 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.ChannelName]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -2205,8 +2197,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -2218,8 +2209,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2232,8 +2222,7 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!ListItem.HasEpg</visible>
 	                    </control>
@@ -2279,8 +2268,7 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -2292,8 +2280,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.ChannelName]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -2305,8 +2293,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="progress">
@@ -2320,7 +2308,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>D4FFFFFF</colordiffuse>
+	                        	<colordiffuse>colorText3</colordiffuse>
 	                        	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2333,8 +2321,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2347,8 +2335,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasEpg</visible>
 	                        </control>
@@ -2395,8 +2383,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -2408,8 +2396,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.ChannelName]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -2421,8 +2409,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="progress">
@@ -2436,7 +2424,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>D4FFFFFF</colordiffuse>
+	                        	<colordiffuse>colorText3</colordiffuse>
 	                        	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2449,8 +2437,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2463,8 +2451,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!ListItem.HasEpg</visible>
 	                        </control>
@@ -2518,7 +2506,8 @@
 	                    <posy>-3</posy>
 	                    <width>580</width>
 	                    <height>676</height>
-	                    <texture border="4">views/list/panel/panel.png</texture>
+	                    <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
 	                </control>
 	                <control type="label">
 	                    <posx>30</posx>
@@ -2526,7 +2515,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(13).ListItem.Title]</label>
-	                    <textcolor>ddwhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -2538,7 +2527,7 @@
 	                    <height>505</height>
 	                    <info>Container(13).ListItem.Plot</info>
 	                    <align>justify</align>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>33000000</shadowcolor>
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -2552,7 +2541,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(13).ListItem.Genre]</label>
-	                    <textcolor>aawhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -2592,7 +2581,7 @@
 	            	<width>200</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
+	            	<textcolor>colorText3</textcolor>
 	            	<shadowcolor>55000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
@@ -2612,7 +2601,8 @@
 	                <posy>215</posy>
 	                <width>1026</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="list" id="13">
 	                <posx>150</posx>
@@ -2641,7 +2631,7 @@
 	                        <width>1022</width>
 	                        <height>94</height>
 	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07FFFFFF</colordiffuse>
+	                        <colordiffuse>07white</colordiffuse>
 	                        <aspectratio aligny="top">center</aspectratio>
 	                        <visible>ListItem.IsPlaying</visible>
 	                    </control>
@@ -2654,8 +2644,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartDate]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2668,8 +2658,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]$INFO[ListItem.Duration, / ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2682,8 +2672,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2696,8 +2686,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.ChannelName]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2710,8 +2700,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <visible>IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2721,7 +2711,7 @@
 	                        <posy>-2</posy>
 	                        <width>100</width>
 	                        <height>100</height>
-	                        <colordiffuse>7FFFFFFF</colordiffuse>
+	                        <colordiffuse>77white</colordiffuse>
 	                        <texture>$VAR[DefaultListOverlay]</texture>
 	                        <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                    </control>
@@ -2740,7 +2730,7 @@
 	                        <width>1022</width>
 	                        <height>94</height>
 	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07FFFFFF</colordiffuse>
+	                        <colordiffuse>07white</colordiffuse>
 	                        <aspectratio aligny="top">center</aspectratio>
 	                        <visible>ListItem.IsPlaying</visible>
 	                    </control>
@@ -2769,8 +2759,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$VAR[ListItem.StartDate]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2783,8 +2773,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$VAR[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2797,8 +2787,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$VAR[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2811,8 +2801,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]$INFO[ListItem.Duration, / ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2825,8 +2815,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.ChannelName]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2836,7 +2826,7 @@
 	                            <posy>-2</posy>
 	                            <width>100</width>
 	                            <height>100</height>
-	                            <colordiffuse>D4FFFFFF</colordiffuse>
+	                            <colordiffuse>D4white</colordiffuse>
 	                            <texture>$VAR[DefaultListOverlay]</texture>
 	                            <visible>!IsEmpty(ListItem.Overlay)</visible>
 	                        </control>
@@ -2887,7 +2877,7 @@
 	            	<width>200</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
+	            	<textcolor>colorText3</textcolor>
 	            	<shadowcolor>55000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
@@ -2907,7 +2897,8 @@
 	                <posy>215</posy>
 	                <width>1324</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="list" id="14">
 	                <posx>300</posx>
@@ -2939,8 +2930,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>right</align>
                             <label>$INFO[ListItem.StartDate]</label>
-                            <textcolor>99FFFFFF</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -2952,8 +2943,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>99FFFFFF</textcolor>
-                            <selectedcolor>SelectedGreen</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                             <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
                         </control>
@@ -2966,8 +2957,8 @@
                             <font>Font-Condensed-S28</font>
                             <align>right</align>
                             <label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, → ,]</label>
-                            <textcolor>77white</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -2979,8 +2970,8 @@
                             <font>Font-Condensed-S28</font>
                             <align>left</align>
                             <label>$INFO[ListItem.ChannelName]</label>
-                            <textcolor>77white</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText3</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="image">
@@ -3024,8 +3015,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>right</align>
                                 <label>$INFO[ListItem.StartDate]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -3037,8 +3028,8 @@
                                 <font>Font-Condensed-S34-B</font>
                                 <align>left</align>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>SelectedGreen</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                                 <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
                             </control>
@@ -3051,8 +3042,8 @@
                                 <font>Font-Condensed-S28</font>
                                 <align>right</align>
                                 <label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, → ,]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>D4FFFFFF</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -3064,8 +3055,8 @@
                                 <font>Font-Condensed-S28</font>
                                 <align>left</align>
                                 <label>$INFO[ListItem.ChannelName]</label>
-                                <textcolor>D4FFFFFF</textcolor>
-                                <selectedcolor>D4FFFFFF</selectedcolor>
+                                <textcolor>colorText2</textcolor>
+                                <selectedcolor>colorTextSelected</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                         </control>
@@ -3125,7 +3116,8 @@
 	                    <posy>-3</posy>
 	                    <width>580</width>
 	                    <height>676</height>
-	                    <texture border="4">views/list/panel/panel.png</texture>
+	                    <texture border="4">texture.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
 	                </control>
 	                <control type="label">
 	                    <posx>30</posx>
@@ -3133,7 +3125,7 @@
 	                    <width>516</width>
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(17).ListItem.Title]</label>
-	                    <textcolor>ddwhite</textcolor>
+	                    <textcolor>colorText2</textcolor>
 	                    <shadowcolor>22000000</shadowcolor>
 	                    <scroll>false</scroll>
 	                </control>
@@ -3145,7 +3137,7 @@
                 	    <height>505</height>
                 	    <info>Container(17).ListItem.Plot</info>
                 	    <align>justify</align>
-                	    <textcolor>aawhite</textcolor>
+                	    <textcolor>colorText2</textcolor>
                 	    <shadowcolor>33000000</shadowcolor>
                 	    <pagecontrol>71</pagecontrol>
                 	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -3157,7 +3149,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S30-B</font>
                         <label>$INFO[Container(17).ListItem.Genre]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -3197,8 +3189,8 @@
 	            	<width>300</width>
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
-	            	<textcolor>99FFFFFF</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	<textcolor>colorText3</textcolor>
+	            	<shadowcolor>22000000</shadowcolor>
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -3217,7 +3209,8 @@
 	                <posy>215</posy>
 	                <width>1026</width>
 	                <height>676</height>
-	                <texture border="4">views/list/panel/panel.png</texture>
+	                <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
 	            </control>
 	            <control type="list" id="17">
 	                <posx>150</posx>
@@ -3249,8 +3242,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3262,8 +3255,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
 	                    </control>
@@ -3276,8 +3269,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.Duration]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3289,8 +3282,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.ChannelName]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3302,8 +3295,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
 	                    </control>
@@ -3351,8 +3344,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.StartTime]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3364,8 +3357,8 @@
 	                        <font>Font-Condensed-S34-B</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.Label]</label>
-	                        <textcolor>99FFFFFF</textcolor>
-	                        <selectedcolor>SelectedGreen</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
 	                    </control>
@@ -3378,8 +3371,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.Duration]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3391,8 +3384,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>left</align>
 	                        <label>$INFO[ListItem.ChannelName]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -3404,8 +3397,8 @@
 	                        <font>Font-Condensed-S28</font>
 	                        <align>right</align>
 	                        <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                        <textcolor>77white</textcolor>
-	                        <selectedcolor>D4FFFFFF</selectedcolor>
+	                        <textcolor>colorText3</textcolor>
+	                        <selectedcolor>colorTextSelected</selectedcolor>
 	                        <scroll>false</scroll>
 	                        <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
 	                    </control>
@@ -3469,8 +3462,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3482,8 +3475,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
 	                        </control>
@@ -3496,8 +3489,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.Duration]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3509,8 +3502,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.ChannelName]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3522,8 +3515,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
 	                        </control>
@@ -3588,8 +3581,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.StartTime]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3601,8 +3594,8 @@
 	                            <font>Font-Condensed-S34-B</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.Label]</label>
-	                            <textcolor>eewhite</textcolor>
-	                            <selectedcolor>SelectedGreen</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <animation effect="slide" end="0,19" time="0" condition="IsEmpty(ListItem.ChannelName)">Conditional</animation>
 	                        </control>
@@ -3615,8 +3608,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.Duration]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3628,8 +3621,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>left</align>
 	                            <label>$INFO[ListItem.ChannelName]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                        </control>
 	                        <control type="label">
@@ -3641,8 +3634,8 @@
 	                            <font>Font-Condensed-S28</font>
 	                            <align>right</align>
 	                            <label>$INFO[ListItem.EndTime,→ ,]</label>
-	                            <textcolor>D4FFFFFF</textcolor>
-	                            <selectedcolor>D4FFFFFF</selectedcolor>
+	                            <textcolor>colorText2</textcolor>
+	                            <selectedcolor>colorTextSelected</selectedcolor>
 	                            <scroll>false</scroll>
 	                            <animation effect="slide" end="-50" time="0" condition="ListItem.IsRecording">Conditional</animation>
 	                        </control>

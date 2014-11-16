@@ -8,10 +8,10 @@
         <align>left</align>
         <aligny>center</aligny>
         <font>Font-Condensed-S32</font>
-        <textcolor>white</textcolor>
-        <focusedcolor>white</focusedcolor>
-        <selectedcolor>white</selectedcolor>
-        <disabledcolor>black</disabledcolor>
+        <textcolor>colorText3</textcolor>
+        <focusedcolor>colorText2</focusedcolor>
+        <selectedcolor>colorTextSelected</selectedcolor>
+        <disabledcolor>colorTextDisabled</disabledcolor>
         <scroll>true</scroll>
     </default>
     <default type="image">

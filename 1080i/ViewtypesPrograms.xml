@@ -16,7 +16,7 @@
             	<width>560</width>
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
-            	<textcolor>77white</textcolor>
+            	<textcolor>colorText3</textcolor>
             	<shadowcolor>22000000</shadowcolor>
             	<label>$INFO[Control.GetLabel(3)]</label>
             </control>
@@ -26,7 +26,8 @@
                 <posy>187</posy>
                 <height>704</height>
                 <width>1424</width>
-                <texture border="4">views/list/panel/panel.png</texture>
+                <texture border="4">texture.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="image">
                 <description>Shadow</description>
@@ -70,8 +71,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>aawhite</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -83,8 +84,8 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Label2, ,]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="image">
@@ -114,8 +115,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <selectedcolor>aawhite</selectedcolor>
-                        <textcolor>aawhite</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Studio) | !IsEmpty(ListItem.Genre)</visible>
                     </control>
@@ -127,9 +128,9 @@
                         <height>54</height>
                         <font>Font-Condensed-S28</font>
                         <align>left</align>
-                        <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
-                        <selectedcolor>99FFFFFF</selectedcolor>
-                        <textcolor>99FFFFFF</textcolor>
+                        <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, / ,]</label>
+                        <selectedcolor>colorTextSelected</selectedcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -141,8 +142,8 @@
                         <font>Font-Condensed-S34-B</font>
                         <align>left</align>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>aawhite</textcolor>
-                        <selectedcolor>aawhite</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                         <visible>IsEmpty(ListItem.Studio) + IsEmpty(ListItem.Genre)</visible>
                     </control>
@@ -155,8 +156,8 @@
                         <font>Font-Condensed-S36</font>
                         <align>right</align>
                         <label>$INFO[ListItem.Year, ,]</label>
-                        <textcolor>99FFFFFF</textcolor>
-                        <selectedcolor>99FFFFFF</selectedcolor>
+                        <textcolor>colorText3</textcolor>
+                        <selectedcolor>colorTextSelected</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="image">
@@ -209,8 +210,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>eewhite</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                         </control>
                         <control type="label">
                             <description>Label 2</description>
@@ -221,8 +222,8 @@
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
                             <label>$INFO[ListItem.Label2, ,]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -268,8 +269,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <selectedcolor>eewhite</selectedcolor>
-                            <textcolor>eewhite</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Studio) | !IsEmpty(ListItem.Genre)</visible>
                         </control>
@@ -281,9 +282,9 @@
                             <height>54</height>
                             <font>Font-Condensed-S28</font>
                             <align>left</align>
-                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=61FFFFFF]/[/COLOR] ,]</label>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
-                            <textcolor>D4FFFFFF</textcolor>
+                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, / ,]</label>
+                            <selectedcolor>colorTextSelected</selectedcolor>
+                            <textcolor>colorText2</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -295,8 +296,8 @@
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>eewhite</textcolor>
-                            <selectedcolor>eewhite</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <visible>IsEmpty(ListItem.Studio) + IsEmpty(ListItem.Genre)</visible>
                         </control>
                         <control type="label">
@@ -308,8 +309,8 @@
                             <font>Font-Condensed-S36</font>
                             <align>right</align>
                             <label>$INFO[ListItem.Year, ,]</label>
-                            <textcolor>D4FFFFFF</textcolor>
-                            <selectedcolor>D4FFFFFF</selectedcolor>
+                            <textcolor>colorText2</textcolor>
+                            <selectedcolor>colorTextSelected</selectedcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -451,7 +452,7 @@
                                 <width>516</width>
                                 <font>Font-Condensed-S60</font>
                                 <label>$LOCALIZE[207]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -463,7 +464,7 @@
                                 <height>375</height>
                                 <info>Container(52).ListItem.Plot</info>
                                 <align>justify</align>
-                                <textcolor>CCFFFFFF</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>33000000</shadowcolor>
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -484,7 +485,7 @@
                             <width>516</width>
                             <font>Font-Condensed-S60</font>
                             <label>$INFO[ListItem.Genre]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -494,7 +495,7 @@
                             <width>516</width>
                             <font>Font-Condensed-S30</font>
                             <label>$INFO[ListItem.Studio]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>colorText2</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -528,7 +529,8 @@
                     <posy>274</posy>
                     <width>714</width>
                     <height>604</height>
-                    <texture>views/list/panel/panel.png</texture>
+                    <texture>texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="list" id="52">
                     <posx>512</posx>
@@ -560,7 +562,7 @@
                             <width>670</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -570,7 +572,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Year]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -606,7 +608,7 @@
                                 <width>670</width>
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
@@ -615,7 +617,7 @@
                                 <height>58</height>
                                 <font>Font-Condensed-S31</font>
                                 <label>$INFO[ListItem.Year]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>right</align>
@@ -774,7 +776,7 @@
                                 <width>516</width>
                                 <font>Font-Condensed-S60</font>
                                 <label>$LOCALIZE[207]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -786,7 +788,7 @@
                                 <height>275</height>
                                 <label>$INFO[Container(53).ListItem.Plot]</label>
                                 <align>justify</align>
-                                <textcolor>CCFFFFFF</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>33000000</shadowcolor>
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -807,7 +809,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[ListItem.Genre]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -817,7 +819,7 @@
                         <width>516</width>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Studio]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText2</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -850,7 +852,8 @@
                     <posy>394</posy>
                     <width>634</width>
                     <height>484</height>
-                    <texture>views/list/panel/panel.png</texture>
+                    <texture>texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="list" id="53">
                     <posx>592</posx>
@@ -882,7 +885,7 @@
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -892,7 +895,7 @@
                             <height>58</height>
                             <font>Font-Condensed-S31</font>
                             <label>$INFO[ListItem.Year]</label>
-                            <textcolor>77white</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
@@ -928,7 +931,7 @@
                                 <width>590</width>
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$INFO[ListItem.Label]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
@@ -937,7 +940,7 @@
                                 <height>58</height>
                                 <font>Font-Condensed-S31</font>
                                 <label>$INFO[ListItem.Year]</label>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>colorText2</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>right</align>
@@ -1036,7 +1039,7 @@
                             <width>128</width>
                             <height>192</height>
                             <aspectratio>scale</aspectratio>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/medium.png">$INFO[ListItem.Thumb]</texture>
                         </control>
@@ -1191,7 +1194,7 @@
                                 <width>678</width>
                                 <font>Font-Condensed-S60</font>
                                 <label>$LOCALIZE[207]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -1203,7 +1206,7 @@
                                 <height>330</height>
                                 <info>Container(54).ListItem.Plot</info>
                                 <align>justify</align>
-                                <textcolor>CCFFFFFF</textcolor>
+                                <textcolor>C0white</textcolor>
                                 <shadowcolor>33000000</shadowcolor>
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -1223,7 +1226,7 @@
                             <width>678</width>
                             <font>Font-Condensed-S45</font>
                             <label>$INFO[Container(54).ListItem.Label]</label>
-                            <textcolor>bbwhite</textcolor>
+                            <textcolor>BBwhite</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <animation effect="slide" end="0,40" time="0" condition="IsEmpty(Container(54).ListItem.Genre)">Conditional</animation>
@@ -1324,7 +1327,7 @@
                             <width>152</width>
                             <height>152</height>
                             <aspectratio>scale</aspectratio>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square-medium.png">$INFO[ListItem.Thumb]</texture>
                         </control>
@@ -1480,7 +1483,7 @@
                                 <width>502</width>
                                 <font>Font-Condensed-S60</font>
                                 <label>$VAR[MusicInfoListDescriptionHeader]</label>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -1492,7 +1495,7 @@
                                 <height>275</height>
                                 <label>$INFO[Container(55).ListItem.Plot]</label>
                                 <align>justify</align>
-                                <textcolor>CCFFFFFF</textcolor>
+                                <textcolor>C0white</textcolor>
                                 <shadowcolor>33000000</shadowcolor>
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -1513,7 +1516,7 @@
                         <width>502</width>
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[Container(55).ListItem.Label]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -1523,7 +1526,7 @@
                         <width>502</width>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[Container(55).ListItem.Genre]$INFO[Container(55).ListItem.Studio, • ,]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -1621,7 +1624,7 @@
                                 <width>440</width>
                                 <label>$INFO[Container(56).ListItem(-1).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1630,9 +1633,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[Container(56).ListItem(-1).Genre]$INFO[Container(56).ListItem(-1).Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[Container(56).ListItem(-1).Genre]$INFO[Container(56).ListItem(-1).Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1645,7 +1648,7 @@
                                 <height>230</height>
                                 <info>Container(56).ListItem(-1).Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -1657,7 +1660,7 @@
                             <width>480</width>
                             <height>270</height>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/landscape.png">$INFO[Container(56).ListItemNoWrap(-1).Property(fanart_image)]</texture>
-                            <colordiffuse>bbwhite</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                         </control>
                         <control type="image">
@@ -1722,7 +1725,7 @@
                                 <width>440</width>
                                 <label>$INFO[Container(56).ListItem(3).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1731,9 +1734,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[Container(56).ListItem(3).Genre]$INFO[Container(56).ListItem(3).Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[Container(56).ListItem(3).Genre]$INFO[Container(56).ListItem(3).Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1746,7 +1749,7 @@
                                 <height>230</height>
                                 <info>Container(56).ListItem(3).Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -1758,7 +1761,7 @@
                             <width>480</width>
                             <height>270</height>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/landscape.png">$INFO[Container(56).ListItemNoWrap(3).Property(fanart_image)]</texture>
-                            <colordiffuse>bbwhite</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                         </control>
                         <control type="image">
@@ -1823,7 +1826,7 @@
                                 <width>440</width>
                                 <label>$INFO[Container(56).ListItem(2).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1832,9 +1835,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[Container(56).ListItem(2).Genre]$INFO[Container(56).ListItem(2).Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[Container(56).ListItem(2).Genre]$INFO[Container(56).ListItem(2).Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1847,7 +1850,7 @@
                                 <height>230</height>
                                 <info>Container(56).ListItem(2).Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -1859,7 +1862,7 @@
                             <width>480</width>
                             <height>270</height>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/landscape.png">$INFO[Container(56).ListItemNoWrap(2).Property(fanart_image)]</texture>
-                            <colordiffuse>bbwhite</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                         </control>
                         <control type="image">
@@ -1924,7 +1927,7 @@
                                 <width>440</width>
                                 <label>$INFO[Container(56).ListItem(1).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1933,9 +1936,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[Container(56).ListItem(1).Genre]$INFO[Container(56).ListItem(1).Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[Container(56).ListItem(1).Genre]$INFO[Container(56).ListItem(1).Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -1948,7 +1951,7 @@
                                 <height>230</height>
                                 <info>Container(56).ListItem(1).Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -1960,7 +1963,7 @@
                             <width>480</width>
                             <height>270</height>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/landscape.png">$INFO[Container(56).ListItemNoWrap(1).Property(fanart_image)]</texture>
-                            <colordiffuse>bbwhite</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                         </control>
                         <control type="image">
@@ -2022,7 +2025,7 @@
                         <width>440</width>
                         <label>$INFO[Container(56).ListItem(0).Label]</label>
                         <font>Font-Condensed-S34-B</font>
-                        <textcolor>ddwhite</textcolor>
+                        <textcolor>DDwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                         <align>left</align>
@@ -2031,9 +2034,9 @@
                         <posx>20</posx>
                         <posy>329</posy>
                         <width>440</width>
-                        <label>$INFO[Container(56).ListItem(0).Genre]$INFO[Container(56).ListItem(0).Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                        <label>$INFO[Container(56).ListItem(0).Genre]$INFO[Container(56).ListItem(0).Studio, [COLOR=44white]/[/COLOR] ,]</label>
                         <font>Font-Condensed-S32</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                         <align>left</align>
@@ -2046,7 +2049,7 @@
                         <height>230</height>
                         <info>Container(56).ListItem(0).Plot</info>
                         <align>justify</align>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <autoscroll>false</autoscroll>
                         <font>Font-Condensed-S28</font>
@@ -2128,7 +2131,7 @@
                                 <width>440</width>
                                 <label>$INFO[ListItem.Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -2137,9 +2140,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -2152,7 +2155,7 @@
                                 <height>230</height>
                                 <info>ListItem.Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -2164,7 +2167,7 @@
                             <width>480</width>
                             <height>270</height>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/landscape.png">$INFO[ListItem.Property(fanart_image)]</texture>
-                            <colordiffuse>bbwhite</colordiffuse>
+                            <colordiffuse>BBwhite</colordiffuse>
                             <aspectratio align="center" aligny="center" scalediffuse="false">scale</aspectratio>
                         </control>
                         <control type="image">
@@ -2219,7 +2222,7 @@
                                 <width>440</width>
                                 <label>$INFO[ListItem.Label]</label>
                                 <font>Font-Condensed-S34-B</font>
-                                <textcolor>ddwhite</textcolor>
+                                <textcolor>DDwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -2228,9 +2231,9 @@
                                 <posx>20</posx>
                                 <posy>329</posy>
                                 <width>440</width>
-                                <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                                <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                                 <font>Font-Condensed-S32</font>
-                                <textcolor>aawhite</textcolor>
+                                <textcolor>AAwhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>left</align>
@@ -2243,7 +2246,7 @@
                                 <height>230</height>
                                 <info>ListItem.Plot</info>
                                 <align>justify</align>
-                                <textcolor>99FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S28</font>
@@ -2392,7 +2395,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(-1).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2447,7 +2450,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(5).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2502,7 +2505,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(4).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2557,7 +2560,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(3).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2612,7 +2615,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(2).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2667,7 +2670,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>570</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[Container(57).ListItemNoWrap(1).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -2803,7 +2806,7 @@
                                 <posy>16</posy>
                                 <width>380</width>
                                 <height>570</height>
-                                <colordiffuse>ddwhite</colordiffuse>
+                                <colordiffuse>DDwhite</colordiffuse>
                                 <texture background="true" fallback="views/fallbacks/DefaultProgram.png/large.png">$INFO[ListItem.Thumb]</texture>
                                 <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                             </control>
@@ -2906,7 +2909,7 @@
                             <width>1800</width>
                             <label>$INFO[Container(57).ListItem.Label]</label>
                             <font>Font-Condensed-S45-B</font>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                         </control>
@@ -2914,7 +2917,7 @@
                             <posx>13</posx>
                             <posy>65</posy>
                             <width>1800</width>
-                            <label>$INFO[Container(57).ListItem.Genre]$INFO[Container(57).ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                            <label>$INFO[Container(57).ListItem.Genre]$INFO[Container(57).ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                             <font>Font-Condensed-S36</font>
                             <textcolor>77white</textcolor>
                             <scroll>false</scroll>
@@ -3024,7 +3027,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(-1).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3079,7 +3082,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(5).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3134,7 +3137,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(4).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3189,7 +3192,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(3).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3244,7 +3247,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(2).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3299,7 +3302,7 @@
                             <posy>16</posy>
                             <width>380</width>
                             <height>380</height>
-                            <colordiffuse>ddwhite</colordiffuse>
+                            <colordiffuse>DDwhite</colordiffuse>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[Container(58).ListItemNoWrap(1).Thumb]</texture>
                             <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                         </control>
@@ -3435,7 +3438,7 @@
                                 <posy>16</posy>
                                 <width>380</width>
                                 <height>380</height>
-                                <colordiffuse>ddwhite</colordiffuse>
+                                <colordiffuse>DDwhite</colordiffuse>
                                 <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square.png">$INFO[ListItem.Thumb]</texture>
                                 <aspectratio align="center" scalediffuse="false">scale</aspectratio>
                             </control>
@@ -3537,7 +3540,7 @@
                         <width>1800</width>
                         <label>$INFO[Container(58).ListItem.Label]</label>
                         <font>Font-Condensed-S45-B</font>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -3545,7 +3548,7 @@
                         <posx>13</posx>
                         <posy>65</posy>
                         <width>1800</width>
-                        <label>$INFO[Container(58).ListItem.Genre]$INFO[Container(58).ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                        <label>$INFO[Container(58).ListItem.Genre]$INFO[Container(58).ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                         <font>Font-Condensed-S36</font>
                         <textcolor>77white</textcolor>
                         <scroll>false</scroll>
@@ -3629,7 +3632,7 @@
                             <height>232</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/medium.png">$INFO[ListItem.Thumb]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                         </control>
                     </itemlayout>
@@ -3642,7 +3645,7 @@
                             <height>354</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/medium.png">$INFO[ListItem.Thumb]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                         </control>
                     </itemlayout>
@@ -3783,7 +3786,7 @@
                             <width>688</width>
                             <font>Font-Condensed-S60</font>
                             <label>$LOCALIZE[207]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
@@ -3795,7 +3798,7 @@
                             <height>470</height>
                             <info>Container(501).ListItem.Plot</info>
                             <align>justify</align>
-                            <textcolor>CCFFFFFF</textcolor>
+                            <textcolor>C0white</textcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                             <font>Font-Condensed-S34</font>
@@ -3814,7 +3817,7 @@
                         <width>430</width>
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                         <animation effect="slide" end="0,40" time="0" condition="IsEmpty(Container(501).ListItem.Genre)">Conditional</animation>
@@ -3913,7 +3916,7 @@
                             <height>232</height>
                             <bordertexture border="1">windows/common/darkgrey.png</bordertexture>
                             <texture background="true" fallback="views/fallbacks/DefaultProgram.png/square-medium.png">$INFO[ListItem.Thumb]</texture>
-                            <colordiffuse>eewhite</colordiffuse>
+                            <colordiffuse>EEwhite</colordiffuse>
                             <aspectratio>scale</aspectratio>
                         </control>
                     </itemlayout>
@@ -4009,7 +4012,7 @@
                         <width>426</width>
                         <font>Font-Condensed-S60</font>
                         <label>$LOCALIZE[207]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>AAwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -4021,7 +4024,7 @@
                         <height>366</height>
                         <info>Container(502).ListItem.Plot</info>
                         <align>justify</align>
-                        <textcolor>CCFFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <shadowcolor>33000000</shadowcolor>
                         <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                         <font>Font-Condensed-S33</font>
@@ -4051,7 +4054,7 @@
                         <height>74</height>
                         <font>Font-Condensed-S34-B</font>
                         <label>$INFO[ListItem.Label]</label>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -4063,7 +4066,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Genre]</label>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -4075,7 +4078,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Studio]</label>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -4087,7 +4090,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Year]</label>
-                        <textcolor>99FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
@@ -4158,7 +4161,7 @@
                             <width>777</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>C0white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>stringcompare(ListItem.ActualIcon,DefaultFolderBack.png) | [IsEmpty(ListItem.Genre) + IsEmpty(ListItem.Studio)]</visible>
@@ -4169,7 +4172,7 @@
                             <width>777</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>C0white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>!stringcompare(ListItem.ActualIcon,DefaultFolderBack.png) + [!IsEmpty(ListItem.Genre) | !IsEmpty(ListItem.Studio)]</visible>
@@ -4178,9 +4181,9 @@
                             <posx>0</posx>
                             <posy>51</posy>
                             <width>777</width>
-                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                             <font>Font-Condensed-S28</font>
-                            <textcolor>80FFFFFF</textcolor>
+                            <textcolor>80white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                         </control>
@@ -4330,7 +4333,7 @@
                             <width>864</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>C0white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>stringcompare(ListItem.ActualIcon,DefaultFolderBack.png) | [IsEmpty(ListItem.Genre) + IsEmpty(ListItem.Studio)]</visible>
@@ -4341,7 +4344,7 @@
                             <width>864</width>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S34-B</font>
-                            <textcolor>C0FFFFFF</textcolor>
+                            <textcolor>C0white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                             <visible>!stringcompare(ListItem.ActualIcon,DefaultFolderBack.png) + [!IsEmpty(ListItem.Genre) | !IsEmpty(ListItem.Studio)]</visible>
@@ -4350,9 +4353,9 @@
                             <posx>0</posx>
                             <posy>51</posy>
                             <width>864</width>
-                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44FFFFFF]/[/COLOR] ,]</label>
+                            <label>$INFO[ListItem.Genre]$INFO[ListItem.Studio, [COLOR=44white]/[/COLOR] ,]</label>
                             <font>Font-Condensed-S28</font>
-                            <textcolor>80FFFFFF</textcolor>
+                            <textcolor>80white</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                         </control>

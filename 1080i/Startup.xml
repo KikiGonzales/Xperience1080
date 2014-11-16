@@ -62,7 +62,7 @@
                 <font>Font-Condensed-S36-B</font>
                 <align>center</align>
                 <aligny>center</aligny>
-                <textcolor>99FFFFFF</textcolor>
+                <textcolor>96white</textcolor>
                 <label>$LOCALIZE[41601]...</label>
                 <scroll>false</scroll>
             </control>

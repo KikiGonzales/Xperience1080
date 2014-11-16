@@ -46,7 +46,7 @@
                 <width>974</width>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[35000]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
             <control type="list" id="20">
@@ -127,7 +127,7 @@
                             <posy>0</posy>
                             <width>434</width>
                             <height>60</height>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <info>ListItem.Label</info>
                             <font>Font-Condensed-S32</font>
                             <align>left</align>

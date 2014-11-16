@@ -40,7 +40,7 @@
                     <align>right</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>$LOCALIZE[42130]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -49,7 +49,8 @@
                     <posy>278</posy>
                     <height>613</height>
                     <width>342</width>
-                    <texture border="4">views/list/panel/panel.png</texture>
+                    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
 
                 <!-- Side Buttons -->
@@ -81,7 +82,7 @@
                     <posy>251</posy>
                     <height>18</height>
                     <width>16</width>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>colorText3</colordiffuse>
                     <texture>windows/settings/images/level-icon.png</texture>
                 </control>
 
@@ -94,7 +95,7 @@
                     <align>left</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>$INFO[Control.GetLabel(20)]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -103,7 +104,8 @@
                     <posy>278</posy>
                     <height>613</height>
                     <width>1214</width>
-                    <texture border="4">views/list/panel/panel.png</texture>
+                    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <description>Shadow</description>
@@ -137,7 +139,7 @@
                         <width>10</width>
                         <height>18</height>
                         <texture>windows/settings/images/rarrow.png</texture>
-                        <colordiffuse>aawhite</colordiffuse>
+                        <colordiffuse>colorText3</colordiffuse>
                         <include>visiblehidefadeinfo</include>
                         <visible>!Control.HasFocus(71)</visible>
                     </control>
@@ -150,7 +152,7 @@
                         <align>right</align>
                         <font>Font-Condensed-S25-B</font>
                         <label>$LOCALIZE[21821]</label>
-                        <textcolor>aawhite</textcolor>
+                        <textcolor>colorText3</textcolor>
                     </control>
                 </control>
             </control>
@@ -170,7 +172,8 @@
                     <posy>278</posy>
                     <height>613</height>
                     <width>498</width>
-                    <texture border="4">views/list/panel/panel.png</texture>
+                    <texture border="4">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="textbox" id="6">
                     <description>Plot</description>
@@ -179,7 +182,7 @@
                     <width>428</width>
                     <height>573</height>
                     <align>left</align>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <shadowcolor>33000000</shadowcolor>
                     <pagecontrol>71</pagecontrol>
                     <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
@@ -221,9 +224,9 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>96FFFFFF</textcolor>
-            <focusedcolor>eewhite</focusedcolor>
-            <disabledcolor>40FFFFFF</disabledcolor>
+            <textcolor>colorText3</textcolor>
+            <focusedcolor>colorText2</focusedcolor>
+            <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>
             <textoffsetx>35</textoffsetx>
         </control>
@@ -235,9 +238,9 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>96FFFFFF</textcolor>
-            <focusedcolor>eewhite</focusedcolor>
-            <disabledcolor>40FFFFFF</disabledcolor>
+            <textcolor>colorText3</textcolor>
+            <focusedcolor>colorText2</focusedcolor>
+            <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>
             <textoffsetx>35</textoffsetx>
         </control>
@@ -249,9 +252,9 @@
             <aligny>center</aligny>
             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-            <textcolor>96FFFFFF</textcolor>
-            <focusedcolor>eewhite</focusedcolor>
-            <disabledcolor>40FFFFFF</disabledcolor>
+            <textcolor>colorText3</textcolor>
+            <focusedcolor>colorText2</focusedcolor>
+            <disabledcolor>colorTextDisabled</disabledcolor>
             <font>Font-Condensed-S30-B</font>
             <textoffsetx>35</textoffsetx>
         </control>
@@ -335,7 +338,7 @@
                     <height>100</height>
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                 </control>
             </control>

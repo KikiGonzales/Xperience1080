@@ -121,9 +121,9 @@
                         <height>100</height>
                         <font>Font-Condensed-S34-B</font>
                         <align>right</align>
-                        <label fallback="[COLOR=47FFFFFF]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
-                        <textcolor>eewhite</textcolor>
-                        <selectedcolor>eewhite</selectedcolor>
+                        <label fallback="[COLOR=44white]0.0[/COLOR]">$INFO[ListItem.Rating,,.0]</label>
+                        <textcolor>EEwhite</textcolor>
+                        <selectedcolor>EEwhite</selectedcolor>
                         <scroll>false</scroll>
                     </control>
                 </control>
@@ -205,7 +205,7 @@
                     <width>250</width>
                     <font>Font-Condensed-S29-B</font>
                     <label>$LOCALIZE[563]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="0" condition="!ControlGroup(8000).HasFocus">Conditional</animation>
@@ -255,7 +255,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S29-B</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <label>$LOCALIZE[10523]</label>
                         <onleft>DecreaseRating</onleft>
@@ -272,7 +272,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S29-B</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[13405]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -288,7 +288,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S29-B</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[42000]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -304,7 +304,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S29-B</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[42001]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -600,7 +600,7 @@
                     <width>250</width>
                     <font>Font-Condensed-S30</font>
                     <label>$LOCALIZE[563]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <shadowcolor>22000000</shadowcolor>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="0" condition="!ControlGroup(8000).HasFocus">Conditional</animation>
@@ -650,7 +650,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <shadowcolor>22000000</shadowcolor>
                         <label>$LOCALIZE[10523]</label>
                         <onleft>DecreaseRating</onleft>
@@ -667,7 +667,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[13405]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -683,7 +683,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[42000]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -699,7 +699,7 @@
                         <align>left</align>
                         <font>Font-Condensed-S30</font>
                         <textcolor>77white</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <label>$LOCALIZE[42001]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>

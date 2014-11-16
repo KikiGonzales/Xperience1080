@@ -212,7 +212,7 @@
                 <width>698</width>
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <shadowcolor>22000000</shadowcolor>
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
@@ -320,7 +320,7 @@
                 <width>50</width>
                 <height>50</height>
                 <texture>$INFO[ListItem.Icon]</texture>
-                <colordiffuse>77FFFFFF</colordiffuse>
+                <colordiffuse>77white</colordiffuse>
             </control>
             <control type="label">
                 <posx>26</posx>
@@ -359,7 +359,7 @@
                 <width>50</width>
                 <height>50</height>
                 <texture>$INFO[ListItem.Icon]</texture>
-                <colordiffuse>eewhite</colordiffuse>
+                <colordiffuse>EEwhite</colordiffuse>
                 <include>guidelistfocusanim</include>
             </control>
             <control type="label">
@@ -368,7 +368,7 @@
                 <width>698</width>
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <shadowcolor>22000000</shadowcolor>
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
@@ -549,7 +549,7 @@
                     <width>605</width>
                     <height>66</height>
                     <label>[B]$INFO[ListItem.Label][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                 </control>
@@ -559,7 +559,7 @@
                     <width>460</width>
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S34</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -577,7 +577,7 @@
                     <width>55</width>
                     <height>30</height>
                     <label>$INFO[ListItem.property(rating)]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S30-B</font>
                     <align>right</align>
                 </control>
@@ -601,7 +601,7 @@
                     <width>485</width>
                     <height>66</height>
                     <label>[B]$INFO[ListItem.Label][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                 </control>
@@ -611,7 +611,7 @@
                     <width>340</width>
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S34</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -629,7 +629,7 @@
                     <width>55</width>
                     <height>30</height>
                     <label>$INFO[ListItem.property(rating)]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S30-B</font>
                     <align>right</align>
                 </control>
@@ -653,7 +653,7 @@
                     <width>569</width>
                     <height>66</height>
                     <label>[B]$INFO[ListItem.Label][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                 </control>
@@ -663,7 +663,7 @@
                     <width>484</width>
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S34</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -674,7 +674,7 @@
                     <width>100</width>
                     <height>30</height>
                     <label>[B]$INFO[ListItem.property(year)][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S30-B</font>
                     <align>right</align>
                 </control>
@@ -1033,7 +1033,7 @@
                 <width>50</width>
                 <height>50</height>
                 <texture>$INFO[ListItem.ActualIcon]</texture>
-                <colordiffuse>77FFFFFF</colordiffuse>
+                <colordiffuse>77white</colordiffuse>
             </control>
             <control type="label">
                 <posx>70</posx>
@@ -1098,7 +1098,7 @@
                     <width>569</width>
                     <height>66</height>
                     <label>[B]$INFO[ListItem.Label][/B]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                 </control>
@@ -1108,7 +1108,7 @@
                     <width>484</width>
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S34</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -1119,7 +1119,7 @@
                     <width>100</width>
                     <height>30</height>
                     <label>$INFO[ListItem.Property(Duration)]</label>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <font>Font-Condensed-S30-B</font>
                     <align>right</align>
                 </control>
@@ -1238,7 +1238,7 @@
                 <width>633</width>
                 <height>437</height>
                 <texture>osd/media-guide/no-movies-music.png</texture>
-                <colordiffuse>44FFFFFF</colordiffuse>
+                <colordiffuse>44white</colordiffuse>
             </control>
             <control type="label">
                 <posx>0</posx>
@@ -1246,7 +1246,7 @@
                 <width>750</width>
                 <height>60</height>
                 <label>$LOCALIZE[41452]</label>
-                <textcolor>44FFFFFF</textcolor>
+                <textcolor>44white</textcolor>
                 <font>Font-Condensed-S42</font>
                 <align>center</align>
             </control>
@@ -1262,7 +1262,7 @@
                 <height>468</height>
                 <aspectratio>stretch</aspectratio>
                 <texture border="1">windows/common/black.png</texture>
-                <colordiffuse>BCFFFFFF</colordiffuse>
+                <colordiffuse>BCwhite</colordiffuse>
             </control>
             <control type="videowindow">
                 <description>video</description>
@@ -1579,7 +1579,7 @@
                 <width>350</width>
                 <height>50</height>
                 <label>$LOCALIZE[41441]</label>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S45</font>
                 <align>center</align>
                 <animation effect="rotate" start="0" end="-90" center="auto" time="0">WindowOpen</animation>
@@ -1619,7 +1619,7 @@
                 <width>350</width>
                 <height>50</height>
                 <label>$LOCALIZE[41443]</label>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S45</font>
                 <align>center</align>
                 <animation effect="rotate" start="0" end="-90" center="auto" time="0">WindowOpen</animation>
@@ -1659,7 +1659,7 @@
                 <width>350</width>
                 <height>50</height>
                 <label>$LOCALIZE[41920]</label>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S45</font>
                 <align>center</align>
                 <animation effect="rotate" start="0" end="-90" center="auto" time="0">WindowOpen</animation>
@@ -1686,7 +1686,7 @@
                 <width>350</width>
                 <height>50</height>
                 <label>$LOCALIZE[41440]</label>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S45</font>
                 <align>center</align>
                 <animation effect="rotate" start="0" end="-90" center="auto" time="0">WindowOpen</animation>
@@ -1713,7 +1713,7 @@
                 <width>350</width>
                 <height>50</height>
                 <label>$LOCALIZE[41444]</label>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <font>Font-Condensed-S45</font>
                 <align>center</align>
                 <animation effect="rotate" start="0" end="-90" center="auto" time="0">WindowOpen</animation>
@@ -1728,7 +1728,7 @@
             <width>1700</width>
             <label>[B]$INFO[System.Time][/B]</label>
             <font>Font-Condensed-S34</font>
-            <textcolor>bbwhite</textcolor>
+            <textcolor>BBwhite</textcolor>
             <align>right</align>
             <scroll>false</scroll>
             <visible>!Skin.HasSetting(Guide.HideClock)</visible>
@@ -1743,7 +1743,7 @@
             <textcolor>rsstext</textcolor>
             <titlecolor>rsstitle</titlecolor>
             <shadowcolor>22000000</shadowcolor>
-            <headlinecolor>ddwhite</headlinecolor>
+            <headlinecolor>DDwhite</headlinecolor>
         </control>
         <control type="image">
             <posx>662</posx>
@@ -1759,7 +1759,7 @@
             <width>742</width>
             <height>1</height>
             <texture>osd/media-guide/line.png</texture>
-            <colordiffuse>aawhite</colordiffuse>
+            <colordiffuse>AAwhite</colordiffuse>
             <aspectratio>stretch</aspectratio>
         </control>
 

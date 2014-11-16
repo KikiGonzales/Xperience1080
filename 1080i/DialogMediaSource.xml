@@ -15,7 +15,7 @@
                 <width>974</width>
                 <font>Font-Condensed-S34</font>
                 <label>$LOCALIZE[20333]</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
             <control type="image">
@@ -65,7 +65,7 @@
                     <textoffsetx>20</textoffsetx>
                     <label>1021</label>
                     <textcolor>FF585858</textcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <font>Font-Condensed-S30</font>
                 </control>
                 <control type="list" id="10">
@@ -141,8 +141,8 @@
                                 <width>596</width>
                                 <height>60</height>
                                 <info>ListItem.Label</info>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                                 <scroll>false</scroll>
                             </control>
                             <control type="image">
@@ -199,9 +199,9 @@
                         <texturefocus border="54,2,2,2">dialogs/mediasource/browse-fo.png</texturefocus>
                         <texturenofocus>dialogs/mediasource/browse-nf.png</texturenofocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <align>left</align>
                         <font>Font-Condensed-S32</font>
                         <textoffsetx>60</textoffsetx>
@@ -220,9 +220,9 @@
                         <texturefocus border="54,2,2,2">dialogs/mediasource/add-fo.png</texturefocus>
                         <texturenofocus>dialogs/mediasource/add-nf.png</texturenofocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <align>left</align>
                         <font>Font-Condensed-S32</font>
                         <textoffsetx>60</textoffsetx>
@@ -241,9 +241,9 @@
                         <texturefocus border="54,2,2,2">dialogs/mediasource/remove-fo.png</texturefocus>
                         <texturenofocus>dialogs/mediasource/remove-nf.png</texturenofocus>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>FF585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <align>left</align>
                         <font>Font-Condensed-S32</font>
                         <textoffsetx>60</textoffsetx>
@@ -268,7 +268,7 @@
                     <textoffsetx>20</textoffsetx>
                     <label>1022</label>
                     <textcolor>FF585858</textcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <font>Font-Condensed-S30</font>
                 </control>
                 <control type="button" id="12">
@@ -280,9 +280,9 @@
                     <align>left</align>
                     <textoffsetx>20</textoffsetx>
                     <textcolor>FF585858</textcolor>
-                    <focusedcolor>eewhite</focusedcolor>
+                    <focusedcolor>EEwhite</focusedcolor>
                     <disabledcolor>FF585858</disabledcolor>
-                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <shadowcolor>20white</shadowcolor>
                     <font>Font-Condensed-S32</font>
                     <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                     <onup>9002</onup>

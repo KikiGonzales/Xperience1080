@@ -17,7 +17,7 @@
         <width>150</width>
         <height>34</height>
         <font>Font-Condensed-S34</font>
-        <textcolor>aawhite</textcolor>
+        <textcolor>AAwhite</textcolor>
         <align>right</align>
         <scroll>false</scroll>
     </include>
@@ -66,7 +66,7 @@
                 <height>194</height>
                 <label>$INFO[Player.Chapter,$LOCALIZE[21396] , / ]$INFO[Player.ChapterCount]</label>
                 <font>Font-Condensed-S34</font>
-                <disabledcolor>aawhite</disabledcolor>
+                <disabledcolor>AAwhite</disabledcolor>
                 <texturefocus>-</texturefocus>
                 <texturenofocus border="150,90,150,90">overlays/volume/back-vf.png</texturenofocus>
                 <align>center</align>
@@ -104,7 +104,7 @@
                     <posy>47</posy>
                     <width>100</width>
                     <height>100</height>
-                    <colordiffuse>aawhite</colordiffuse>
+                    <colordiffuse>colorText2</colordiffuse>
                     <texture>$INFO[Weather.FanartCode,weather/small/,.png]</texture>
                 </control>
                 <control type="label">
@@ -115,7 +115,7 @@
                     <height>34</height>
                     <label>$INFO[Weather.Temperature]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                     <visible>Weather.IsFetched</visible>
@@ -168,7 +168,7 @@
                 <height>34</height>
                 <label>$INFO[System.Time(hh)]:$INFO[System.Time(mm)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>colorText2</textcolor>
                 <align>right</align>
                 <scroll>false</scroll>
             </control>
@@ -191,7 +191,7 @@
                     <height>34</height>
                     <label>$INFO[Player.FinishTime(hh:mm)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                 </control>

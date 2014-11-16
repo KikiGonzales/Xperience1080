@@ -9,8 +9,8 @@
         <texturefocus border="20">dialogs/keyboard/key-fo.png</texturefocus>
         <texturenofocus border="20">dialogs/keyboard/key-nf.png</texturenofocus>
         <textcolor>KeyboardGrey</textcolor>
-        <focusedcolor>eewhite</focusedcolor>
-        <selectedcolor>eewhite</selectedcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <selectedcolor>EEwhite</selectedcolor>
     </include>
     <include name="SmallKey">
         <width>90</width>
@@ -61,8 +61,8 @@
         <font>Font-Condensed-S32</font>
         <texturefocus border="20">dialogs/keyboard/donefocus.png</texturefocus>
         <texturenofocus border="20">dialogs/keyboard/donenofocus.png</texturenofocus>
-        <textcolor>eewhite</textcolor>
-        <focusedcolor>eewhite</focusedcolor>
+        <textcolor>EEwhite</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
         <selectedcolor>red</selectedcolor>
     </include>
     <include name="DoubleKeyCancel">
@@ -74,7 +74,7 @@
         <texturefocus border="20">dialogs/keyboard/cancelfocus.png</texturefocus>
         <texturenofocus border="20">dialogs/keyboard/key-nf.png</texturenofocus>
         <textcolor>KeyboardGrey</textcolor>
-        <focusedcolor>eewhite</focusedcolor>
+        <focusedcolor>EEwhite</focusedcolor>
         <selectedcolor>red</selectedcolor>
     </include>
 </includes>

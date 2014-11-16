@@ -39,7 +39,7 @@
                 <align>center</align>
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
             <control type="label" id="4">
@@ -76,7 +76,7 @@
                             <width>1010</width>
                             <height>76</height>
                             <font>Font-Condensed-S30-B</font>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <align>left</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
@@ -93,7 +93,7 @@
                                 <width>1010</width>
                                 <height>76</height>
                                 <font>Font-Condensed-S30-B</font>
-                                <textcolor>96FFFFFF</textcolor>
+                                <textcolor>96white</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>$INFO[ListItem.Label]</label>

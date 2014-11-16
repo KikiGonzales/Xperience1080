@@ -30,7 +30,7 @@
                     <align>right</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>[UPPERCASE]$LOCALIZE[42130][/UPPERCASE]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -65,9 +65,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[20037])</onfocus>
@@ -81,9 +81,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[13277])</onfocus>
@@ -97,9 +97,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[13279])</onfocus>
@@ -113,9 +113,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[13280])</onfocus>
@@ -129,9 +129,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[13281])</onfocus>
@@ -145,9 +145,9 @@
                         <aligny>center</aligny>
                         <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <focusedcolor>white</focusedcolor>
-                        <disabledcolor>40FFFFFF</disabledcolor>
+                        <disabledcolor>44white</disabledcolor>
                         <font>Font-Condensed-S30-B</font>
                         <textoffsetx>35</textoffsetx>
                         <onfocus>SetProperty(CurrentButtonLabel,$LOCALIZE[19191])</onfocus>
@@ -171,7 +171,7 @@
                     <align>left</align>
                     <font>Font-Condensed-S25-B</font>
                     <label>[UPPERCASE]$INFO[Window.Property(CurrentButtonLabel)][/UPPERCASE]</label>
-                    <textcolor>aawhite</textcolor>
+                    <textcolor>AAwhite</textcolor>
                 </control>
 
                 <!-- Panel -->
@@ -258,13 +258,13 @@
                     <control type="label" id="1">
                         <posy>0</posy>
                         <label>$INFO[System.BuildVersion,$LOCALIZE[144] ,]</label>
-                        <textcolor>CFFFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <include>SettingsSystemInfoLabel</include>
                     </control>
                     <control type="label" id="1">
                         <posy>45</posy>
                         <label>$INFO[System.BuildDate,$LOCALIZE[552]: ,]</label>
-                        <textcolor>CFFFFFFF</textcolor>
+                        <textcolor>C0white</textcolor>
                         <include>SettingsSystemInfoLabel</include>
                     </control>
                 </control>

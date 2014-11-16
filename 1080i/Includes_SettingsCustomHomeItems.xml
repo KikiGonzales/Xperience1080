@@ -195,7 +195,7 @@
                 <align>left</align>
                 <textoffsetx>20</textoffsetx>
                 <font>Font-Condensed-S30</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <label>$LOCALIZE[41141]</label>
                 <label2>$VAR[HomeTileEditTypeName]</label2>
                 <visible>ControlGroup(2405).HasFocus</visible>
@@ -327,7 +327,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window(skinsettings).property(Dialog)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -919,7 +919,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>$INFO[Window(skinsettings).property(Dialog)]</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 

@@ -27,7 +27,7 @@
                 <height>100</height>
                 <label>$LOCALIZE[24000]: $INFO[ListItem.Property(Addon.Name)]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>!Player.HasMedia + !Window.IsActive(infodialog) + !Window.IsActive(extendedprogressdialog)</visible>
@@ -41,7 +41,7 @@
                 <height>100</height>
                 <label>$LOCALIZE[24000]: $INFO[ListItem.Property(Addon.Name)]</label>
                 <font>Font-Condensed-S75</font>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>Player.HasMedia | Window.IsActive(infodialog) | Window.IsActive(extendedprogressdialog)</visible>
@@ -63,7 +63,7 @@
                     <width min="50" max="450">auto</width>
                     <label>$LOCALIZE[42131]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Window.IsActive(textviewer)">Conditional</animation>
@@ -76,7 +76,7 @@
                     <width min="50" max="450">auto</width>
                     <label>24036</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>eewhite</textcolor>
+                    <textcolor>EEwhite</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="!Window.IsActive(textviewer)">Conditional</animation>
@@ -164,9 +164,9 @@
                             <textoffsetx>25</textoffsetx>
                             <align>left</align>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>99FFFFFF</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
-                            <disabledcolor>44FFFFFF</disabledcolor>
+                            <textcolor>96white</textcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
+                            <disabledcolor>44white</disabledcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
@@ -180,9 +180,9 @@
                             <textoffsetx>25</textoffsetx>
                             <align>left</align>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>99FFFFFF</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
-                            <disabledcolor>44FFFFFF</disabledcolor>
+                            <textcolor>96white</textcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
+                            <disabledcolor>44white</disabledcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
@@ -196,9 +196,9 @@
                             <textoffsetx>25</textoffsetx>
                             <align>left</align>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>99FFFFFF</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
-                            <disabledcolor>44FFFFFF</disabledcolor>
+                            <textcolor>96white</textcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
+                            <disabledcolor>44white</disabledcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
@@ -213,9 +213,9 @@
                             <textoffsetx>25</textoffsetx>
                             <align>left</align>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>99FFFFFF</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
-                            <disabledcolor>44FFFFFF</disabledcolor>
+                            <textcolor>96white</textcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
+                            <disabledcolor>44white</disabledcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
@@ -230,9 +230,9 @@
                             <textoffsetx>25</textoffsetx>
                             <align>left</align>
                             <font>Font-Condensed-S40</font>
-                            <textcolor>99FFFFFF</textcolor>
-                            <focusedcolor>eewhite</focusedcolor>
-                            <disabledcolor>44FFFFFF</disabledcolor>
+                            <textcolor>96white</textcolor>
+                            <focusedcolor>EEwhite</focusedcolor>
+                            <disabledcolor>44white</disabledcolor>
                             <shadowcolor>33000000</shadowcolor>
                             <texturefocus border="150,1,150,1">views/other/focus.png</texturefocus>
                         </control>
@@ -262,7 +262,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[146][/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -270,7 +270,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label fallback="416">$INFO[ListItem.Property(Addon.Type)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -287,7 +287,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[21863]:[/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -297,7 +297,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label fallback="416">$INFO[ListItem.Property(Addon.Creator)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -312,7 +312,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[24051][/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -320,7 +320,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label fallback="416">$INFO[ListItem.Property(Addon.Version)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -335,7 +335,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[20037]:[/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -343,7 +343,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label fallback="416">$INFO[ListItem.Property(Addon.Summary)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>no</scroll>
                         </control>
                     </control>
@@ -359,7 +359,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[21821][/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="textbox" id="400">
@@ -372,7 +372,7 @@
                             <include condition="!IsEmpty(ListItem.Property(Addon.Disclaimer)) + !IsEmpty(ListItem.Property(Addon.broken))">AddonDescHeight_3</include>
                             <font>Font-Condensed-S40</font>
                             <align>justify</align>
-                            <textcolor>bbwhite</textcolor>
+                            <textcolor>BBwhite</textcolor>
                             <label fallback="">$INFO[ListItem.Property(Addon.Description)]</label>
                             <autoscroll time="2000" delay="10000" repeat="10000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                             <visible>!IsEmpty(ListItem.Property(Addon.Description))</visible>
@@ -384,7 +384,7 @@
                             <font>Font-Condensed-S40</font>
                             <align>left</align>
                             <label>$LOCALIZE[42132]</label>
-                            <textcolor>bbwhite</textcolor>
+                            <textcolor>BBwhite</textcolor>
                             <scroll>false</scroll>
                             <visible>IsEmpty(ListItem.Property(Addon.Description))</visible>
                         </control>
@@ -411,7 +411,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[24052][/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -421,7 +421,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(Addon.Disclaimer)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -446,7 +446,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>[B]$LOCALIZE[24096][/B]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -456,7 +456,7 @@
                             <font>Font-Condensed-S34</font>
                             <align>left</align>
                             <label>$INFO[ListItem.Property(Addon.broken)]</label>
-                            <textcolor>aawhite</textcolor>
+                            <textcolor>AAwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>

@@ -36,7 +36,7 @@
                     <height>22</height>
                     <font>Font-Condensed-S34</font>
                     <align>center</align>
-                    <textcolor>77FFFFFF</textcolor>
+                    <textcolor>77white</textcolor>
                 </control>
                 <control type="label" id="4">
                     <description>Edit Text</description>
@@ -45,9 +45,9 @@
                     <width>1000</width>
                     <font>Font-Condensed-S45</font>
                     <align>center</align>
-                    <textcolor>eewhite</textcolor>
-                    <selectedcolor>eewhite</selectedcolor>
-                    <disabledcolor>aawhite</disabledcolor>
+                    <textcolor>EEwhite</textcolor>
+                    <selectedcolor>EEwhite</selectedcolor>
+                    <disabledcolor>AAwhite</disabledcolor>
                 </control>
             <!-- First Row -->
                 <control type="group">

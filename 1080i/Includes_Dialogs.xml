@@ -3,9 +3,9 @@
 
     <include name="DialogButtonVars">
         <font>Font-Condensed-S32</font>
-        <textcolor>ddwhite</textcolor>
+        <textcolor>DDwhite</textcolor>
         <focusedcolor>FF31D0FF</focusedcolor>
-        <disabledcolor>ddwhite</disabledcolor>
+        <disabledcolor>DDwhite</disabledcolor>
         <align>left</align>
         <textoffsetx>78</textoffsetx>
         <textwidth>300</textwidth>
@@ -14,9 +14,9 @@
     </include>
 
     <include name="DialogButtonDimensions">
-        <textcolor>ddwhite</textcolor>
-        <focusedcolor>ddwhite</focusedcolor>
-        <disabledcolor>99FFFFFF</disabledcolor>
+        <textcolor>DDwhite</textcolor>
+        <focusedcolor>DDwhite</focusedcolor>
+        <disabledcolor>96white</disabledcolor>
         <align>left</align>
         <textoffsetx>85</textoffsetx>
         <width>350</width>
@@ -24,9 +24,9 @@
     </include>
 
     <include name="DialogButtonDimensionsRightAlign">
-        <textcolor>ddwhite</textcolor>
-        <focusedcolor>ddwhite</focusedcolor>
-        <disabledcolor>99FFFFFF</disabledcolor>
+        <textcolor>DDwhite</textcolor>
+        <focusedcolor>DDwhite</focusedcolor>
+        <disabledcolor>96white</disabledcolor>
         <align>right</align>
         <textoffsetx>85</textoffsetx>
         <textwidth>300</textwidth>
@@ -132,7 +132,7 @@
                 <width>800</width>
                 <label>-</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
             <control type="group" id="8003">
@@ -167,9 +167,9 @@
                         <textoffsetx>20</textoffsetx>
                         <align>right</align>
                         <textcolor>FF585858</textcolor>
-                        <focusedcolor>eewhite</focusedcolor>
+                        <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77585858</disabledcolor>
-                        <shadowcolor>20FFFFFF</shadowcolor>
+                        <shadowcolor>20white</shadowcolor>
                         <texturefocus border="2">dialogs/default/highlight-grey.png</texturefocus>
                         <texturenofocus>dialogs/default/separator.png</texturenofocus>
                     </control>
@@ -209,9 +209,9 @@
                 <textoffsetx>20</textoffsetx>
                 <align>left</align>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator.png</texturenofocus>
             </control>
@@ -224,9 +224,9 @@
                 <textwidth>844</textwidth>
                 <radioposx>852</radioposx>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textureradioon>buttons/radio/radio-light-fo.png</textureradioon>
                 <textureradiooff>buttons/radio/radio-light-nf.png</textureradiooff>
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
@@ -242,9 +242,9 @@
                 <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
                 <texturenofocus>dialogs/default/separator.png</texturenofocus>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textoffsetx>20</textoffsetx>
                 <spinposx>16</spinposx>
             </control>
@@ -258,7 +258,7 @@
                 <textoffsetx>20</textoffsetx>
                 <textoffsety>14</textoffsety>
                 <textcolor>AA585858</textcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
             </control>
 
             <control type="sliderex" id="8">
@@ -274,9 +274,9 @@
                 <textureslidernib>dialogs/mediasource/slider-nib-nf.png</textureslidernib>
                 <textureslidernibfocus>dialogs/mediasource/slider-nib-fo.png</textureslidernibfocus>
                 <textcolor>FF585858</textcolor>
-                <focusedcolor>eewhite</focusedcolor>
+                <focusedcolor>EEwhite</focusedcolor>
                 <disabledcolor>77585858</disabledcolor>
-                <shadowcolor>20FFFFFF</shadowcolor>
+                <shadowcolor>20white</shadowcolor>
                 <textoffsetx>20</textoffsetx>
                 <pulseonselect>false</pulseonselect>
             </control>
@@ -386,7 +386,7 @@
                 <align>right</align>
                 <label>$LOCALIZE[42130]</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
             <control type="label" id="20">
@@ -398,7 +398,7 @@
                 <align>left</align>
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
 
@@ -426,9 +426,9 @@
                     <aligny>center</aligny>
                     <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
-                    <textcolor>96FFFFFF</textcolor>
+                    <textcolor>96white</textcolor>
                     <focusedcolor>white</focusedcolor>
-                    <disabledcolor>40FFFFFF</disabledcolor>
+                    <disabledcolor>44white</disabledcolor>
                     <font>Font-Condensed-S30-B</font>
                     <textoffsetx>35</textoffsetx>
                 </control>
@@ -471,9 +471,9 @@
                 <aligny>center</aligny>
                 <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus>-</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
+                <textcolor>96white</textcolor>
                 <focusedcolor>white</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <disabledcolor>44white</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
             </control>
@@ -485,9 +485,9 @@
                 <aligny>center</aligny>
                 <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus>-</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
+                <textcolor>96white</textcolor>
                 <focusedcolor>white</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <disabledcolor>44white</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
             </control>
@@ -499,9 +499,9 @@
                 <aligny>center</aligny>
                 <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus>-</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
+                <textcolor>96white</textcolor>
                 <focusedcolor>white</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <disabledcolor>44white</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
             </control>
@@ -516,7 +516,7 @@
                 <align>left</align>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
             </control>
             <control type="sliderex" id="8">
                 <description>Slider</description>
@@ -525,9 +525,9 @@
                 <aligny>center</aligny>
                 <texturefocus border="150,1,150,1">windows/settings/images/right-focus.png</texturefocus>
                 <texturenofocus>-</texturenofocus>
-                <textcolor>96FFFFFF</textcolor>
+                <textcolor>96white</textcolor>
                 <focusedcolor>white</focusedcolor>
-                <disabledcolor>40FFFFFF</disabledcolor>
+                <disabledcolor>44white</disabledcolor>
                 <font>Font-Condensed-S30-B</font>
                 <textoffsetx>35</textoffsetx>
                 <sliderwidth>300</sliderwidth>
@@ -594,7 +594,7 @@
                 <width>974</width>
                 <font>Font-Condensed-S34</font>
                 <label>-</label>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
 
@@ -869,8 +869,8 @@
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                             </control>
                             <control type="label">
                                 <posx>624</posx>
@@ -881,8 +881,8 @@
                                 <font>Font-Condensed-S29</font>
                                 <align>right</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                                 <visible>!IsEmpty(ListItem.Label2)</visible>
                             </control>
                         </control>
@@ -897,8 +897,8 @@
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                             </control>
                             <control type="label">
                                 <posx>624</posx>
@@ -909,8 +909,8 @@
                                 <font>Font-Condensed-S29</font>
                                 <align>right</align>
                                 <aligny>center</aligny>
-                                <textcolor>eewhite</textcolor>
-                                <selectedcolor>eewhite</selectedcolor>
+                                <textcolor>EEwhite</textcolor>
+                                <selectedcolor>EEwhite</selectedcolor>
                                 <visible>!IsEmpty(ListItem.Label2)</visible>
                             </control>
                             <control type="image">
@@ -1041,7 +1041,7 @@
                             <font>Font-Condensed-S32</font>
                             <align>left</align>
                             <aligny>center</aligny>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                         </control>
                         <control type="label">
                             <posx>624</posx>
@@ -1052,7 +1052,7 @@
                             <font>Font-Condensed-S29</font>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -1183,7 +1183,7 @@
                 <align>center</align>
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
 
@@ -1209,9 +1209,9 @@
                     <font>Font-Condensed-S28</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <textcolor>96FFFFFF</textcolor>
-                    <focusedcolor>96FFFFFF</focusedcolor>
-                    <disabledcolor>96FFFFFF</disabledcolor>
+                    <textcolor>96white</textcolor>
+                    <focusedcolor>96white</focusedcolor>
+                    <disabledcolor>96white</disabledcolor>
                     <enable>false</enable>
                     <visible>!IsEmpty(Container(6).ListItem.Property(Addon.Creator))</visible>
                 </control>
@@ -1238,7 +1238,7 @@
                         <font>Font-Condensed-S30-B</font>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -1250,7 +1250,7 @@
                         <font>Font-Condensed-S29</font>
                         <align>right</align>
                         <aligny>center</aligny>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <scroll>false</scroll>
                         <visible>!IsEmpty(ListItem.Label2)</visible>
                     </control>
@@ -1269,7 +1269,7 @@
                             <font>Font-Condensed-S30-B</font>
                             <align>left</align>
                             <aligny>center</aligny>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1281,7 +1281,7 @@
                             <font>Font-Condensed-S29</font>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Label2)</visible>
                         </control>
@@ -1353,7 +1353,7 @@
                         <align>left</align>
                         <aligny>center</aligny>
                         <selectedcolor>DialogSelected</selectedcolor>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -1366,7 +1366,7 @@
                         <align>right</align>
                         <aligny>center</aligny>
                         <selectedcolor>DialogSelected</selectedcolor>
-                        <textcolor>96FFFFFF</textcolor>
+                        <textcolor>96white</textcolor>
                         <scroll>false</scroll>
                     </control>
                 </itemlayout>
@@ -1385,7 +1385,7 @@
                             <align>left</align>
                             <aligny>center</aligny>
                             <selectedcolor>DialogSelected</selectedcolor>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1398,7 +1398,7 @@
                             <align>right</align>
                             <aligny>center</aligny>
                             <selectedcolor>DialogSelected</selectedcolor>
-                            <textcolor>96FFFFFF</textcolor>
+                            <textcolor>96white</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -1420,7 +1420,7 @@
                             <font>Font-Condensed-S30-B</font>
                             <align>left</align>
                             <aligny>center</aligny>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                         </control>
                         <control type="label">
                             <posx>625</posx>
@@ -1431,7 +1431,7 @@
                             <font>Font-Condensed-S29</font>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>eewhite</textcolor>
+                            <textcolor>EEwhite</textcolor>
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -1519,7 +1519,7 @@
                         <width>350</width>
                         <font>Font-Condensed-S26-B</font>
                         <align>right</align>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <include>DialogButtonDimensions</include>
                         <label>$INFO[Container(3).NumItems] • $INFO[Container(3).CurrentPage]/$INFO[Container(3).NumPages]</label>
                         <visible>Control.IsVisible(3)</visible>
@@ -1530,7 +1530,7 @@
                         <width>350</width>
                         <font>Font-Condensed-S26-B</font>
                         <align>right</align>
-                        <textcolor>bbwhite</textcolor>
+                        <textcolor>BBwhite</textcolor>
                         <include>DialogButtonDimensions</include>
                         <label>$INFO[Container(6).NumItems] • $INFO[Container(6).CurrentPage]/$INFO[Container(6).NumPages]</label>
                         <visible>Control.IsVisible(6)</visible>
@@ -1555,7 +1555,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>-</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -1667,7 +1667,7 @@
                 <label>-</label>
                 <font>Font-Condensed-S40</font>
                 <align>left</align>
-                <textcolor>aawhite</textcolor>
+                <textcolor>AAwhite</textcolor>
                 <selectedcolor>white</selectedcolor>
                 <pagecontrol>61</pagecontrol>
             </control>
@@ -1715,7 +1715,7 @@
                 <width>800</width>
                 <label>$INFO[ListItem.Title]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>ddwhite</textcolor>
+                <textcolor>DDwhite</textcolor>
                 <align>center</align>
             </control>
             <control type="group">
@@ -1740,7 +1740,7 @@
                 	<font>Font-Condensed-S32</font>
                 	<textcolor>FF585858</textcolor>
                 	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
+                	<shadowcolor>20white</shadowcolor>
                 	<texturenofocus>dialogs/default/separator.png</texturenofocus>
                 	<label>$LOCALIZE[142]</label>
                 	<label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ] ($INFO[ListItem.StartDate])</label2>
@@ -1758,7 +1758,7 @@
                 	<font>Font-Condensed-S32</font>
                 	<textcolor>FF585858</textcolor>
                 	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
+                	<shadowcolor>20white</shadowcolor>
                 	<texturenofocus>dialogs/default/separator.png</texturenofocus>
                 	<label>$LOCALIZE[180]</label>
                 	<label2>$INFO[ListItem.Duration]</label2>
@@ -1776,7 +1776,7 @@
                 	<font>Font-Condensed-S32</font>
                 	<textcolor>FF585858</textcolor>
                 	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
+                	<shadowcolor>20white</shadowcolor>
                 	<texturenofocus>dialogs/default/separator.png</texturenofocus>
                 	<label>$LOCALIZE[19148]</label>
                 	<label2>$INFO[ListItem.ChannelName]</label2>
@@ -1794,7 +1794,7 @@
                 	<font>Font-Condensed-S32</font>
                 	<textcolor>FF585858</textcolor>
                 	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
+                	<shadowcolor>20white</shadowcolor>
                 	<label>$LOCALIZE[135]</label>
                 	<label2 fallback="161">$INFO[ListItem.Genre]</label2>
                 	<enable>false</enable>
@@ -1816,7 +1816,7 @@
             	<font>Font-Condensed-S34</font>
             	<align>justify</align>
             	<textcolor>FF585858</textcolor>
-            	<shadowcolor>20FFFFFF</shadowcolor>
+            	<shadowcolor>20white</shadowcolor>
             	<pagecontrol>60</pagecontrol>
             	<autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
             	<label fallback="161">$INFO[ListItem.Plot]</label>
@@ -1926,7 +1926,7 @@
                 <textoffsetx>30</textoffsetx>
                 <label>$INFO[ListItem.Title]</label>
                 <font>Font-Condensed-S34-B</font>
-                <textcolor>bbwhite</textcolor>
+                <textcolor>BBwhite</textcolor>
                 <shadowcolor>66000000</shadowcolor>
             </control>
             <control type="group">
@@ -1942,11 +1942,11 @@
                 	<textoffsetx>30</textoffsetx>
                 	<textwidth>540</textwidth>
                 	<font>Font-Condensed-S34</font>
-                	<textcolor>99FFFFFF</textcolor>
-                	<disabledcolor>99FFFFFF</disabledcolor>
+                	<textcolor>96white</textcolor>
+                	<disabledcolor>96white</disabledcolor>
                 	<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                 	<label>[B]$LOCALIZE[142][/B]</label>
-                	<label2>[COLOR=AAFFFFFF]$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime] ($INFO[ListItem.StartDate])[/COLOR]</label2>
+                	<label2>[COLOR=AAwhite]$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime] ($INFO[ListItem.StartDate])[/COLOR]</label2>
                 	<enable>false</enable>
                 </control>
                 <control type="button">
@@ -1959,11 +1959,11 @@
                 	<textoffsetx>30</textoffsetx>
                 	<textwidth>540</textwidth>
                 	<font>Font-Condensed-S34</font>
-                	<textcolor>99FFFFFF</textcolor>
-                	<disabledcolor>99FFFFFF</disabledcolor>
+                	<textcolor>96white</textcolor>
+                	<disabledcolor>96white</disabledcolor>
                 	<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                 	<label>[B]$LOCALIZE[180]:[/B]</label>
-                	<label2>[COLOR=AAFFFFFF]$INFO[ListItem.Duration][/COLOR]</label2>
+                	<label2>[COLOR=AAwhite]$INFO[ListItem.Duration][/COLOR]</label2>
                 	<enable>false</enable>
                 </control>
                 <control type="button">
@@ -1976,11 +1976,11 @@
                 	<textoffsetx>30</textoffsetx>
                 	<textwidth>540</textwidth>
                 	<font>Font-Condensed-S34</font>
-                	<textcolor>99FFFFFF</textcolor>
-                	<disabledcolor>99FFFFFF</disabledcolor>
+                	<textcolor>96white</textcolor>
+                	<disabledcolor>96white</disabledcolor>
                 	<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                 	<label>[B]$LOCALIZE[19148]:[/B]</label>
-                	<label2>[COLOR=AAFFFFFF]$INFO[ListItem.ChannelName][/COLOR]</label2>
+                	<label2>[COLOR=AAwhite]$INFO[ListItem.ChannelName][/COLOR]</label2>
                 	<enable>false</enable>
                 </control>
                 <control type="button">
@@ -1993,11 +1993,11 @@
                 	<textoffsetx>30</textoffsetx>
                 	<textwidth>540</textwidth>
                 	<font>Font-Condensed-S34</font>
-                	<textcolor>99FFFFFF</textcolor>
-                	<disabledcolor>99FFFFFF</disabledcolor>
+                	<textcolor>96white</textcolor>
+                	<disabledcolor>96white</disabledcolor>
                 	<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                 	<label>[B]$LOCALIZE[135]:[/B]</label>
-                	<label2 fallback="161">[COLOR=AAFFFFFF]$INFO[ListItem.Genre][/COLOR]</label2>
+                	<label2 fallback="161">[COLOR=AAwhite]$INFO[ListItem.Genre][/COLOR]</label2>
                 	<enable>false</enable>
                 </control>
             </control>
@@ -2009,7 +2009,7 @@
             	<height>415</height>
             	<font>Font-Condensed-S38</font>
             	<align>justify</align>
-            	<textcolor>bbwhite</textcolor>
+            	<textcolor>BBwhite</textcolor>
             	<pagecontrol>60</pagecontrol>
             	<autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
             	<label fallback="161">$INFO[ListItem.Plot]</label>
@@ -2039,7 +2039,7 @@
                     <texturefocus>buttons/cancel-fo.png</texturefocus>
                     <texturenofocus>buttons/cancel-nf.png</texturenofocus>
                     <textcolor>77white</textcolor>
-                    <selectedcolor>aawhite</selectedcolor>
+                    <selectedcolor>AAwhite</selectedcolor>
                     <include>DialogButtonDimensions</include>
                     <label>$LOCALIZE[42002]</label>
                     <onleft>6</onleft>
@@ -2054,7 +2054,7 @@
                     <texturefocus>buttons/switch-fo.png</texturefocus>
                     <texturenofocus>buttons/switch-nf.png</texturenofocus>
                     <textcolor>77white</textcolor>
-                    <selectedcolor>aawhite</selectedcolor>
+                    <selectedcolor>AAwhite</selectedcolor>
                     <include>DialogButtonDimensions</include>
                     <onleft>7</onleft>
                     <onright>6</onright>
@@ -2066,7 +2066,7 @@
                     <description>Record</description>
                     <label>-</label>
                     <textcolor>77white</textcolor>
-                    <selectedcolor>aawhite</selectedcolor>
+                    <selectedcolor>AAwhite</selectedcolor>
                     <include>DialogButtonDimensionsRightAlign</include>
                     <texturefocus>buttons/record-fo.png</texturefocus>
                     <texturenofocus>buttons/record-nf.png</texturenofocus>
@@ -2138,7 +2138,7 @@
                     <width>974</width>
                     <font>Font-Condensed-S34</font>
                     <label>-</label>
-                    <textcolor>ddwhite</textcolor>
+                    <textcolor>DDwhite</textcolor>
                     <align>center</align>
                 </control>
 
@@ -2265,7 +2265,7 @@
                                 <posy>0</posy>
                                 <width>574</width>
                                 <height>60</height>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <info>ListItem.Label</info>
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
@@ -2375,7 +2375,7 @@
                                 <posy>0</posy>
                                 <width>574</width>
                                 <height>60</height>
-                                <textcolor>eewhite</textcolor>
+                                <textcolor>EEwhite</textcolor>
                                 <info>ListItem.Label</info>
                                 <font>Font-Condensed-S32</font>
                                 <align>left</align>
@@ -2482,9 +2482,9 @@
                 <posx>88</posx>
                 <posy>144</posy>
                 <height>60</height>
-                <label>$INFO[Control.GetLabel(411),,: ]$INFO[Container(450).ListItem.Label,[COLOR=99FFFFFF],[/COLOR]]</label>
+                <label>$INFO[Control.GetLabel(411),,: ]$INFO[Container(450).ListItem.Label,[COLOR=96white],[/COLOR]]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <textoffsetx>30</textoffsetx>
@@ -2501,7 +2501,7 @@
                 <height>60</height>
                 <label>$LOCALIZE[21371] →</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>StringCompare(Window(3004).Property(ChooseArt),poster)</visible>
@@ -2555,7 +2555,7 @@
                         <width>330</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Thumb</description>
@@ -2564,7 +2564,7 @@
                         <width>330</width>
                         <height>330</height>
                         <texture background="true">$VAR[FileBrowserArtSquare]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>keep</aspectratio>
                     </control>
                     <control type="image">
@@ -2573,7 +2573,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texture>overlays/addons/enabled.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <visible>substring(ListItem.Label,$LOCALIZE[13512]) | substring(ListItem.Label,$LOCALIZE[20440])</visible>
                     </control>
                 </itemlayout>
@@ -2585,7 +2585,7 @@
                         <width>220</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Poster</description>
@@ -2594,7 +2594,7 @@
                         <width>220</width>
                         <height>330</height>
                         <texture background="true">$VAR[FileBrowserArtThumb]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                     <control type="image">
@@ -2603,7 +2603,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texture>overlays/addons/enabled.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <visible>substring(ListItem.Label,$LOCALIZE[13512]) | substring(ListItem.Label,$LOCALIZE[20440])</visible>
                     </control>
                 </itemlayout>
@@ -2615,7 +2615,7 @@
                         <width>587</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Poster</description>
@@ -2624,7 +2624,7 @@
                         <width>587</width>
                         <height>330</height>
                         <texture background="true">$VAR[FileBrowserArtLandscape]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                     <control type="image">
@@ -2633,7 +2633,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texture>overlays/addons/enabled.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <visible>substring(ListItem.Label,$LOCALIZE[13512]) | substring(ListItem.Label,$LOCALIZE[20440])</visible>
                     </control>
                 </itemlayout>
@@ -2645,7 +2645,7 @@
                         <width>818</width>
                         <height>151</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Banner</description>
@@ -2654,7 +2654,7 @@
                         <width>818</width>
                         <height>151</height>
                         <texture background="true">$VAR[FileBrowserArtBanner]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                     <control type="image">
@@ -2663,7 +2663,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texture>overlays/addons/enabled.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <visible>substring(ListItem.Label,$LOCALIZE[13512]) | substring(ListItem.Label,$LOCALIZE[20440])</visible>
                     </control>
                 </itemlayout>
@@ -2932,9 +2932,9 @@
                 <posx>88</posx>
                 <posy>144</posy>
                 <height>60</height>
-                <label>$INFO[Control.GetLabel(1),,: ]$INFO[Container(6).ListItem.Label,[COLOR=99FFFFFF],[/COLOR]]</label>
+                <label>$INFO[Control.GetLabel(1),,: ]$INFO[Container(6).ListItem.Label,[COLOR=96white],[/COLOR]]</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <textoffsetx>30</textoffsetx>
@@ -2951,7 +2951,7 @@
                 <height>60</height>
                 <label>$LOCALIZE[21371] →</label>
                 <font>Font-Condensed-S45</font>
-                <textcolor>eewhite</textcolor>
+                <textcolor>EEwhite</textcolor>
                 <align>left</align>
                 <scroll>false</scroll>
                 <visible>StringCompare(Window(3004).Property(ChooseArt),poster)</visible>
@@ -3008,7 +3008,7 @@
                         <width>330</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Thumb</description>
@@ -3017,7 +3017,7 @@
                         <width>330</width>
                         <height>330</height>
                         <texture background="true" fallback="views/fallbacks/DefaultVideo.png/square-medium.png">$INFO[ListItem.Icon]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>keep</aspectratio>
                     </control>
                 </itemlayout>
@@ -3029,7 +3029,7 @@
                         <width>220</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Poster</description>
@@ -3038,7 +3038,7 @@
                         <width>220</width>
                         <height>330</height>
                         <texture background="true" fallback="views/fallbacks/DefaultVideo.png/medium.png">$INFO[ListItem.Icon]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                 </itemlayout>
@@ -3050,7 +3050,7 @@
                         <width>587</width>
                         <height>330</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Poster</description>
@@ -3059,7 +3059,7 @@
                         <width>587</width>
                         <height>330</height>
                         <texture background="true" fallback="views/fallbacks/DefaultVideo.png/landscape.png">$INFO[ListItem.Icon]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                 </itemlayout>
@@ -3071,7 +3071,7 @@
                         <width>818</width>
                         <height>151</height>
                         <texture>windows/common/darkgrey.png</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                     </control>
                     <control type="image">
                         <description>Banner</description>
@@ -3080,7 +3080,7 @@
                         <width>818</width>
                         <height>151</height>
                         <texture background="true" fallback="views/fallbacks/DefaultVideo.png/banner.png">$INFO[ListItem.Icon]</texture>
-                        <colordiffuse>eewhite</colordiffuse>
+                        <colordiffuse>EEwhite</colordiffuse>
                         <aspectratio>scale</aspectratio>
                     </control>
                 </itemlayout>
