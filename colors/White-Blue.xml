@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
 <!-- General -->
-		<color name="colorTheme">FF1884d7</color>
+		<color name="colorTheme">FF2b87cd</color>
 		<color name="colorBackground">FFFFFFFF</color>		
 		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF505050</color>
 		<color name="colorTextDisabled">88505050</color>
 		<color name="colorTextSelected">FF10d1e8</color>
-		<color name="colorTextSelected2">FF1884d7</color>
+		<color name="colorTextSelected2">FF2b87cd</color>
 		
 <!-- All others -->
         <color name="black">FF000000</color>

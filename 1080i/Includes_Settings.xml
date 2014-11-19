@@ -141,9 +141,9 @@
         <textoffsetx>20</textoffsetx>
         <radioposx>534</radioposx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText1</textcolor>
-        <focusedcolor>colorText2</focusedcolor>
-        <disabledcolor>colorTextDisabled</disabledcolor>
+        <textcolor>FF585858</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <disabledcolor>77585858</disabledcolor>
         <shadowcolor>20white</shadowcolor>
         <textureradiofocus>buttons/radio/radio-light-fo.png</textureradiofocus>
         <textureradionofocus>buttons/radio/radio-light-nf.png</textureradionofocus>
@@ -172,9 +172,9 @@
         <align>left</align>
         <textoffsetx>20</textoffsetx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText1</textcolor>
-        <focusedcolor>colorText2</focusedcolor>
-        <disabledcolor>colorTextDisabled</disabledcolor>
+        <textcolor>FF585858</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <disabledcolor>77585858</disabledcolor>
         <shadowcolor>20white</shadowcolor>
         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
         <texturenofocus>dialogs/default/separator-btn.png</texturenofocus>
@@ -187,9 +187,9 @@
         <textoffsetx>20</textoffsetx>
         <radioposx>422</radioposx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText1</textcolor>
-        <focusedcolor>colorText2</focusedcolor>
-        <disabledcolor>colorTextDisabled</disabledcolor>
+        <textcolor>FF585858</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <disabledcolor>77585858</disabledcolor>
         <shadowcolor>20white</shadowcolor>
         <textureradiofocus>buttons/radio/radio-light-fo.png</textureradiofocus>
         <textureradionofocus>buttons/radio/radio-light-nf.png</textureradionofocus>
@@ -210,9 +210,9 @@
         <label>$LOCALIZE[573]</label>
         <textoffsetx>20</textoffsetx>
         <font>Font-Condensed-S32</font>
-        <textcolor>colorText1</textcolor>
-        <focusedcolor>colorText2</focusedcolor>
-        <disabledcolor>colorTextDisabled</disabledcolor>
+        <textcolor>FF585858</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <disabledcolor>77585858</disabledcolor>
         <shadowcolor>20white</shadowcolor>
         <texturefocus border="2">dialogs/default/highlight.png</texturefocus>
     </include>
@@ -222,9 +222,9 @@
         <height>60</height>
         <align>left</align>
         <font>Font-Condensed-S30</font>
-        <textcolor>colorText1</textcolor>
-        <focusedcolor>colorText2</focusedcolor>
-        <disabledcolor>colorTextDisabled</disabledcolor>
+        <textcolor>FF585858</textcolor>
+        <focusedcolor>EEwhite</focusedcolor>
+        <disabledcolor>77585858</disabledcolor>
         <shadowcolor>20white</shadowcolor>
         <textwidth>188</textwidth>
         <textoffsetx>60</textoffsetx>

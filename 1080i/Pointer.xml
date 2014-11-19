@@ -10,7 +10,7 @@
                 <height>36</height>
                 <label>$LOCALIZE[42200]</label>
                 <font>Font-Condensed-S36-B</font>
-                <textcolor>C0white</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
             </control>
@@ -21,7 +21,7 @@
                 <height>36</height>
                 <label>$LOCALIZE[42201]</label>
                 <font>Font-Condensed-S28</font>
-                <textcolor>80white</textcolor>
+                <textcolor>colorText3</textcolor>
                 <scroll>false</scroll>
                 <align>left</align>
             </control>

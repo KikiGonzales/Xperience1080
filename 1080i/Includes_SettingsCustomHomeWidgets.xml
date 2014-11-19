@@ -1196,7 +1196,7 @@
                             <height>60</height>
                             <align>left</align>
                             <font>Font-Condensed-S30</font>
-                            <textcolor>FF585858</textcolor>
+                            <textcolor>colorText3</textcolor>
                             <shadowcolor>20white</shadowcolor>
                             <label>$INFO[ListItem.Label]</label>
                         </control>
