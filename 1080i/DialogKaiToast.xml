@@ -31,7 +31,7 @@
                     <height>120</height>
                     <label>$INFO[Control.GetLabel(401)]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0white</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                     <animation effect="slide" end="0,16" time="300" tween="sine" easing="inout" condition="IsEmpty(Control.GetLabel(402))">Conditional</animation>
@@ -44,7 +44,7 @@
                     <height>120</height>
                     <label>$INFO[Control.GetLabel(402)]</label>
                     <font>Font-Condensed-S28</font>
-                    <textcolor>80white</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>

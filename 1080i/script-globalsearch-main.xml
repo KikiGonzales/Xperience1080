@@ -41,7 +41,7 @@
                         <width>750</width>
                         <height>120</height>
                         <font>Font-Condensed-S36-B</font>
-                        <textcolor>C0white</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                     </control>
@@ -52,7 +52,7 @@
                         <width>750</width>
                         <height>120</height>
                         <font>Font-Condensed-S28</font>
-                        <textcolor>80white</textcolor>
+                        <textcolor>colorText3</textcolor>
                         <scroll>false</scroll>
                         <align>right</align>
                     </control>

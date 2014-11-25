@@ -785,7 +785,7 @@
                     <height>120</height>
                     <label>$LOCALIZE[41693]</label>
                     <font>Font-Condensed-S36-B</font>
-                    <textcolor>C0white</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>
@@ -796,7 +796,7 @@
                     <height>120</height>
                     <label>$INFO[Window(Weather).Property(Today.moonphase)]</label>
                     <font>Font-Condensed-S28</font>
-                    <textcolor>80white</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <scroll>false</scroll>
                     <align>right</align>
                 </control>

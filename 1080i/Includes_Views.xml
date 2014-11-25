@@ -483,13 +483,13 @@
     <!-- Info -->
     <variable name="AddonLabel2">
         <value condition="stringcompare(ListItem.Label2,$LOCALIZE[24098])">[COLOR=SelectedRed]$INFO[ListItem.Label2, ,][/COLOR]</value>
-        <value condition="stringcompare(ListItem.Label2,$LOCALIZE[305])">[COLOR=SelectedGreen]$INFO[ListItem.Label2, ,][/COLOR]</value>
+        <value condition="stringcompare(ListItem.Label2,$LOCALIZE[305])">[COLOR=colorTextSelected]$INFO[ListItem.Label2, ,][/COLOR]</value>
         <value condition="stringcompare(ListItem.Label2,$LOCALIZE[24068])">[COLOR=SelectedBlue]$INFO[ListItem.Label2, ,][/COLOR]</value>
         <value>$INFO[ListItem.Label2, ,]</value>
     </variable>
 
     <variable name="ListItem.Label">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$INFO[ListItem.Label][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$INFO[ListItem.Label][/COLOR]</value>
         <value>$INFO[ListItem.Label]</value>
     </variable>
 
@@ -515,12 +515,12 @@
     </variable>
 
     <variable name="ListItem.Label2.Focus">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$VAR[ListItem.Label2][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$VAR[ListItem.Label2][/COLOR]</value>
         <value>$VAR[ListItem.Label2]</value>
     </variable>
 
     <variable name="ListItem.Year">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$INFO[ListItem.Year][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$INFO[ListItem.Year][/COLOR]</value>
         <value>$INFO[ListItem.Year]</value>
     </variable>
 
@@ -530,7 +530,7 @@
     </variable>
 
     <variable name="ListItem.Title.Focus">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$VAR[ListItem.Title][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$VAR[ListItem.Title][/COLOR]</value>
         <value>$VAR[ListItem.Title]</value>
     </variable>
 
@@ -540,17 +540,17 @@
     </variable>
 
     <variable name="ListItem.ChannelNumber">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$INFO[ListItem.ChannelNumber][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$INFO[ListItem.ChannelNumber][/COLOR]</value>
         <value>$INFO[ListItem.ChannelNumber]</value>
     </variable>
 
     <variable name="ListItem.StartDate">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$INFO[ListItem.StartDate][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$INFO[ListItem.StartDate][/COLOR]</value>
         <value>$INFO[ListItem.StartDate]</value>
     </variable>
 
     <variable name="ListItem.Season">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$VAR[ListItem.S][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$VAR[ListItem.S][/COLOR]</value>
         <value>$VAR[ListItem.S]</value>
     </variable>
 
@@ -560,7 +560,7 @@
     </variable>
 
     <variable name="ListItem.Episode">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$VAR[ListItem.E][/COLOR]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]$VAR[ListItem.E][/COLOR]</value>
         <value>$VAR[ListItem.E]</value>
     </variable>
 
@@ -585,7 +585,7 @@
     </variable>
 
     <variable name="SelectedColor.Open">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]</value>
+        <value condition="ListItem.IsPlaying">[COLOR=colorTextSelected]</value>
     </variable>
 
     <variable name="SelectedColor.Close">
