@@ -204,6 +204,7 @@
                 <width>743</width>
                 <height>66</height>
                 <texture border="150,1,150,1">views/other/focus.png</texture>
+				<colordiffuse>colorItemFocused</colordiffuse>
                 <include>guidelistfocusanim2</include>
             </control>
             <control type="label">
@@ -351,6 +352,7 @@
                 <width>743</width>
                 <height>66</height>
                 <texture border="150,1,150,1">views/other/focus.png</texture>
+				<colordiffuse>colorItemFocused</colordiffuse>
                 <include>guidelistfocusanim2</include>
             </control>
             <control type="image">
@@ -526,6 +528,7 @@
                 <width>743</width>
                 <height>133</height>
                 <texture border="150,1,150,1">views/other/focus.png</texture>
+				<colordiffuse>colorItemFocused</colordiffuse>
                 <include>guidelistfocusanim2</include>
                 <include>visiblehidefadeinfo</include>
                 <visible>!ControlGroup(9108).HasFocus() + !ControlGroup(9109).HasFocus()</visible>
@@ -1077,6 +1080,7 @@
                 <width>743</width>
                 <height>133</height>
                 <texture border="150,1,150,1">views/other/focus.png</texture>
+				<colordiffuse>colorItemFocused</colordiffuse>
                 <include>guidelistfocusanim2</include>
                 <include>visiblehidefadeinfo</include>
                 <visible>!Control.HasFocus(9110)</visible>

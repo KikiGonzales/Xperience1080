@@ -312,6 +312,7 @@
                     <width>634</width>
                     <height>82</height>
                     <texture border="150,1,150,1">views/other/focus.png</texture>
+					<colordiffuse>colorItemFocused</colordiffuse>
                     <animation effect="slide" end="0,83" time="0" condition="[ControlGroup(9333).HasFocus(193) + Control.IsVisible(192)] | [ControlGroup(9333).HasFocus(191) + [[Control.IsVisible(192) + !Control.IsVisible(193)] | [!Control.IsVisible(192) + Control.IsVisible(193)]]]">Conditional</animation>
                     <animation effect="slide" end="0,166" time="0" condition="ControlGroup(9333).HasFocus(191) + Control.IsVisible(192) + Control.IsVisible(193)">Conditional</animation>
                     <animation effect="slide" start="0,-83" end="0,0" time="300" tween="back" easing="out" condition="IsEmpty(Window.Property(Movement)) + ControlGroup(9333).HasFocus(191)" reversible="false">Conditional</animation>
@@ -906,6 +907,7 @@
                     <width>440</width>
                     <height>81</height>
                     <texture border="150,1,150,1">views/other/focus.png</texture>
+					<colordiffuse>colorItemFocused</colordiffuse>
                     <animation effect="slide" end="0,82" time="0" condition="[ControlGroup(9333).HasFocus(193) + Control.IsVisible(192)] | [ControlGroup(9333).HasFocus(191) + [[Control.IsVisible(192) + !Control.IsVisible(193)] | [!Control.IsVisible(192) + Control.IsVisible(193)]]]">Conditional</animation>
                     <animation effect="slide" end="0,164" time="0" condition="ControlGroup(9333).HasFocus(191) + Control.IsVisible(192) + Control.IsVisible(193)">Conditional</animation>
                     <animation effect="slide" start="0,-82" end="0,0" time="300" tween="back" easing="out" condition="IsEmpty(Window.Property(Movement)) + ControlGroup(9333).HasFocus(191)" reversible="false">Conditional</animation>

@@ -187,6 +187,7 @@
                                     <width>752</width>
                                     <height>59</height>
                                     <texture border="150,1,150,1">views/other/focus.png</texture>
+									<colordiffuse>colorItemFocused</colordiffuse>
                                     <animation type="Focus" condition="Container(50).OnNext" reversible="false">
                                         <effect type="slide" start="0,-60" end="0,0" time="300" tween="back" easing="out" />
                                     </animation>
@@ -466,6 +467,7 @@
                                 <width>752</width>
                                 <height>59</height>
                                 <texture border="150,1,150,1">views/other/focus.png</texture>
+								<colordiffuse>colorItemFocused</colordiffuse>
                                 <animation type="Focus" condition="Container(100).OnNext" reversible="false">
                                     <effect type="slide" start="0,-60" end="0,0" time="300" tween="back" easing="out" />
                                 </animation>

@@ -183,6 +183,7 @@
 	                        <width>780</width>
 	                        <height>75</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <aspectratio>stretch</aspectratio>
 	                        <visible>Control.HasFocus(11)</visible>
 	                        <include>visiblehidefadeinfo</include>

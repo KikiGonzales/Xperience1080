@@ -90,7 +90,8 @@
                             <posy>0</posy>
                             <width>338</width>
                             <height>77</height>
-                            <texture border="150,3,150,3">windows/settings/images/right-focus.png</texture>
+                            <texture border="150,3,150,3" >views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(30)">Conditional</animation>
                         </control>
                         <control type="label">
@@ -264,7 +265,8 @@
                             <posy>0</posy>
                             <width>1210</width>
                             <height>77</height>
-                            <texture border="150,3,150,3">windows/settings/images/right-focus.png</texture>
+                            <texture border="150,3,150,3">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <aspectratio>stretch</aspectratio>
                             <visible>ControlGroup(1007).HasFocus</visible>
                         </control>
@@ -364,8 +366,8 @@
                     <include>SettingsCategoryGrouplistVars</include>
                     <control type="button" id="2000">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <onclick>SetProperty(Dialog,$LOCALIZE[41131])</onclick>
                         <onclick>ActivateWindow(3001)</onclick>
@@ -375,8 +377,8 @@
                     </control>
                     <control type="button" id="2001">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <onclick>SetProperty(Dialog,$LOCALIZE[41136])</onclick>
                         <onclick>ActivateWindow(3003)</onclick>
@@ -384,8 +386,8 @@
                     </control>
                     <control type="button" id="2002">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <onclick>SetProperty(Dialog,$LOCALIZE[41140])</onclick>
                         <onclick>ActivateWindow(3003)</onclick>
@@ -422,7 +424,8 @@
                             <posy>0</posy>
                             <width>1210</width>
                             <height>77</height>
-                            <texture border="150,3,150,3">windows/settings/images/right-focus.png</texture>
+                            <texture border="150,3,150,3" >views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <visible>ControlGroup(2007).HasFocus</visible>
                         </control>
                         <control type="button" id="20071">
@@ -650,8 +653,8 @@
                     <visible>Container(30).HasFocus(35)</visible>
                     <control type="button" id="5000">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[41251]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -661,8 +664,8 @@
                     </control>
                     <control type="button" id="5001">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[5]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -672,8 +675,8 @@
                     </control>
                     <control type="button" id="5002">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[342]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -683,8 +686,8 @@
                     </control>
                     <control type="button" id="5003">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[20343]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -694,8 +697,8 @@
                     </control>
                     <control type="button" id="5006">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[2]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -705,8 +708,8 @@
                     </control>
                     <control type="button" id="5009">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[41504]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>
@@ -716,8 +719,8 @@
                     </control>
                     <control type="button" id="5010">
                         <width>1210</width>
-                        <texturefocus border="150,3,150,3">windows/settings/images/right-focus-arrow-fo.png</texturefocus>
-                        <texturenofocus border="150,3,150,3">windows/settings/images/right-focus-arrow-nf.png</texturenofocus>
+						<texturefocus border="150,1,150,1" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
+						<texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                         <include>SettingsCategoryDefaultButtonVars</include>
                         <label>$LOCALIZE[12600]</label>
                         <onclick>ClearProperty(CustomDialogType)</onclick>

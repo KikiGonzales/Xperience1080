@@ -33,7 +33,7 @@
                     <height>60</height>
                     <label>←</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>EEwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -47,7 +47,7 @@
                     <height>60</height>
                     <label>$LOCALIZE[13511]</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>EEwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="200" tween="sine" easing="inout" condition="Window.IsActive(selectdialog) | Window.IsActive(DialogSelect.xml) | Window.IsActive(filebrowser)">Conditional</animation>
@@ -60,7 +60,7 @@
                     <height>60</height>
                     <label>→</label>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>EEwhite</textcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <scroll>false</scroll>
                     <include>visiblehidefadeinfo</include>
@@ -76,7 +76,8 @@
                     <posy>217</posy>
                     <width>462</width>
                     <height>691</height>
-                    <texture border="3">views/list/panel/panel.png</texture>
+                    <texture border="3">texture.png</texture>
+					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="image">
                     <description>Shadow</description>
@@ -93,6 +94,7 @@
                     <width>458</width>
                     <height>82</height>
                     <texture border="150,1,150,1">views/other/focus.png</texture>
+					<colordiffuse>colorItemFocused</colordiffuse>
                     <include>visiblehidefadeinfo</include>
                     <visible>Control.HasFocus(2)</visible>
                 </control>
@@ -105,9 +107,8 @@
                     <label>$LOCALIZE[13511]</label>
                     <font>Font-Condensed-S40</font>
                     <textoffsetx>30</textoffsetx>
-                    <textcolor>EEwhite</textcolor>
-                    <shadowcolor>33000000</shadowcolor>
-                    <focusedcolor>EEwhite</focusedcolor>
+                    <textcolor>colorText1</textcolor>
+                    <focusedcolor>colorText2</focusedcolor>
                     <texturefocus border="90,3,90,3">views/list/other/separator.png</texturefocus>
                     <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                     <align>left</align>
@@ -129,8 +130,8 @@
                     <font>Font-Condensed-S40-B</font>
                     <align>left</align>
                     <aligny>top</aligny>
-                    <textcolor>BBwhite</textcolor>
-                    <disabledcolor>BBwhite</disabledcolor>
+                    <textcolor>colorText1</textcolor>
+                    <disabledcolor>colorTextDisabled</disabledcolor>
                     <textoffsetx>30</textoffsetx>
                     <textoffsety>34</textoffsety>
                     <enable>false</enable>
@@ -165,8 +166,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>EEwhite</textcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            <textcolor>colorText1</textcolor>
                             <animation effect="fade" start="100" end="50" time="0" condition="true">Conditional</animation>
                         </control>
                     </itemlayout>
@@ -184,6 +184,7 @@
                             <width>458</width>
                             <height>82</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <animation effect="slide" start="0,83" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(3).OnPrevious">Focus</animation>
                             <animation effect="slide" start="0,-83" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(3).OnNext">Focus</animation>
                             <include>visiblehidefadeinfo</include>
@@ -196,8 +197,7 @@
                             <height>82</height>
                             <font>Font-Condensed-S40</font>
                             <label>$INFO[ListItem.Label]</label>
-                            <textcolor>EEwhite</textcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            <textcolor>colorText2</textcolor>
                             <animation effect="fade" start="50" end="100" time="300" tween="sine" easing="inout" reversible="false" condition="Container(3).OnNext | Container(3).OnPrevious">Focus</animation>
                             <animation effect="fade" start="100" end="50" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(3)">Conditional</animation>
                         </control>

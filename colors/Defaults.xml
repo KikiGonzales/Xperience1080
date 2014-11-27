@@ -3,6 +3,7 @@
 <!-- General -->
 		<color name="colorTheme">30FFFFFF</color>
 		<color name="colorBackground">FF000000</color>
+		<color name="colorItemFocused">30FFFFFF</color>			
 		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FFFFFFFF</color>

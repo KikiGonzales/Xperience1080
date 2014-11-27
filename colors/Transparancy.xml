@@ -2,7 +2,8 @@
 <colors>
 <!-- General -->
 		<color name="colorTheme">70000000</color>
-		<color name="colorBackground">60FFFFFF</color>
+		<color name="colorBackground">A0FFFFFF</color>
+		<color name="colorItemFocused">50FFFFFF</color>			
 		<color name="colorText1">A0FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF303030</color>

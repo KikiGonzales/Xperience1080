@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
 <!-- General -->
-		<color name="colorTheme">80FFFFFF</color>
-		<color name="colorBackground">FF79b425</color>	
+		<color name="colorTheme">C0FFFFFF</color>
+		<color name="colorBackground">FF79b425</color>
+		<color name="colorItemFocused">80505050</color>				
 		<color name="colorText1">80303030</color>		
 		<color name="colorText2">FF303030</color>
 		<color name="colorText3">FFFFFFFF</color>

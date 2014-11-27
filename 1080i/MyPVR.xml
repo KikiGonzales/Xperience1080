@@ -68,6 +68,7 @@
                     <width>458</width>
                     <height>111</height>
                     <texture border="150,1,150,1">views/other/focus.png</texture>
+					<colordiffuse>colorItemFocused</colordiffuse>
                     <animation effect="slide" end="0,112" time="0" condition="ControlGroup(9001).HasFocus(33)">Conditional</animation>
                     <animation effect="slide" end="0,224" time="0" condition="ControlGroup(9001).HasFocus(31)">Conditional</animation>
                     <animation effect="slide" end="0,336" time="0" condition="ControlGroup(9001).HasFocus(34)">Conditional</animation>

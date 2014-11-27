@@ -510,6 +510,7 @@
                         <width>1420</width>
                         <height>99</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
+						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
                         <include>visiblehidefadeinfo</include>
                         <visible>Control.HasFocus(50)</visible>
@@ -598,6 +599,7 @@
                         <width>1420</width>
                         <height>99</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
+						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
                         <include>visiblehidefadeinfo</include>
                         <visible>Control.HasFocus(50)</visible>
@@ -713,6 +715,7 @@
                         <width>1420</width>
                         <height>99</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
+						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
                         <include>visiblehidefadeinfo</include>
                         <visible>Control.HasFocus(50)</visible>
@@ -806,6 +809,7 @@
                         <width>1420</width>
                         <height>99</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
+						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
                         <include>visiblehidefadeinfo</include>
                         <visible>Control.HasFocus(50)</visible>
@@ -909,6 +913,7 @@
                         <width>1420</width>
                         <height>99</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
+						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
                         <include>visiblehidefadeinfo</include>
                         <visible>Control.HasFocus(50)</visible>
@@ -1661,6 +1666,7 @@
                             <width>710</width>
                             <height>59</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
                             <include>visiblehidefadeinfo</include>
                             <visible>Control.HasFocus(52)</visible>
@@ -1726,6 +1732,7 @@
                             <width>710</width>
                             <height>59</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
                             <include>visiblehidefadeinfo</include>
                             <visible>Control.HasFocus(52)</visible>
@@ -1806,6 +1813,7 @@
                             <width>710</width>
                             <height>59</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
                             <include>visiblehidefadeinfo</include>
                             <visible>Control.HasFocus(52)</visible>
@@ -1889,6 +1897,7 @@
                             <width>710</width>
                             <height>59</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
                             <include>visiblehidefadeinfo</include>
                             <visible>Control.HasFocus(52)</visible>
@@ -1959,6 +1968,7 @@
                             <width>710</width>
                             <height>59</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
                             <include>visiblehidefadeinfo</include>
                             <visible>Control.HasFocus(52)</visible>

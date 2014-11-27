@@ -370,6 +370,7 @@
                             <width>1022</width>
                             <height>95</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(11).OnPrevious">focus</animation>
                             <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(11).OnNext">focus</animation>
                             <include>visiblehidefadeinfo</include>
@@ -899,6 +900,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(12).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(12).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -1197,6 +1199,7 @@
     					    <width>500</width>
     					    <height>79</height>
     					    <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
     					    <include>visiblehidefadeinfo</include>
     					    <visible>Control.HasFocus(10)</visible>
     					</control>
@@ -1351,6 +1354,7 @@
     				        <height>78</height>
 							<aspectratio>stretch</aspectratio>
     					    <texture border="2">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
     					</control>
     					<control type="label" id="1">
     						<posx>22</posx>
@@ -1738,6 +1742,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(15).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(15).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -1816,6 +1821,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(15).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(15).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -2241,6 +2247,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(16).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(16).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -2356,6 +2363,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(16).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(16).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -2740,6 +2748,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(13).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(13).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -2996,6 +3005,7 @@
                             <width>1320</width>
                             <height>95</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
                             <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(14).OnPrevious">focus</animation>
                             <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(14).OnNext">focus</animation>
                             <include>visiblehidefadeinfo</include>
@@ -3443,6 +3453,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(17).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(17).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>
@@ -3562,6 +3573,7 @@
 	                        <width>1022</width>
 	                        <height>95</height>
 	                        <texture border="150,1,150,1">views/other/focus.png</texture>
+							<colordiffuse>colorItemFocused</colordiffuse>
 	                        <animation effect="slide" start="0,96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(17).OnPrevious">focus</animation>
 	                        <animation effect="slide" start="0,-96" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(17).OnNext">focus</animation>
 	                        <include>visiblehidefadeinfo</include>

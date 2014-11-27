@@ -122,6 +122,7 @@
                         <width>85</width>
                         <height>85</height>
                         <texture>DefaultSortLetter.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
                     </control>
                     <control type="label">
                         <posx>0</posx>
@@ -131,8 +132,7 @@
                         <align>center</align>
                         <font>Font-Condensed-S52-B</font>
                         <label>$VAR[GlobalSearchMainSortLetter]</label>
-                        <textcolor>C0000000</textcolor>
-                        <shadowcolor>white</shadowcolor>
+                        <textcolor>colorText2</textcolor>
                     </control>
                 </control>
                 <control type="group">

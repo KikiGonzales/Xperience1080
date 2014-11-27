@@ -2,7 +2,8 @@
 <colors>
 <!-- General -->
 		<color name="colorTheme">C02b87cd</color>
-		<color name="colorBackground">FFFFFFFF</color>		
+		<color name="colorBackground">FFFFFFFF</color>
+		<color name="colorItemFocused">80505050</color>		
 		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF505050</color>

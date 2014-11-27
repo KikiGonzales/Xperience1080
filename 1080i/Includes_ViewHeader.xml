@@ -220,6 +220,7 @@
                 <width>85</width>
                 <height>85</height>
                 <texture>DefaultSortLetter.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
             </control>
             <control type="label">
                 <posx>0</posx>
@@ -229,8 +230,7 @@
                 <align>center</align>
                 <font>Font-Condensed-S52-B</font>
                 <label>$INFO[ListItem.SortLetter]</label>
-                <textcolor>colorText3</textcolor>
-                <shadowcolor>white</shadowcolor>
+                <textcolor>colorText2</textcolor>
             </control>
         </control>
     </include>
@@ -240,6 +240,7 @@
         <posy>32</posy>
         <width>85</width>
         <height>85</height>
+		<colordiffuse>colorText3</colordiffuse>
         <visible>!Container.Scrolling</visible>
         <animation type="Hidden">
             <effect type="fade" start="100" end="8" tween="sine" easing="out" time="300" />
@@ -520,6 +521,7 @@
                         <width>85</width>
                         <height>85</height>
                         <texture>DefaultSortLetter.png</texture>
+						<colordiffuse>colorTheme</colordiffuse>
                     </control>
                     <control type="label">
                         <posx>0</posx>
@@ -529,8 +531,7 @@
                         <align>center</align>
                         <font>Font-Condensed-S52-B</font>
                         <label>$VAR[FileManagerSortLetterLabel]</label>
-                        <textcolor>colorText3</textcolor>
-                        <shadowcolor>white</shadowcolor>
+                        <textcolor>colorText2</textcolor>
                     </control>
                 </control>
                 <control type="label">
@@ -590,6 +591,7 @@
                     <width>85</width>
                     <height>85</height>
                     <texture>$VAR[SettingsIcon]</texture>
+					<colordiffuse>colorText3</colordiffuse>
                 </control>
                 <control type="grouplist">
                     <posx>110</posx>

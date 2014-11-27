@@ -222,7 +222,7 @@
             <height>77</height>
             <align>left</align>
             <aligny>center</aligny>
-            <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
+            <texturefocus border="150,3,150,3" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
             <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
@@ -236,7 +236,7 @@
             <radioposx>1087</radioposx>
             <align>left</align>
             <aligny>center</aligny>
-            <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
+            <texturefocus border="150,3,150,3" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
             <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
@@ -250,7 +250,7 @@
             <spinposx>33</spinposx>
             <align>left</align>
             <aligny>center</aligny>
-            <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
+            <texturefocus border="150,3,150,3" colordiffuse="colorItemFocused">views/other/focus.png</texturefocus>
             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
             <textcolor>colorText1</textcolor>
             <focusedcolor>colorText2</focusedcolor>
