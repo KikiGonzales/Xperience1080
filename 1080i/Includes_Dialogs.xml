@@ -387,7 +387,7 @@
                 <label>$LOCALIZE[42130]</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
             <control type="label" id="20">
                 <description>Heading</description>
@@ -399,7 +399,7 @@
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
 
             <control type="group" id="8003">
@@ -1184,7 +1184,7 @@
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
 
             <control type="group">
@@ -1927,7 +1927,7 @@
                 <label>$INFO[ListItem.Title]</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
             <control type="group">
                 <posx>100</posx>

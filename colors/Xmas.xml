@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
 <!-- General -->
-		<color name="colorTheme">C01d337a</color>
-		<color name="colorBackground">FFFFFFFF</color>
-		<color name="colorItemFocused">60FFFFFF</color>				
-		<color name="colorText1">A0FFFFFF</color>
+		<color name="colorTheme">D0af1c1c</color>
+		<color name="colorBackground">A0FFFFFF</color>
+		<color name="colorItemFocused">50FFFFFF</color>		
+		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF505050</color>
-		<color name="colorTextDisabled">40FFFFFF</color>
-		<color name="colorTextSelected">FF476eee</color>
-		<color name="colorTextSelected2">FF1d337a</color>
+		<color name="colorTextDisabled">88505050</color>
+		<color name="colorTextSelected">FFFFFFFF</color>
+		<color name="colorTextSelected2">FFff0600</color>
 		
 <!-- All others -->
         <color name="black">FF000000</color>

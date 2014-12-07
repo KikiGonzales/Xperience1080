@@ -17,7 +17,7 @@
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
             	<textcolor>colorText3</textcolor>
-            	<shadowcolor>22000000</shadowcolor>
+            	
             	<label>$INFO[Control.GetLabel(3)]</label>
             	<animation effect="slide" end="-10" time="0" condition="Container.Content(Movies)">Conditional</animation>
             	<animation effect="slide" end="310" time="0" condition="Container.Content(TVShows)">Conditional</animation>
@@ -43,10 +43,10 @@
             </control>
 
             <control type="list" id="50">
-                <posx>250</posx>
-                <posy>190</posy>
-                <height>700</height>
-                <width>1420</width>
+                <posx>248</posx>
+                <posy>187</posy>
+                <height>704</height>
+                <width>1424</width>
                 <pagecontrol>70</pagecontrol>
                 <onleft condition="!Skin.HasSetting(KioskMode)">9010</onleft>
                 <onleft condition="Skin.HasSetting(KioskMode)">50</onleft>
@@ -61,20 +61,19 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="label">
                         <description>Label</description>
                         <posx>180</posx>
@@ -133,20 +132,19 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="image">
                         <description>Thumbnail</description>
                         <posx>84</posx>
@@ -244,7 +242,7 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
@@ -322,7 +320,7 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
@@ -400,20 +398,19 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="image">
                         <description>Thumbnail</description>
                         <posx>84</posx>
@@ -490,25 +487,24 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -579,25 +575,24 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -705,15 +700,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -799,15 +794,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -893,25 +888,24 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
-                    <control type="image">
-                        <posx>0</posx>
-                        <posy>1</posy>
-                        <width>1420</width>
-                        <height>94</height>
-                        <texture>views/other/selected.png</texture>
-                        <colordiffuse>07white</colordiffuse>
-                        <aspectratio aligny="top">center</aspectratio>
-                        <visible>ListItem.IsPlaying</visible>
-                    </control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>10</width>
+						<height>101</height>
+						<texture>views/other/focus.png</texture>
+						<colordiffuse>colorTextSelected</colordiffuse>
+						<visible>ListItem.IsPlaying</visible>
+					</control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -1129,7 +1123,7 @@
                     </control>
                     <control type="image">
                         <posx>0</posx>
-                        <posy>1</posy>
+                        <posy>0</posy>
                         <width>576</width>
                         <height>324</height>
                         <texture background="true" fallback="views/fallbacks/DefaultVideo.png/landscape.png">$INFO[Container(52).ListItem.Thumb]</texture>
@@ -1160,7 +1154,7 @@
                                 <font>Font-Condensed-S60</font>
                                 <label>$LOCALIZE[207]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                             <control type="textbox">
@@ -1172,7 +1166,7 @@
                                 <info>Container(52).ListItem.Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>33000000</shadowcolor>
+                                
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S34</font>
@@ -1198,7 +1192,7 @@
                                 <info>Container(52).ListItem.Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>33000000</shadowcolor>
+                                
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S32</font>
@@ -1235,7 +1229,7 @@
                             <font>Font-Condensed-S60</font>
                             <label>$VAR[InfoListInfo]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                             <visible>!Container.Content(Episodes)</visible>
                         </control>
@@ -1248,7 +1242,7 @@
                                 <font>Font-Condensed-S30</font>
                                 <label>$VAR[InfoListSubInfo]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <visible>IsEmpty(ListItem.VideoResolution)</visible>
                             </control>
@@ -1259,7 +1253,7 @@
                                 <font>Font-Condensed-S30</font>
                                 <label>$VAR[InfoListSubInfo]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.VideoResolution)</visible>
                             </control>
@@ -1305,7 +1299,7 @@
                 	<height>30</height>
                 	<font>Font-Condensed-S29-B</font>
                 	<textcolor>colorText3</textcolor>
-                	<shadowcolor>22000000</shadowcolor>
+                	
                 	<label>$INFO[Control.GetLabel(3)]</label>
                 	<animation effect="slide" end="39" time="0" condition="Container.Content(Seasons)">Conditional</animation>
                 	<animation effect="slide" end="70" time="0" condition="Container.Content(Movies)">Conditional</animation>
@@ -1323,10 +1317,10 @@
                 </control>
                 <control type="list" id="52">
                     <visible>[Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Container.Content(Sets)] | [substring(Container.FolderPath,plugin,left) + Container.HasFiles]</visible>
-                    <posx>512</posx>
-                    <posy>277</posy>
-                    <width>710</width>
-                    <height>600</height>
+                    <posx>510</posx>
+                    <posy>274</posy>
+                    <width>714</width>
+                    <height>604</height>
                     <pagecontrol>70</pagecontrol>
                     <onleft condition="!Skin.HasSetting(KioskMode)">9010</onleft>
                     <onleft condition="Skin.HasSetting(KioskMode)">52</onleft>
@@ -1341,20 +1335,19 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>710</width>
-                            <height>59</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="label">
                             <posx>60</posx>
                             <posy>0</posy>
@@ -1364,7 +1357,6 @@
                             <label>$INFO[ListItem.Label]</label>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1375,7 +1367,6 @@
                             <label>$VAR[ListItem.Label2]</label>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <align>right</align>
                         </control>
@@ -1393,20 +1384,19 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>710</width>
-                            <height>59</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="label">
                             <posx>130</posx>
                             <posy>0</posy>
@@ -1416,7 +1406,6 @@
                             <label>$INFO[ListItem.Label]</label>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1429,7 +1418,6 @@
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <align>right</align>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1441,7 +1429,6 @@
                             <align>right</align>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!substring(ListItem.Path,videodb://movies/sets,left) + !IsEmpty(ListItem.Year)</visible>
                         </control>
@@ -1468,7 +1455,7 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
@@ -1480,7 +1467,6 @@
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1492,7 +1478,6 @@
                             <align>right</align>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!substring(ListItem.Path,videodb://movies/sets,left) + !IsEmpty(ListItem.Year)</visible>
                         </control>
@@ -1506,7 +1491,6 @@
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <align>right</align>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="group">
@@ -1535,7 +1519,7 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
@@ -1547,7 +1531,6 @@
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1560,7 +1543,6 @@
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <align>right</align>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Property(NumEpisodes))</visible>
                         </control>
@@ -1590,10 +1572,19 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>							
                         <control type="label">
                             <posx>60</posx>
                             <posy>0</posy>
@@ -1603,7 +1594,6 @@
                             <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                             <visible>!IsEmpty(ListItem.Season) + !IsEmpty(ListItem.Episode)</visible>
                         </control>
@@ -1616,7 +1606,6 @@
                             <label>$VAR[ListItem.Title]</label>
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -1629,7 +1618,6 @@
                             <selectedcolor>colorTextSelected</selectedcolor>
                             <align>right</align>
                             <textcolor>colorText1</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="image">
@@ -1646,25 +1634,24 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>710</width>
-                            <height>59</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
-                            <height>59</height>
+                            <width>714</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1684,7 +1671,6 @@
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$VAR[ListItem.Label]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
                                 <posx>690</posx>
@@ -1693,7 +1679,6 @@
                                 <font>Font-Condensed-S31</font>
                                 <label>$VAR[ListItem.Label2.Focus]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <align>right</align>
                             </control>
@@ -1712,25 +1697,24 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>710</width>
-                            <height>59</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
-                            <height>59</height>
+                            <width>714</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1751,7 +1735,6 @@
                                 <label>$INFO[ListItem.Label]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <visible>!Container.Content(Episodes)</visible>
                             </control>
                             <control type="label">
@@ -1763,7 +1746,6 @@
                                 <label>$VAR[ListItem.Label2.Focus]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <align>right</align>
                                 <scroll>false</scroll>
                             </control>
@@ -1776,7 +1758,6 @@
                                 <align>right</align>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <visible>!substring(ListItem.Path,videodb://movies/sets,left) + !Container.Content(Episodes) + !IsEmpty(ListItem.Year)</visible>
                             </control>
@@ -1803,15 +1784,15 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
-                            <height>59</height>
+                            <width>714</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1832,7 +1813,6 @@
                                 <align>right</align>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Year)</visible>
                             </control>
@@ -1845,7 +1825,6 @@
                                 <label>$INFO[ListItem.Label]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
                                 <posx>690</posx>
@@ -1856,7 +1835,6 @@
                                 <label>$VAR[ListItem.Label2]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <align>right</align>
                                 <scroll>false</scroll>
                             </control>
@@ -1887,15 +1865,15 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
-                            <height>59</height>
+                            <width>714</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1915,7 +1893,6 @@
                                 <font>Font-Condensed-S29-B</font>
                                 <label>$INFO[ListItem.Label]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
                                 <posx>690</posx>
@@ -1926,7 +1903,6 @@
                                 <label>$VAR[ListItem.Property(NumEpisodes)]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <align>right</align>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Property(NumEpisodes))</visible>
@@ -1958,15 +1934,24 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
+                            <width>714</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>61</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>							
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>710</width>
-                            <height>59</height>
+                            <width>714</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1987,7 +1972,6 @@
                                 <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <scroll>false</scroll>
                                 <visible>!IsEmpty(ListItem.Season) + !IsEmpty(ListItem.Episode)</visible>
                             </control>
@@ -2000,7 +1984,6 @@
                                 <label>$VAR[ListItem.Title.Focus]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                             </control>
                             <control type="label">
                                 <posx>690</posx>
@@ -2011,7 +1994,6 @@
                                 <label>$VAR[ListItem.Label2.Focus]</label>
                                 <selectedcolor>colorTextSelected</selectedcolor>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
                                 <align>right</align>
                                 <scroll>false</scroll>
                             </control>
@@ -2333,7 +2315,7 @@
                                 <font>Font-Condensed-S60</font>
                                 <label>$LOCALIZE[207]</label>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                             <control type="textbox">
@@ -2345,7 +2327,7 @@
                                 <info>Container(53).ListItem.Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>33000000</shadowcolor>
+                                
                                 <pagecontrol>71</pagecontrol>
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S34</font>
@@ -2365,7 +2347,7 @@
                             <font>Font-Condensed-S45</font>
                             <label>$INFO[Container(53).ListItem.Label]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                             <animation effect="slide" end="0,40" time="0" condition="IsEmpty(Container(53).ListItem.Genre)">Conditional</animation>
                         </control>
@@ -2376,7 +2358,7 @@
                             <font>Font-Condensed-S30</font>
                             <label>$INFO[Container(53).ListItem.Genre]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -2386,7 +2368,7 @@
                             <font>Font-Condensed-S30</font>
                             <label>$VAR[VideoPanelThumbInfo]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                     </control>
@@ -2470,7 +2452,7 @@
                                 <label>$INFO[Container(54).ListItem(-1).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2481,7 +2463,7 @@
                                 <label>$INFO[Container(54).ListItem(-1).Rating,★ , / ]$INFO[Container(54).ListItem(-1).Year]$INFO[Container(54).ListItem(-1).Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel-1]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2494,7 +2476,7 @@
                                 <info>Container(54).ListItem(-1).Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -2601,7 +2583,7 @@
                                 <label>$INFO[Container(54).ListItem(3).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2612,7 +2594,7 @@
                                 <label>$INFO[Container(54).ListItem(3).Rating,★ , / ]$INFO[Container(54).ListItem(3).Year]$INFO[Container(54).ListItem(3).Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel3]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2625,7 +2607,7 @@
                                 <info>Container(54).ListItem(3).Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -2732,7 +2714,7 @@
                                 <label>$INFO[Container(54).ListItem(2).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2743,7 +2725,7 @@
                                 <label>$INFO[Container(54).ListItem(2).Rating,★ , / ]$INFO[Container(54).ListItem(2).Year]$INFO[Container(54).ListItem(2).Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel2]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2756,7 +2738,7 @@
                                 <info>Container(54).ListItem(2).Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -2863,7 +2845,7 @@
                                 <label>$INFO[Container(54).ListItem(1).Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2874,7 +2856,7 @@
                                 <label>$INFO[Container(54).ListItem(1).Rating,★ , / ]$INFO[Container(54).ListItem(1).Year]$INFO[Container(54).ListItem(1).Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel1]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -2887,7 +2869,7 @@
                                 <info>Container(54).ListItem(1).Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -2991,7 +2973,7 @@
                         <label>$INFO[Container(54).ListItem(0).Label]</label>
                         <font>Font-Condensed-S34-B</font>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -3002,7 +2984,7 @@
                         <label>$INFO[Container(54).ListItem(0).Rating,★ , / ]$INFO[Container(54).ListItem(0).Year]$INFO[Container(54).ListItem(0).Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel0]</label>
                         <font>Font-Condensed-S32</font>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                         <align>left</align>
                     </control>
@@ -3015,7 +2997,7 @@
                         <info>Container(54).ListItem(0).Plot</info>
                         <align>justify</align>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <autoscroll>false</autoscroll>
                         <font>Font-Condensed-S28</font>
                     </control>
@@ -3127,7 +3109,7 @@
                                 <label>$INFO[ListItem.Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -3138,7 +3120,7 @@
                                 <label>$INFO[ListItem.Rating,★ , / ]$INFO[ListItem.Year]$INFO[ListItem.Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -3151,7 +3133,7 @@
                                 <info>ListItem.Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText3</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll>false</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -3248,7 +3230,7 @@
                                 <label>$INFO[ListItem.Label]</label>
                                 <font>Font-Condensed-S34-B</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -3259,7 +3241,7 @@
                                 <label>$INFO[ListItem.Rating,★ , / ]$INFO[ListItem.Year]$INFO[ListItem.Duration, / , $LOCALIZE[12391]]$VAR[LandscapeHDSD3DLabel]</label>
                                 <font>Font-Condensed-S32</font>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <align>left</align>
                             </control>
@@ -3272,7 +3254,7 @@
                                 <info>ListItem.Plot</info>
                                 <align>justify</align>
                                 <textcolor>colorText2</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                                 <font>Font-Condensed-S28</font>
                             </control>
@@ -4210,8 +4192,7 @@
                             <height>66</height>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S32</font>
-                            <textcolor>96white</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            <textcolor>colorText1</textcolor>
                             <scroll>false</scroll>
                             <align>left</align>
                         </control>
@@ -4221,7 +4202,7 @@
                             <posy>258</posy>
                             <width>100</width>
                             <height>100</height>
-                            <colordiffuse>EEwhite</colordiffuse>
+                            <colordiffuse>colorText1</colordiffuse>
                             <texture>$VAR[DefaultListOverlay]</texture>
                             <visible>!IsEmpty(ListItem.Overlay)</visible>
                         </control>
@@ -4261,8 +4242,8 @@
                             <height>50</height>
                             <label>$INFO[ListItem.Label]</label>
                             <font>Font-Condensed-S25</font>
-                            <textcolor>96white</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            <textcolor>colorText1</textcolor>
+                            
                             <scroll>false</scroll>
                             <align>left</align>
                         </control>
@@ -4272,7 +4253,7 @@
                             <width>60</width>
                             <height>60</height>
                             <texture>$VAR[InfoListOverlay]</texture>
-                            <colordiffuse>EEwhite</colordiffuse>
+                            <colordiffuse>colorText1</colordiffuse>
                             <visible>!IsEmpty(ListItem.Overlay)</visible>
                         </control>
                     </itemlayout>
@@ -4301,12 +4282,12 @@
                                 <aspectratio>keep</aspectratio>
                             </control>
                             <control type="group">
-                                <animation type="Focus">
+                                <!--<animation type="Focus">
                                     <effect type="fade" start="100" end="0" time="200" tween="sine" easing="in" />
                                 </animation>
                                 <animation type="Unfocus">
                                     <effect type="fade" start="0" end="100" time="200" tween="sine" easing="out" />
-                                </animation>
+                                </animation>-->
                                 <control type="image">
                                     <posx>12</posx>
                                     <posy>272</posy>
@@ -4323,7 +4304,7 @@
                                     <label>$INFO[ListItem.Label]</label>
                                     <font>Font-Condensed-S32</font>
                                     <textcolor>colorText2</textcolor>
-                                    <shadowcolor>22000000</shadowcolor>
+                                    
                                     <scroll>false</scroll>
                                     <align>left</align>
                                 </control>
@@ -4333,7 +4314,7 @@
                                     <posy>258</posy>
                                     <width>100</width>
                                     <height>100</height>
-                                    <colordiffuse>EEwhite</colordiffuse>
+                                    <colordiffuse>colorText2</colordiffuse>
                                     <texture>$VAR[DefaultListOverlay]</texture>
                                     <visible>!IsEmpty(ListItem.Overlay)</visible>
                                 </control>
@@ -4380,12 +4361,12 @@
                                 <aspectratio>keep</aspectratio>
                             </control>
                             <control type="group">
-                                <animation type="Focus">
+                                <!--<animation type="Focus">
                                     <effect type="fade" start="100" end="0" time="200" tween="sine" easing="in" />
                                 </animation>
                                 <animation type="Unfocus">
                                     <effect type="fade" start="0" end="100" time="200" tween="sine" easing="out" />
-                                </animation>
+                                </animation>-->
                                 <control type="image">
                                     <posx>12</posx>
                                     <posy>179</posy>
@@ -4402,7 +4383,6 @@
                                     <label>$INFO[ListItem.Label]</label>
                                     <font>Font-Condensed-S25</font>
                                     <textcolor>colorText2</textcolor>
-                                    <shadowcolor>22000000</shadowcolor>
                                     <scroll>false</scroll>
                                     <align>left</align>
                                 </control>
@@ -4442,8 +4422,7 @@
                     <label>[B]$INFO[ListItem.Label][/B]</label>
                     <label2>$VAR[ThumbnailViewDetailInfo]</label2>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>colorText2</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <visible>!Skin.HasSetting(ThumbnailSmall)</visible>
                 </control>
@@ -4455,8 +4434,7 @@
                     <label>[B]$INFO[ListItem.Label][/B]</label>
                     <label2>$VAR[ThumbnailViewDetailInfo]</label2>
                     <font>Font-Condensed-S45</font>
-                    <textcolor>colorText2</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    <textcolor>colorText3</textcolor>
                     <align>left</align>
                     <visible>Skin.HasSetting(ThumbnailSmall)</visible>
                 </control>
@@ -4466,7 +4444,7 @@
                     <posy>852</posy>
                     <width>100</width>
                     <height>100</height>
-                    <colordiffuse>EEwhite</colordiffuse>
+                    <colordiffuse>colorText3</colordiffuse>
                     <texture>$VAR[DefaultListOverlay]</texture>
                     <visible>!IsEmpty(ListItem.Overlay)</visible>
                     <animation effect="slide" end="-59" time="0" condition="Skin.HasSetting(ThumbnailSmall)">Conditional</animation>
@@ -4795,7 +4773,6 @@
                             <font>Font-Condensed-S60</font>
                             <label>$LOCALIZE[207]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
                         <control type="textbox">
@@ -4806,8 +4783,7 @@
                             <height>470</height>
                             <info>Container(501).ListItem.Plot</info>
                             <align>justify</align>
-                            <textcolor>colorText2</textcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            <textcolor>colorText2</textcolor>   
                             <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                             <font>Font-Condensed-S34</font>
                         </control>
@@ -4826,7 +4802,7 @@
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[ListItem.Label]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                         <animation effect="slide" end="0,40" time="0" condition="IsEmpty(Container(501).ListItem.Genre)">Conditional</animation>
                         <animation effect="slide" end="0,40" time="0" condition="Container.Content(Genres) | Container.Content(Actors)">Conditional</animation>
@@ -4838,7 +4814,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Genre]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -4848,7 +4824,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$VAR[VideoPanelThumbInfo]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                 </control>
@@ -4949,6 +4925,7 @@
                             <width>28</width>
                             <height>28</height>
                             <texture>$VAR[BannerOverlayNF]</texture>
+							<colordiffuse>colorText3</colordiffuse>
                             <visible>!Container.Content(TVShows) + !Container.Content(Seasons)</visible>
                         </control>
                         <control type="group">
@@ -4959,7 +4936,7 @@
                             <posy>10</posy>
                             <control type="image">
                                 <posx>0</posx>
-                                <posy>1</posy>
+                                <posy>0</posy>
                                 <width>64</width>
                                 <height>40</height>
                                 <texture>views/banner/other/unwatched-nf.png</texture>
@@ -4988,7 +4965,7 @@
                             <width>28</width>
                             <height>28</height>
                             <texture>$VAR[BannerOverlayNF]</texture>
-                            <colordiffuse>96white</colordiffuse>
+                            <colordiffuse>colorText3</colordiffuse>
                         </control>
                         <control type="image">
                             <posx>-207</posx>
@@ -5074,7 +5051,7 @@
                                 <posy>53</posy>
                                 <control type="image">
                                     <posx>0</posx>
-                                    <posy>1</posy>
+                                    <posy>0</posy>
                                     <width>64</width>
                                     <height>40</height>
                                     <texture>views/banner/other/unwatched.png</texture>
@@ -5220,7 +5197,7 @@
                                 <posy>84</posy>
                                 <control type="image">
                                     <posx>0</posx>
-                                    <posy>1</posy>
+                                    <posy>0</posy>
                                     <width>64</width>
                                     <height>40</height>
                                     <texture>views/banner/other/unwatched.png</texture>
@@ -5339,7 +5316,7 @@
                             <posy>67</posy>
                             <control type="image">
                                 <posx>0</posx>
-                                <posy>1</posy>
+                                <posy>0</posy>
                                 <width>64</width>
                                 <height>40</height>
                                 <texture>views/banner/other/unwatched.png</texture>

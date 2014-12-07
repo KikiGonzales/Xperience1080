@@ -29,7 +29,7 @@
 	                <label>$LOCALIZE[19222]$INFO[VideoPlayer.ChannelName, • ,]$INFO[Container(11).ListItem.StartDate, • ,]</label>
 	                <font>Font-Condensed-S34-B</font>
 	                <textcolor>BBwhite</textcolor>
-	                <shadowcolor>66000000</shadowcolor>
+	                
 	            </control>
 	            <control type="list" id="11">
 	                <posx>100</posx>

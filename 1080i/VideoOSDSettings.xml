@@ -28,7 +28,7 @@
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
             <control type="group">
                 <control type="grouplist" id="5">

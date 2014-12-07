@@ -340,7 +340,7 @@
                         <textcolor>EEwhite</textcolor>
                         <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
                         <onleft condition="Control.IsVisible(140) + !Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright>70</onright>
@@ -363,7 +363,7 @@
                         <textcolor>EEwhite</textcolor>
                         <focusedcolor>EEwhite</focusedcolor>>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
                         <onleft condition="Control.IsVisible(140) + !Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright>70</onright>
@@ -388,7 +388,7 @@
                         <textcolor>EEwhite</textcolor>
                         <focusedcolor>EEwhite</focusedcolor>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Control.IsVisible(140)">1110</onleft>
                         <onleft condition="Control.IsVisible(140) + !Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright>70</onright>
@@ -935,7 +935,7 @@
                         <textcolor>77white</textcolor>
                         <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright condition="!Window.IsVisible(3009)">SetProperty(BounceRight,1,Home)</onright>
                         <onup>SetProperty(Movement,1)</onup>
@@ -957,7 +957,7 @@
                         <textcolor>77white</textcolor>
                         <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright condition="!Window.IsVisible(3009)">SetProperty(BounceRight,1,Home)</onright>
                         <onup>SetProperty(Movement,1)</onup>
@@ -981,7 +981,7 @@
                         <textcolor>77white</textcolor>
                         <selectedcolor>EEwhite</selectedcolor>
                         <disabledcolor>77white</disabledcolor>
-                        <shadowcolor>33000000</shadowcolor>
+                        
                         <onleft condition="!Window.IsVisible(3008)">SetProperty(BounceLeft,1,Home)</onleft>
                         <onright condition="!Window.IsVisible(3009)">SetProperty(BounceRight,1,Home)</onright>
                         <onup>SetProperty(Movement,1)</onup>

@@ -40,7 +40,7 @@
                 <label>-</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>BBwhite</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
             <control type="label" id="4">
                 <description>No presets label</description>
@@ -53,7 +53,7 @@
                 <label>13389</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>77white</textcolor>
-                <shadowcolor>66000000</shadowcolor>
+                
             </control>
             <control type="group">
                 <control type="list" id="2">

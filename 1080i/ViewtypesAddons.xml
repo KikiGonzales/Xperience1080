@@ -18,7 +18,7 @@
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
             	<textcolor>colorText3</textcolor>
-            	<shadowcolor>22000000</shadowcolor>
+            	
             	<label>$INFO[Control.GetLabel(3)]</label>
             </control>
 
@@ -408,7 +408,7 @@
                         <font>Font-Condensed-S45</font>
                         <label>$INFO[ListItem.Label]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -419,7 +419,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Property(Addon.Summary)]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                     <control type="button">
@@ -432,7 +432,7 @@
                         <label>$LOCALIZE[146]</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Type)][/B]</label2>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                     </control>
                     <control type="button">
                         <posx>25</posx>
@@ -444,7 +444,7 @@
                         <label>$LOCALIZE[21863]:</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Creator)][/B]</label2>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                     </control>
                     <control type="button">
                         <posx>25</posx>
@@ -456,7 +456,7 @@
                         <label>$LOCALIZE[24051]</label>
                         <label2>[B]$INFO[ListItem.Property(Addon.Version)][/B]</label2>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                     </control>
                 </control>
                 <control type="image">

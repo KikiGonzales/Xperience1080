@@ -183,7 +183,7 @@
                     <height>573</height>
                     <align>left</align>
                     <textcolor>colorText2</textcolor>
-                    <shadowcolor>33000000</shadowcolor>
+                    
                     <pagecontrol>71</pagecontrol>
                     <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                     <font>Font-Condensed-S32</font>
@@ -339,7 +339,7 @@
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>colorText2</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
             </control>
         </control>

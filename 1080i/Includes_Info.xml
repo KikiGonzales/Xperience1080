@@ -32,7 +32,7 @@
                     <label>[B]$INFO[System.Time][/B]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>colorText3</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <align>right</align>
                     <scroll>false</scroll>
                     <animation effect="slide" end="60" time="300" tween="sine" easing="inout" condition="!Weather.IsFetched | [stringcompare(Weather.FanartCode,na) + substring(Weather.Conditions,/)]">Conditional</animation>
@@ -130,7 +130,7 @@
                 <label>$LOCALIZE[41600]</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>colorText3</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <include>homebuttonsanim4</include>
                 <visible>!Skin.HasSetting(HideOptionsButton) + !Window.IsVisible(movieinformation) + !Window.IsVisible(script-Actors-DialogInfo.xml) + !Window.IsVisible(script-Actors-DialogVideoInfo.xml) + !Window.IsVisible(addoninformation) + !Window.IsVisible(musicinformation) + !Window.IsVisible(songinformation) + !Window.IsVisible(1122) + !Window.IsActive(favourites)</visible>
             </control>
@@ -159,7 +159,7 @@
                 <label>$LOCALIZE[41507]</label>
                 <font>Font-Condensed-S34-B</font>
                 <textcolor>colorText3</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <include>homebuttonsanim2</include>
                 <visible>!Skin.HasSetting(HideShutdownButton)</visible>
             </control>

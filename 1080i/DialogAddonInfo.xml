@@ -167,7 +167,7 @@
                             <textcolor>96white</textcolor>
                             <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>44white</disabledcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         </control>
@@ -183,7 +183,7 @@
                             <textcolor>96white</textcolor>
                             <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>44white</disabledcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         </control>
@@ -199,7 +199,7 @@
                             <textcolor>96white</textcolor>
                             <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>44white</disabledcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         </control>
@@ -216,7 +216,7 @@
                             <textcolor>96white</textcolor>
                             <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>44white</disabledcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <texturenofocus border="90,3,90,3">views/list/other/separator.png</texturenofocus>
                             <texturefocus border="150,3,150,3">windows/settings/images/right-focus.png</texturefocus>
                         </control>
@@ -233,7 +233,7 @@
                             <textcolor>96white</textcolor>
                             <focusedcolor>EEwhite</focusedcolor>
                             <disabledcolor>44white</disabledcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <texturefocus border="150,1,150,1">views/other/focus.png</texturefocus>
 							<colordiffuse>colorItemFocused</colordiffuse>
                         </control>

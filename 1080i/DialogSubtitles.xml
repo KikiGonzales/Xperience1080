@@ -32,7 +32,7 @@
                         <align>center</align>
                         <font>Font-Condensed-S34-B</font>
                         <textcolor>BBwhite</textcolor>
-                        <shadowcolor>66000000</shadowcolor>
+                        
                     </control>
                     <control type="image" id="110">
                         <description>Service Logo</description>
@@ -480,7 +480,7 @@
                     <label>$LOCALIZE[24018]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>BBwhite</textcolor>
-                    <shadowcolor>66000000</shadowcolor>
+                    
                 </control>
                 <control type="list" id="150">
                     <posx>771</posx>

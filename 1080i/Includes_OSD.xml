@@ -93,6 +93,7 @@
                 <width>702</width>
                 <height>194</height>
                 <texture>osd/fullscreen/osd-back-weatherclock.png</texture>
+				<colordiffuse>colorTheme</colordiffuse>
                 <aspectratio>stretch</aspectratio>
             </control>
             <control type="group">
@@ -104,7 +105,7 @@
                     <posy>47</posy>
                     <width>100</width>
                     <height>100</height>
-                    <colordiffuse>AAwhite</colordiffuse>
+                    <colordiffuse>colorText2</colordiffuse>
                     <texture>$INFO[Weather.FanartCode,weather/small/,.png]</texture>
                 </control>
                 <control type="label">
@@ -115,7 +116,7 @@
                     <height>34</height>
                     <label>$INFO[Weather.Temperature]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>AAwhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                     <visible>Weather.IsFetched</visible>
@@ -139,6 +140,7 @@
                     <width>100</width>
                     <height>100</height>
                     <texture>osd/fullscreen/weather-loading.png</texture>
+					<colordiffuse>colorText2</colordiffuse>
                     <animation effect="rotate" center="auto" start="360" end="0" time="1000" loop="true" condition="stringcompare(Weather.FanartCode,na) + substring(Weather.Conditions,/)">Conditional</animation>
                 </control>
             </control>
@@ -168,7 +170,7 @@
                 <height>34</height>
                 <label>$INFO[System.Time(hh)]:$INFO[System.Time(mm)]</label>
                 <font>Font-Condensed-S34</font>
-                <textcolor>AAwhite</textcolor>
+                <textcolor>colorText2</textcolor>
                 <align>right</align>
                 <scroll>false</scroll>
             </control>
@@ -191,7 +193,7 @@
                     <height>34</height>
                     <label>$INFO[Player.FinishTime(hh:mm)]</label>
                     <font>Font-Condensed-S34</font>
-                    <textcolor>AAwhite</textcolor>
+                    <textcolor>colorText2</textcolor>
                     <align>right</align>
                     <scroll>false</scroll>
                 </control>

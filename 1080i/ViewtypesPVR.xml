@@ -38,7 +38,6 @@
                         <font>Font-Condensed-S40</font>
                         <label>$INFO[Container(11).ListItem.Title]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="group">
@@ -53,7 +52,6 @@
                     	    <info>Container(11).ListItem.Plot</info>
                     	    <align>justify</align>
                     	    <textcolor>colorText2</textcolor>
-                    	    <shadowcolor>33000000</shadowcolor>
                     	    <pagecontrol>71</pagecontrol>
                     	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                     	    <font>Font-Condensed-S34</font>
@@ -69,7 +67,7 @@
 	                    	<midtexture>windows/pvr/progress-mid-wide.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>Container(11).ListItem.Progress</info>
-	                    	<colordiffuse>colorText3</colordiffuse>
+	                    	<colordiffuse>colorText2</colordiffuse>
 	                    </control>
 	                    <control type="label">
 	                        <posx>30</posx>
@@ -78,7 +76,6 @@
 	                        <font>Font-Condensed-S30-B</font>
 	                        <label>$INFO[Container(11).ListItem.Genre]</label>
 	                        <textcolor>colorText2</textcolor>
-	                        <shadowcolor>22000000</shadowcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	                    <control type="label">
@@ -88,7 +85,6 @@
 	                        <font>Font-Condensed-S30</font>
 	                        <label>$INFO[Container(11).ListItem.NextTitle,$LOCALIZE[19031]: ,]$INFO[Container(11).ListItem.NextStartTime, (,)]</label>
 	                        <textcolor>colorText2</textcolor>
-	                        <shadowcolor>22000000</shadowcolor>
 	                        <scroll>false</scroll>
 	                    </control>
 	            	</control>
@@ -102,7 +98,6 @@
 	            	    <font>Font-Condensed-S40</font>
 	            	    <label>$LOCALIZE[19055]</label>
 	            	    <textcolor>colorText2</textcolor>
-	            	    <shadowcolor>22000000</shadowcolor>
 	            	    <scroll>false</scroll>
 	            	    <align>center</align>
 	            	    <aligny>center</aligny>
@@ -144,7 +139,6 @@
                 	<height>30</height>
                 	<font>Font-Condensed-S30-B</font>
                 	<textcolor>colorText3</textcolor>
-                	<shadowcolor>55000000</shadowcolor>
                 	<align>left</align>
                 	<aligny>center</aligny>
                 	<label>$INFO[ListItem.StartDate]</label>
@@ -167,9 +161,9 @@
 					<colordiffuse>colorTheme</colordiffuse>
                 </control>
                 <control type="list" id="11">
-                    <posx>150</posx>
-                    <posy>218</posy>
-                    <width>1022</width>
+                    <posx>148</posx>
+                    <posy>215</posy>
+                    <width>1026</width>
                     <height>672</height>
                     <pagecontrol>70</pagecontrol>
                     <onleft>9001</onleft>
@@ -187,16 +181,15 @@
                             <height>97</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>1022</width>
-                            <height>94</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>97</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="image">
                             <posx>20</posx>
                             <posy>8</posy>
@@ -245,7 +238,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>colorText3</colordiffuse>
+	                    	<colordiffuse>colorText1</colordiffuse>
 	                    	<visible>ListItem.HasEpg + !ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="progress">
@@ -259,7 +252,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>colorText3</colordiffuse>
+	                    	<colordiffuse>colorTextSelected</colordiffuse>
 	                    	<visible>ListItem.HasEpg + ListItem.IsPlaying</visible>
 	                    </control>
 	                    <control type="label">
@@ -354,20 +347,19 @@
                             <height>97</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>0</posx>
-                            <posy>1</posy>
-                            <width>1022</width>
-                            <height>94</height>
-                            <texture>views/other/selected.png</texture>
-                            <colordiffuse>07white</colordiffuse>
-                            <aspectratio aligny="top">center</aspectratio>
-                            <visible>ListItem.IsPlaying</visible>
-                        </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>10</width>
+							<height>97</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>1022</width>
+                            <width>1026</width>
                             <height>95</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
@@ -471,9 +463,23 @@
 		                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 		                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 		                    	<info>ListItem.Progress</info>
-		                    	<colordiffuse>colorText3</colordiffuse>
-		                    	<visible>ListItem.HasEpg</visible>
+		                    	<colordiffuse>colorText2</colordiffuse>
+		                    	<visible>ListItem.HasEpg + !ListItem.IsPlaying</visible>
 		                    </control>
+							<control type="progress">
+								<posx>118</posx>
+								<posy>58</posy>
+								<width>67</width>
+								<height>19</height>
+								<reveal>true</reveal>
+								<texturebg>windows/pvr/progress-back.png</texturebg>
+								<lefttexture>windows/pvr/progress-leftright.png</lefttexture>
+								<midtexture>windows/pvr/progress-mid.png</midtexture>
+								<righttexture>windows/pvr/progress-leftright.png</righttexture>
+								<info>ListItem.Progress</info>
+								<colordiffuse>colorTextSelected</colordiffuse>
+								<visible>ListItem.HasEpg + ListItem.IsPlaying</visible>
+							</control>							
 		                    <control type="label">
 		                        <description>Title</description>
 		                        <posx>200</posx>
@@ -574,7 +580,6 @@
                         <font>Font-Condensed-S40</font>
                         <label>$INFO[Container(12).ListItem.Title]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
                         <scroll>false</scroll>
                     </control>
                     <control type="group">
@@ -589,7 +594,7 @@
                     	    <info>Container(12).ListItem.Plot</info>
                     	    <align>justify</align>
                     	    <textcolor>colorText2</textcolor>
-                    	    <shadowcolor>33000000</shadowcolor>
+                    	    
                     	    <pagecontrol>71</pagecontrol>
                     	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                     	    <font>Font-Condensed-S34</font>
@@ -605,7 +610,7 @@
                         	<midtexture>windows/pvr/progress-mid-wide.png</midtexture>
                         	<righttexture>windows/pvr/progress-leftright.png</righttexture>
                         	<info>Container(12).ListItem.Progress</info>
-                        	<colordiffuse>colorText3</colordiffuse>
+                        	<colordiffuse>colorText2</colordiffuse>
                         </control>
                         <control type="label">
                             <posx>30</posx>
@@ -614,7 +619,7 @@
                             <font>Font-Condensed-S30-B</font>
                             <label>$INFO[Container(12).ListItem.Genre]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -624,7 +629,7 @@
                             <font>Font-Condensed-S30</font>
                             <label>$INFO[Container(12).ListItem.NextTitle,$LOCALIZE[19031]: ,]$INFO[Container(12).ListItem.NextStartTime, (,)]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                 	</control>
@@ -638,7 +643,7 @@
                 	    <font>Font-Condensed-S40</font>
                 	    <label>$LOCALIZE[19055]</label>
                 	    <textcolor>77white</textcolor>
-                	    <shadowcolor>22000000</shadowcolor>
+                	    
                 	    <scroll>false</scroll>
                 	    <align>center</align>
                 	    <aligny>center</aligny>
@@ -680,7 +685,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -723,16 +728,15 @@
 	                        <height>97</height>
 	                        <texture border="90,3,90,3">views/list/other/separator.png</texture>
 	                    </control>
-	                    <control type="image">
-	                        <posx>0</posx>
-	                        <posy>1</posy>
-	                        <width>1022</width>
-	                        <height>94</height>
-	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07white</colordiffuse>
-	                        <aspectratio aligny="top">center</aspectratio>
-	                        <visible>ListItem.IsPlaying</visible>
-	                    </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>95</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
 	                    <control type="image">
 	                        <posx>20</posx>
 	                        <posy>8</posy>
@@ -884,16 +888,15 @@
 	                        <height>97</height>
 	                        <texture border="90,3,90,3">views/list/other/separator.png</texture>
 	                    </control>
-	                    <control type="image">
-	                        <posx>0</posx>
-	                        <posy>1</posy>
-	                        <width>1022</width>
-	                        <height>94</height>
-	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07white</colordiffuse>
-	                        <aspectratio aligny="top">center</aspectratio>
-	                        <visible>ListItem.IsPlaying</visible>
-	                    </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>95</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
 	                    <control type="image">
 	                        <posx>0</posx>
 	                        <posy>0</posy>
@@ -996,7 +999,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>colorText3</colordiffuse>
+	                        	<colordiffuse>colorText2</colordiffuse>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
 	                        <control type="label">
@@ -1117,7 +1120,7 @@
     						<height>30</height>
     						<font>Font-Condensed-S30-B</font>
     						<textcolor>colorText3</textcolor>
-    						<shadowcolor>22000000</shadowcolor>
+    						
     						<align>left</align>
     						<aligny>center</aligny>
     						<label>$INFO[ListItem.Label]</label>
@@ -1267,7 +1270,7 @@
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
     						<textcolor>colorText1</textcolor>
-    						<shadowcolor>22000000</shadowcolor>
+    						
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
     						<scroll>false</scroll>
@@ -1282,7 +1285,7 @@
     						<aligny>center</aligny>
     						<textcolor>colorText1</textcolor>
     						<textoffsetx>11</textoffsetx>
-    						<shadowcolor>22000000</shadowcolor>
+    						
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
     						<scroll>false</scroll>
@@ -1364,7 +1367,7 @@
     						<font>Font-Condensed-S34</font>
     						<aligny>center</aligny>
     						<textcolor>colorText2</textcolor>
-    						<shadowcolor>44000000</shadowcolor>
+    						
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
     						<scroll>false</scroll>
@@ -1379,7 +1382,7 @@
     						<aligny>center</aligny>
     						<textcolor>colorText2</textcolor>
     						<textoffsetx>11</textoffsetx>
-    						<shadowcolor>22000000</shadowcolor>
+    						
     						<align>left</align>
     						<label>$INFO[ListItem.Label]</label>
     						<scroll>false</scroll>
@@ -1432,7 +1435,7 @@
         			    <label>[B]$INFO[ListItem.Label][/B]</label>
         			    <label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]</label2>
         			    <disabledcolor>colorText3</disabledcolor>
-        			    <shadowcolor>22000000</shadowcolor>
+        			    
         			    <font>Font-Condensed-S38</font>
         			    <align>left</align>
         			    <aligny>center</aligny>
@@ -1447,7 +1450,7 @@
         				<font>Font-Condensed-S33</font>
         				<align>justify</align>
         				<textcolor>colorText3</textcolor>
-        				<shadowcolor>22000000</shadowcolor>
+        				
         				<pagecontrol>60</pagecontrol>
         				<autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
         				<label fallback="161">$INFO[ListItem.Plot]</label>
@@ -1495,7 +1498,7 @@
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(15).ListItem.Title]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="textbox">
@@ -1507,7 +1510,7 @@
 	                    <info>Container(15).ListItem.Plot</info>
 	                    <align>justify</align>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>33000000</shadowcolor>
+	                    
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
 	                    <font>Font-Condensed-S34</font>
@@ -1521,7 +1524,7 @@
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(15).ListItem.Genre]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="scrollbar" id="71">
@@ -1561,7 +1564,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>22000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -1944,7 +1947,7 @@
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(16).ListItem.Title]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="textbox">
@@ -1956,7 +1959,7 @@
 	                    <info>Container(16).ListItem.Plot</info>
 	                    <align>justify</align>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>33000000</shadowcolor>
+	                    
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
 	                    <font>Font-Condensed-S34</font>
@@ -1970,7 +1973,7 @@
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(16).ListItem.Genre]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="scrollbar" id="71">
@@ -2010,7 +2013,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -2084,7 +2087,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>colorText3</colordiffuse>
+	                    	<colordiffuse>colorText1</colordiffuse>
 	                    	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                    	<visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2178,7 +2181,7 @@
 	                    	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                    	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                    	<info>ListItem.Progress</info>
-	                    	<colordiffuse>colorText3</colordiffuse>
+	                    	<colordiffuse>colorText1</colordiffuse>
 	                    	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                    	<visible>ListItem.HasEpg</visible>
 	                    </control>
@@ -2315,7 +2318,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>colorText3</colordiffuse>
+	                        	<colordiffuse>colorText2</colordiffuse>
 	                        	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2432,7 +2435,7 @@
 	                        	<midtexture>windows/pvr/progress-mid.png</midtexture>
 	                        	<righttexture>windows/pvr/progress-leftright.png</righttexture>
 	                        	<info>ListItem.Progress</info>
-	                        	<colordiffuse>colorText3</colordiffuse>
+	                        	<colordiffuse>colorText2</colordiffuse>
 	                        	<animation effect="fade" start="100" end="25" time="0" condition="substring(Control.GetLabel(31),$LOCALIZE[19031],right)">Conditional</animation>
 	                        	<visible>ListItem.HasEpg</visible>
 	                        </control>
@@ -2524,7 +2527,7 @@
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(13).ListItem.Title]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="textbox">
@@ -2536,7 +2539,7 @@
 	                    <info>Container(13).ListItem.Plot</info>
 	                    <align>justify</align>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>33000000</shadowcolor>
+	                    
 	                    <pagecontrol>71</pagecontrol>
 	                    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
 	                    <font>Font-Condensed-S34</font>
@@ -2550,7 +2553,7 @@
 	                    <font>Font-Condensed-S30-B</font>
 	                    <label>$INFO[Container(13).ListItem.Genre]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
 	                <control type="scrollbar" id="71">
@@ -2590,7 +2593,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -2633,16 +2636,15 @@
 	                        <height>97</height>
 	                        <texture border="90,3,90,3">views/list/other/separator.png</texture>
 	                    </control>
-	                    <control type="image">
-	                        <posx>0</posx>
-	                        <posy>1</posy>
-	                        <width>1022</width>
-	                        <height>94</height>
-	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07white</colordiffuse>
-	                        <aspectratio aligny="top">center</aspectratio>
-	                        <visible>ListItem.IsPlaying</visible>
-	                    </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>95</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
 	                    <control type="label">
 	                        <description>Label</description>
 	                        <posx>253</posx>
@@ -2732,16 +2734,15 @@
 	                        <height>97</height>
 	                        <texture border="90,3,90,3">views/list/other/separator.png</texture>
 	                    </control>
-	                    <control type="image">
-	                        <posx>0</posx>
-	                        <posy>1</posy>
-	                        <width>1022</width>
-	                        <height>94</height>
-	                        <texture>views/other/selected.png</texture>
-	                        <colordiffuse>07white</colordiffuse>
-	                        <aspectratio aligny="top">center</aspectratio>
-	                        <visible>ListItem.IsPlaying</visible>
-	                    </control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>1</posy>
+							<width>10</width>
+							<height>95</height>
+							<texture>views/other/focus.png</texture>
+							<colordiffuse>colorTextSelected</colordiffuse>
+							<visible>ListItem.IsPlaying</visible>
+						</control>
 	                    <control type="image">
 	                        <posx>0</posx>
 	                        <posy>0</posy>
@@ -2887,7 +2888,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>55000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>
@@ -3136,7 +3137,7 @@
 	                    <font>Font-Condensed-S40</font>
 	                    <label>$INFO[Container(17).ListItem.Title]</label>
 	                    <textcolor>colorText2</textcolor>
-	                    <shadowcolor>22000000</shadowcolor>
+	                    
 	                    <scroll>false</scroll>
 	                </control>
                 	<control type="textbox">
@@ -3148,7 +3149,7 @@
                 	    <info>Container(17).ListItem.Plot</info>
                 	    <align>justify</align>
                 	    <textcolor>colorText2</textcolor>
-                	    <shadowcolor>33000000</shadowcolor>
+                	    
                 	    <pagecontrol>71</pagecontrol>
                 	    <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                 	    <font>Font-Condensed-S34</font>
@@ -3160,7 +3161,7 @@
                         <font>Font-Condensed-S30-B</font>
                         <label>$INFO[Container(17).ListItem.Genre]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
 	            </control>
@@ -3200,7 +3201,7 @@
 	            	<height>30</height>
 	            	<font>Font-Condensed-S30-B</font>
 	            	<textcolor>colorText3</textcolor>
-	            	<shadowcolor>22000000</shadowcolor>
+	            	
 	            	<align>left</align>
 	            	<aligny>center</aligny>
 	            	<label>$INFO[ListItem.StartDate]</label>

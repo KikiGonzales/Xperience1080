@@ -163,7 +163,7 @@
                                 <font>Font-Condensed-S29</font>
                                 <label>$INFO[ListItem.Label]</label>
                                 <textcolor>AAwhite</textcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <aligny>center</aligny>
                                 <scroll>no</scroll>
                             </control>
@@ -222,7 +222,7 @@
                                     <font>Font-Condensed-S29</font>
                                     <label>$INFO[ListItem.Label]</label>
                                     <textcolor>AAwhite</textcolor>
-                                    <shadowcolor>22000000</shadowcolor>
+                                    
                                     <aligny>center</aligny>
                                     <visible>!Window.IsActive(contextmenu)</visible>
                                     <animation effect="fade" time="300" start="0" end="90" tween="sine" easing="out">Visible</animation>

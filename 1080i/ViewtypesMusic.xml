@@ -16,7 +16,7 @@
             	<height>30</height>
             	<font>Font-Condensed-S29-B</font>
             	<textcolor>colorText3</textcolor>
-            	<shadowcolor>22000000</shadowcolor>
+            	
             	<label>$INFO[Control.GetLabel(3)]</label>
             </control>
 
@@ -38,10 +38,10 @@
             </control>
 
             <control type="list" id="50">
-                <posx>250</posx>
-                <posy>190</posy>
-                <height>700</height>
-                <width>1420</width>
+                <posx>248</posx>
+                <posy>187</posy>
+                <height>704</height>
+                <width>1424</width>
                 <pagecontrol>70</pagecontrol>
                 <onleft condition="!Skin.HasSetting(KioskMode)">9010</onleft>
                 <onleft condition="Skin.HasSetting(KioskMode)">50</onleft>
@@ -56,15 +56,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
-                        <posy>1</posy>
+                        <posy>0</posy>
                         <width>10</width>
-                        <height>99</height>
+                        <height>101</height>
                         <texture>views/other/focus.png</texture>
                         <colordiffuse>colorTextSelected</colordiffuse>
                         <visible>ListItem.IsPlaying</visible>
@@ -147,7 +147,7 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
@@ -206,7 +206,7 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
@@ -299,15 +299,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
-                        <posy>1</posy>
+                        <posy>0</posy>
                         <width>10</width>
-                        <height>99</height>
+                        <height>101</height>
                         <texture>views/other/focus.png</texture>
                         <colordiffuse>colorTextSelected</colordiffuse>
                         <visible>ListItem.IsPlaying</visible>
@@ -402,15 +402,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -419,9 +419,9 @@
                     </control>
                     <control type="image">
                         <posx>0</posx>
-                        <posy>1</posy>
+                        <posy>0</posy>
                         <width>10</width>
-                        <height>99</height>
+                        <height>101</height>
                         <texture>views/other/focus.png</texture>
                         <colordiffuse>colorTextSelected</colordiffuse>
                         <visible>ListItem.IsPlaying</visible>
@@ -512,15 +512,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>						
                         <include>defaultfocusanim</include>
@@ -588,15 +588,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>						
                         <include>defaultfocusanim</include>
@@ -699,15 +699,15 @@
                         <description>List separator</description>
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
+                        <width>1424</width>
                         <height>101</height>
                         <texture border="90,3,90,3">views/list/other/separator.png</texture>
                     </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>
-                        <width>1420</width>
-                        <height>99</height>
+                        <width>1424</width>
+                        <height>101</height>
                         <texture border="150,1,150,1">views/other/focus.png</texture>
 						<colordiffuse>colorItemFocused</colordiffuse>
                         <include>defaultfocusanim</include>
@@ -716,9 +716,9 @@
                     </control>
                     <control type="image">
                         <posx>0</posx>
-                        <posy>1</posy>
+                        <posy>0</posy>
                         <width>10</width>
-                        <height>99</height>
+                        <height>101</height>
                         <texture>views/other/focus.png</texture>
                         <colordiffuse>colorTextSelected</colordiffuse>
                         <visible>ListItem.IsPlaying</visible>
@@ -963,7 +963,7 @@
                             <font>Font-Condensed-S60</font>
                             <label>$VAR[MusicInfoListDescriptionHeader]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="textbox">
@@ -975,7 +975,7 @@
                             <label>$VAR[MusicInfoListDescription]</label>
                             <align>justify</align>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <pagecontrol>71</pagecontrol>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                             <font>Font-Condensed-S34</font>
@@ -995,7 +995,7 @@
                         <font>Font-Condensed-S45</font>
                         <label>$VAR[MusicInfoListInfo]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                         <animation effect="slide" end="0,-40" time="0" condition="Container.Content(songs)">Conditional</animation>
                     </control>
@@ -1006,7 +1006,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$INFO[ListItem.Album]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                         <visible>Container.Content(songs)</visible>
                     </control>
@@ -1017,7 +1017,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$VAR[MusicInfoListSubInfo]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                 </control>
@@ -1054,10 +1054,10 @@
                 </control>
                 <control type="list" id="52">
                     <visible>Container.Content(Artists) | Container.Content(Albums) | Container.Content(Songs) | Window.IsVisible(MusicPlaylist)</visible>
-                    <posx>592</posx>
-                    <posy>397</posy>
-                    <width>630</width>
-                    <height>480</height>
+                    <posx>590</posx>
+                    <posy>394</posy>
+                    <width>634</width>
+                    <height>484</height>
                     <pagecontrol>70</pagecontrol>
                     <onleft condition="!Skin.HasSetting(KioskMode)">9010</onleft>
                     <onleft condition="Skin.HasSetting(KioskMode)">52</onleft>
@@ -1071,14 +1071,14 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="label">
                             <posx>20</posx>
                             <posy>0</posy>
-                            <height>60</height>
+                            <height>61</height>
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
@@ -1090,14 +1090,14 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="label">
                             <posx>90</posx>
                             <posy>0</posy>
-                            <height>60</height>
+                            <height>61</height>
                             <width>510</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$INFO[ListItem.Label]</label>
@@ -1131,7 +1131,7 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
@@ -1139,7 +1139,7 @@
 							<posx>0</posx>
 							<posy>1</posy>
 							<width>10</width>
-							<height>59</height>
+							<height>61</height>
 							<texture>views/other/focus.png</texture>
 							<colordiffuse>colorTextSelected</colordiffuse>
 							<visible>ListItem.IsPlaying</visible>
@@ -1147,7 +1147,7 @@
                         <control type="label">
                             <posx>20</posx>
                             <posy>0</posy>
-                            <height>60</height>
+                            <height>61</height>
                             <width>590</width>
                             <font>Font-Condensed-S29-B</font>
                             <label>$VAR[MusicInfoListSongLabel]</label>
@@ -1175,15 +1175,15 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
-                            <height>59</height>
+                            <width>634</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1211,15 +1211,15 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
-                            <height>59</height>
+                            <width>634</width>
+                            <height>61</height>
                             <texture border="150,1,150,1">views/other/focus.png</texture>
 							<colordiffuse>colorItemFocused</colordiffuse>
                             <include>listfocusanim</include>
@@ -1269,7 +1269,7 @@
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
-                            <width>630</width>
+                            <width>634</width>
                             <height>61</height>
                             <texture border="90,3,90,3">views/list/other/separator.png</texture>
                         </control>
@@ -1279,8 +1279,8 @@
                             <control type="image">
                                 <posx>0</posx>
                                 <posy>0</posy>
-                                <width>630</width>
-                                <height>59</height>
+                                <width>634</width>
+                                <height>61</height>
                                 <texture border="150,1,150,1">views/other/focus.png</texture>
 								<colordiffuse>colorItemFocused</colordiffuse>
                                 <include>listfocusanim</include>
@@ -1289,9 +1289,9 @@
                             </control>
 							<control type="image">
 								<posx>0</posx>
-								<posy>1</posy>
+								<posy>0</posy>
 								<width>10</width>
-								<height>59</height>
+								<height>61</height>
 								<texture>views/other/focus.png</texture>
 								<colordiffuse>colorTextSelected</colordiffuse>
 								<visible>ListItem.IsPlaying</visible>
@@ -1578,7 +1578,7 @@
                             <font>Font-Condensed-S60</font>
                             <label>$VAR[MusicInfoListDescriptionHeader]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="textbox">
@@ -1590,7 +1590,7 @@
                             <label>$VAR[MusicInfoListDescription]</label>
                             <align>justify</align>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>33000000</shadowcolor>
+                            
                             <pagecontrol>71</pagecontrol>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
                             <font>Font-Condensed-S34</font>
@@ -1610,7 +1610,7 @@
                         <font>Font-Condensed-S45</font>
                         <label>$VAR[MusicPanelInfo]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
@@ -1620,7 +1620,7 @@
                         <font>Font-Condensed-S30</font>
                         <label>$VAR[MusicPanelSubInfo]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                 </control>
@@ -2481,7 +2481,7 @@
                         <font>Font-Condensed-S34-B</font>
                         <label>$INFO[ListItem.Label]</label>
                         <textcolor>colorText2</textcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <scroll>false</scroll>
                     </control>
                     <control type="group">
@@ -2495,7 +2495,7 @@
                             <font>Font-Condensed-S30</font>
                             <label>$VAR[MusicThumbnailInfo]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="label">
@@ -2507,7 +2507,7 @@
                             <font>Font-Condensed-S30</font>
                             <label>$VAR[MusicPanelSubInfo]</label>
                             <textcolor>colorText2</textcolor>
-                            <shadowcolor>22000000</shadowcolor>
+                            
                             <scroll>false</scroll>
                         </control>
                         <control type="image">

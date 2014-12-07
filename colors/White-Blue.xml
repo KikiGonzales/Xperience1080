@@ -3,12 +3,12 @@
 <!-- General -->
 		<color name="colorTheme">C02b87cd</color>
 		<color name="colorBackground">FFFFFFFF</color>
-		<color name="colorItemFocused">80505050</color>		
+		<color name="colorItemFocused">50505050</color>		
 		<color name="colorText1">80FFFFFF</color>
 		<color name="colorText2">FFFFFFFF</color>
 		<color name="colorText3">FF505050</color>
 		<color name="colorTextDisabled">88505050</color>
-		<color name="colorTextSelected">FF10d1e8</color>
+		<color name="colorTextSelected">FF77faff</color>
 		<color name="colorTextSelected2">FF2b87cd</color>
 		
 <!-- All others -->

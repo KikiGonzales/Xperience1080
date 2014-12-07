@@ -40,7 +40,7 @@
                 	<height>30</height>
                 	<font>Font-Condensed-S30-B</font>
                 	<textcolor>colorText3</textcolor>
-                	<shadowcolor>55000000</shadowcolor>
+                	
                 	<align>left</align>
                 	<aligny>center</aligny>
                 	<label>$LOCALIZE[33061]</label>

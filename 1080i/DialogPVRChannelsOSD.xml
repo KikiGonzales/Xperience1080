@@ -29,7 +29,7 @@
                     <label2>$INFO[System.Time]</label2>
                     <font>Font-Condensed-S34</font>
                     <textcolor>BBwhite</textcolor>
-                    <shadowcolor>66000000</shadowcolor>
+                    
                 </control>
                 <control type="list" id="11">
                     <posx>100</posx>

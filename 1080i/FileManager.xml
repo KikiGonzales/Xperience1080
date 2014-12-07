@@ -163,7 +163,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>77white</textcolor>
                                 <selectedcolor>colorTextSelected</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -177,7 +177,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>77white</textcolor>
                                 <selectedcolor>colorTextSelected</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                         </itemlayout>
@@ -240,7 +240,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>EEwhite</textcolor>
                                 <selectedcolor>colorTextSelected</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <animation type="Focus" condition="[Container(20).OnNext | Container(20).OnPrevious] + !Container(20).ListItem.IsSelected" reversible="false">
                                     <effect type="fade" start="50" end="100" time="500" tween="sine" easing="inout" />
@@ -258,7 +258,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>EEwhite</textcolor>
                                 <selectedcolor>colorTextSelected</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                                 <animation type="Focus" condition="[Container(20).OnNext | Container(20).OnPrevious] + !Container(20).ListItem.IsSelected" reversible="false">
                                     <effect type="fade" start="50" end="100" time="500" tween="sine" easing="inout" />
@@ -439,7 +439,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>77white</textcolor>
                                 <selectedcolor>77white</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                             <control type="label">
@@ -453,7 +453,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>77white</textcolor>
                                 <selectedcolor>77white</selectedcolor>
-                                <shadowcolor>22000000</shadowcolor>
+                                
                                 <scroll>false</scroll>
                             </control>
                         </itemlayout>
@@ -519,7 +519,7 @@
                                     <aligny>center</aligny>
                                     <textcolor>EEwhite</textcolor>
                                     <selectedcolor>EEwhite</selectedcolor>
-                                    <shadowcolor>22000000</shadowcolor>
+                                    
                                     <scroll>false</scroll>
                                 </control>
                                 <control type="label">
@@ -533,7 +533,7 @@
                                     <aligny>center</aligny>
                                     <textcolor>EEwhite</textcolor>
                                     <selectedcolor>EEwhite</selectedcolor>
-                                    <shadowcolor>22000000</shadowcolor>
+                                    
                                     <scroll>false</scroll>
                                 </control>
                             </control>

@@ -181,7 +181,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
             </control>
@@ -214,7 +214,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>EEwhite</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
                 <include>guidelistfocusanim</include>
@@ -330,7 +330,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
             </control>
@@ -371,7 +371,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>EEwhite</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S41</font>
                 <align>left</align>
                 <include>guidelistfocusanim</include>
@@ -473,7 +473,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S38</font>
                 <align>left</align>
             </control>
@@ -493,7 +493,7 @@
                     <height>66</height>
                     <label>$INFO[ListItem.property(rating)]</label>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <font>Font-Condensed-S30-B</font>
                     <align>right</align>
                 </control>
@@ -505,7 +505,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.property(year)]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S30-B</font>
                 <align>right</align>
                 <visible>ControlGroup(9120).HasFocus(91203) | ControlGroup(9120).HasFocus(91204)</visible>
@@ -920,7 +920,7 @@
                     <height>66</height>
                     <label>$INFO[ListItem.Label]</label>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -932,7 +932,7 @@
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <font>Font-Condensed-S34-B</font>
                     <align>right</align>
                     <scroll>false</scroll>
@@ -953,7 +953,7 @@
                     <height>66</height>
                     <label>$INFO[ListItem.Label]</label>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <font>Font-Condensed-S38</font>
                     <align>left</align>
                     <scroll>false</scroll>
@@ -965,7 +965,7 @@
                     <height>66</height>
                     <label>$INFO[ListItem.Label2]</label>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <font>Font-Condensed-S34-B</font>
                     <align>right</align>
                     <scroll>false</scroll>
@@ -1045,7 +1045,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Label]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S34</font>
                 <align>left</align>
                 <scroll>false</scroll>
@@ -1057,7 +1057,7 @@
                 <height>66</height>
                 <label>$INFO[ListItem.Property(Duration)]</label>
                 <textcolor>77white</textcolor>
-                <shadowcolor>22000000</shadowcolor>
+                
                 <font>Font-Condensed-S30-B</font>
                 <align>right</align>
                 <scroll>false</scroll>
@@ -1746,7 +1746,7 @@
             <urlset>1</urlset>
             <textcolor>rsstext</textcolor>
             <titlecolor>rsstitle</titlecolor>
-            <shadowcolor>22000000</shadowcolor>
+            
             <headlinecolor>DDwhite</headlinecolor>
         </control>
         <control type="image">

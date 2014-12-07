@@ -248,7 +248,7 @@
                     <label>$LOCALIZE[41600]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>EEwhite</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
             </control>
 
@@ -269,7 +269,7 @@
                     <label>$LOCALIZE[42010]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>EEwhite</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
             </control>
 
@@ -290,7 +290,7 @@
                     <label>$LOCALIZE[42021]</label>
                     <font>Font-Condensed-S34-B</font>
                     <textcolor>EEwhite</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
             </control>
         </control>

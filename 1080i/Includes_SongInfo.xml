@@ -160,7 +160,7 @@
                     <label>$LOCALIZE[556]</label>
                     <label2>$INFO[ListItem.Title]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -172,7 +172,7 @@
                     <label>$LOCALIZE[180]</label>
                     <label2>$INFO[ListItem.Duration]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -184,7 +184,7 @@
                     <label>$LOCALIZE[562]</label>
                     <label2>$INFO[ListItem.Year]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="image">
                     <posx>0</posx>
@@ -207,7 +207,7 @@
                     <font>Font-Condensed-S29-B</font>
                     <label>$LOCALIZE[563]</label>
                     <textcolor>EEwhite</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="0" condition="!ControlGroup(8000).HasFocus">Conditional</animation>
                 </control>
@@ -257,7 +257,7 @@
                         <font>Font-Condensed-S29-B</font>
                         <textcolor>77white</textcolor>
                         <focusedcolor>EEwhite</focusedcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <label>$LOCALIZE[10523]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
@@ -532,7 +532,7 @@
                     <label>$LOCALIZE[556]</label>
                     <label2>$INFO[ListItem.Title]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -544,7 +544,7 @@
                     <label>$LOCALIZE[557]</label>
                     <label2>$INFO[ListItem.Artist]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -556,7 +556,7 @@
                     <label>$LOCALIZE[558]</label>
                     <label2>$INFO[ListItem.Album]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -568,7 +568,7 @@
                     <label>$LOCALIZE[180]</label>
                     <label2>$INFO[ListItem.Duration]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="button">
                     <posx>20</posx>
@@ -580,7 +580,7 @@
                     <label>$LOCALIZE[515]</label>
                     <label2>$INFO[ListItem.Genre]</label2>
                     <textcolor>77white</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                 </control>
                 <control type="image">
                     <posx>0</posx>
@@ -603,7 +603,7 @@
                     <font>Font-Condensed-S30</font>
                     <label>$LOCALIZE[563]</label>
                     <textcolor>EEwhite</textcolor>
-                    <shadowcolor>22000000</shadowcolor>
+                    
                     <scroll>false</scroll>
                     <animation effect="fade" start="100" end="50" time="0" condition="!ControlGroup(8000).HasFocus">Conditional</animation>
                 </control>
@@ -653,7 +653,7 @@
                         <font>Font-Condensed-S30</font>
                         <textcolor>77white</textcolor>
                         <focusedcolor>EEwhite</focusedcolor>
-                        <shadowcolor>22000000</shadowcolor>
+                        
                         <label>$LOCALIZE[10523]</label>
                         <onleft>DecreaseRating</onleft>
                         <onright>IncreaseRating</onright>
